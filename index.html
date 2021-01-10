@@ -36,6 +36,41 @@ $(document).ready(function()
    $('img[data-src]').lazyload();
 });
 </script>
+<script>
+$(document).ready(function()
+{
+   var $countup = $('#count-up h1');
+   
+   $countup.each(function() 
+   {
+     var $obj = $(this);
+     $obj.data('value', parseInt($obj.html()));
+     $obj.data('done', false);
+     $obj.html('0');
+   });
+   $(window).bind('scroll', function() 
+   {
+      $countup.each(function() 
+      {
+         var $obj = $(this);
+         if (!$obj.data('done') && $(window).scrollTop() + $(window).height() >= $obj.offset().top) 
+         {
+            $obj.data('done', true);
+            $obj.animate({scroll: 1}, 
+            { 
+               duration: 3000, 
+               step: function(now) 
+               {
+                  var $obj = $(this);
+                  var val = Math.round($obj.data('value') * now);
+                  $obj.html(val);
+               }
+            });
+         }
+      });
+   }).triggerHandler('scroll');
+});
+</script>
 </head>
 <body>
 <div id="container">
@@ -57,7 +92,7 @@ $(document).ready(function()
 </div>
 <div id="FlexGrid1">
 <div class="header">
-<div id="wb_TabMenu1" style="display:inline-block;width:284px;height:34px;z-index:1;overflow:hidden;">
+<div id="wb_TabMenu1" style="display:inline-block;width:286px;height:36px;z-index:1;overflow:hidden;">
 <ul id="TabMenu1">
 <li><a href="facetime:">Home</a></li>
 <li><a href="./video.html">Videos</a></li>
@@ -221,7 +256,7 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="Layer1" style="position:absolute;text-align:center;left:993px;top:888px;width:133px;height:58px;z-index:78;">
+<div id="Layer1" style="position:absolute;text-align:center;left:993px;top:888px;width:133px;height:58px;z-index:108;">
 <div id="Layer1-container" style="width:133px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_IconFont3" style="position:absolute;left:81px;top:0px;width:34px;height:40px;text-align:center;z-index:52;">
 <a href="./contactus.html"><div id="IconFont3"><i class="fa fa-phone-square"></i></div></a></div>
@@ -268,6 +303,108 @@ $(document).ready(function()
 </div>
 </div>
 </div>
+<div id="wb_count-up">
+<div id="count-up">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_FontAwesomeIcon1" style="display:inline-block;width:64px;height:64px;text-align:center;z-index:63;">
+<div id="FontAwesomeIcon1"><i class="fa fa-thumbs-up"></i></div>
+</div>
+<div id="wb_Heading1" style="display:inline-block;width:100%;z-index:64;">
+<h1 id="Heading1">300 +</h1>
+</div>
+<div id="wb_Text12">
+<span style="color:#DC143C;font-family:Arial;font-size:13px;">Happy Customers</span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_FontAwesomeIcon2" style="display:inline-block;width:64px;height:64px;text-align:center;z-index:66;">
+<div id="FontAwesomeIcon2"><i class="fa fa-camera"></i></div>
+</div>
+<div id="wb_Heading2" style="display:inline-block;width:100%;z-index:67;">
+<h1 id="Heading2">400 +</h1>
+</div>
+<div id="wb_Text13">
+<span style="color:#DC143C;font-family:Arial;font-size:13px;">Photo Shoots</span>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_FontAwesomeIcon3" style="display:inline-block;width:64px;height:64px;text-align:center;z-index:69;">
+<div id="FontAwesomeIcon3"><i class="fa fa-users"></i></div>
+</div>
+<div id="wb_Heading3" style="display:inline-block;width:100%;z-index:70;">
+<h1 id="Heading3">60 +</h1>
+</div>
+<div id="wb_Text14">
+<span style="color:#DC143C;font-family:Arial;font-size:13px;">Ceremony Cover</span>
+</div>
+</div>
+<div class="col-5">
+<div id="wb_FontAwesomeIcon4" style="display:inline-block;width:64px;height:64px;text-align:center;z-index:72;">
+<div id="FontAwesomeIcon4"><i class="fa fa-video-camera"></i></div>
+</div>
+<div id="wb_Heading4" style="display:inline-block;width:100%;z-index:73;">
+<h1 id="Heading4">100 +</h1>
+</div>
+<div id="wb_Text15">
+<span style="color:#DC143C;font-family:Arial;font-size:13px;">Videography Shoot</span>
+</div>
+</div>
+<div class="col-6">
+<div id="wb_FontAwesomeIcon5" style="display:inline-block;width:64px;height:64px;text-align:center;z-index:75;">
+<div id="FontAwesomeIcon5"><i class="fa fa-cut"></i></div>
+</div>
+<div id="wb_Heading5" style="display:inline-block;width:100%;z-index:76;">
+<h1 id="Heading5">250 +</h1>
+</div>
+<div id="wb_Text16">
+<span style="color:#DC143C;font-family:Arial;font-size:13px;">Video Editing</span>
+</div>
+</div>
+<div class="col-7">
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid13">
+<div id="LayoutGrid13">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayoutGrid14">
+<div id="LayoutGrid14">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text10">
+<span style="background-color:#FFF5EE;color:#DC143C;"><strong>Follow Us</strong></span>
+</div>
+<div id="CardContainer2">
+<div id="wb_Card9" style="display:flex;text-align:center;z-index:79;">
+   <div id="Card9-card-body">
+      <img id="Card9-card-item0" src="images/icons8-facebook-64.png" alt="" title="">
+   </div>
+</div>
+<div id="wb_Card11" style="display:flex;text-align:center;z-index:80;">
+   <div id="Card11-card-body">
+      <img id="Card11-card-item0" src="images/youtube-icon.png" alt="" title="">
+   </div>
+</div>
+<div id="wb_Card10" style="display:flex;text-align:center;z-index:81;">
+   <div id="Card10-card-body">
+      <img id="Card10-card-item0" src="images/icons8-instagram-64.png" alt="" title="">
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div id="wb_LayoutGrid9">
 <div id="LayoutGrid9">
 <div class="row">
@@ -276,10 +413,10 @@ $(document).ready(function()
 <div id="LayoutGrid10">
 <div class="row">
 <div class="col-1">
-<div id="wb_Image8" style="display:inline-block;width:61px;height:61px;z-index:63;">
+<div id="wb_Image8" style="display:inline-block;width:61px;height:61px;z-index:85;">
 <a href="./index.html"><img src="images/placeholder.gif" data-src="images/third eye 3 png.png" id="Image8" alt=""></a>
 </div>
-<div id="wb_Image7" style="display:none;width:100%;height:auto;z-index:64;">
+<div id="wb_Image7" style="display:none;width:100%;height:auto;z-index:86;">
 <img src="images/website.png" id="Image7" alt="">
 </div>
 <div id="wb_Text8">
@@ -296,9 +433,9 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="Layer2" style="position:absolute;text-align:center;left:1093px;top:982px;width:33px;height:51px;z-index:79;">
+<div id="Layer2" style="position:absolute;text-align:center;left:1093px;top:982px;width:33px;height:51px;z-index:109;">
 <div id="Layer2-container" style="width:33px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_IconFont4" style="position:absolute;left:0px;top:12px;width:15px;height:21px;text-align:center;z-index:77;">
+<div id="wb_IconFont4" style="position:absolute;left:0px;top:12px;width:15px;height:21px;text-align:center;z-index:99;">
 <a href="#Bookmark2"><div id="IconFont4"><i class="fa fa-chevron-circle-up"></i></div></a></div>
 </div>
 </div>
