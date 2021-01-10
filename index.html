@@ -8,8 +8,8 @@
 <link href="owl.carousel.min.css" rel="stylesheet">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
-<link href="third_eye_creation.css?v=5" rel="stylesheet">
-<link href="index.css?v=5" rel="stylesheet">
+<link href="third_eye_creation.css?v=6" rel="stylesheet">
+<link href="index.css?v=6" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="owl.carousel.min.js"></script>
 <script src="wb.lazyload.min.js"></script>
@@ -19,6 +19,7 @@
 $(document).ready(function()
 {
    $('#wb_LayoutGrid4').addClass('visibility-hidden');
+   $('#wb_LayoutGrid6').addClass('visibility-hidden');
    $("#CardContainer1").owlCarousel({autoplayTimeout:5000, margin: 16, autoplay: true, nav: false, loop: true, dots: false, items: 1, slideBy: 1});
    function onScrollLayoutGrid4()
    {
@@ -49,6 +50,30 @@ $(document).ready(function()
       skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
    }
    skrollrInit();
+   function onScrollLayoutGrid6()
+   {
+      var $obj = $("#wb_LayoutGrid6");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_LayoutGrid6', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_LayoutGrid6', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_LayoutGrid6').inViewPort(true))
+   {
+      $('#wb_LayoutGrid6').addClass("in-viewport");
+   }
+   onScrollLayoutGrid6();
+   $(window).scroll(function(event)
+   {
+      onScrollLayoutGrid6();
+   });
    $('img[data-src]').lazyload();
 });
 </script>
@@ -134,7 +159,7 @@ $(document).ready(function()
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>THIRD EYE CREATION</strong></span>
 </div>
 <div id="wb_Text3">
-<span style="color:#000000;font-family:Arial;font-size:12px;">Third Eye Creation, a renowned wedding photography, videography and video editing service company in Kolkata, was established in 2020. Third Eye Creation maintains it's quality and promise to continuously adapt to the trends and offer something new. Third Eye Creation team travels across the Asia to shoot,editing for the weddings as well as they incorporate best design and managment for destination wedding too.</span>
+<span style="color:#000000;font-family:Arial;font-size:13px;">Third Eye Creation, a renowned wedding photography, videography and video editing service company in Kolkata, was established in 2020. Third Eye Creation maintains it's quality and promise to continuously adapt to the trends and offer something new. Third Eye Creation team travels across the Asia to shoot,editing for the weddings as well as they incorporate best design and managment for destination wedding too.</span>
 </div>
 </div>
 </div>
@@ -142,6 +167,42 @@ $(document).ready(function()
 </div>
 </div>
 </div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image3" style="display:none;width:100%;height:auto;z-index:35;">
+<img src="images/website.png" id="Image3" alt="">
+</div>
+<div id="wb_IconFont2" style="display:inline-block;width:28px;height:24px;text-align:center;z-index:36;" data-top="transform:;" data-10-bottom-top="transform:;">
+<div id="IconFont2"><i class="fa fa-tasks"></i></div>
+</div>
+<div id="wb_Text4">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>SERVICES</strong></span>
+</div>
+<div id="wb_Text5">
+<p style="font-size:13px;line-height:16px;color:#000000;">Services offered by Third Eye Creation starting from the pre-wedding to the wedding and post wedding function,,"TYE" offers you with mind-blowing videos and pictures of your best moments with perfection and skills . The wide range of services are- "Model shoot "Bridal shoots •Pre-wedding shoot •Post-wedding shoot •Music video shoot •Music video shoot •Maternity shoot •Baby shoot •Rice ceremony shoot •Baby shower shoot •Outdoor shoot •Product Shoot •Fashion photography shoot • Any types of editing • Advertisement Shoot •Architectural photography shoot •Albums</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Layer1" style="position:fixed;text-align:center;left:0;right:0;bottom:0;height:52px;z-index:46;">
+<div id="Layer1-container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text6" style="position:absolute;left:46px;top:16px;width:82px;height:15px;text-align:center;z-index:44;">
+<span style="background-color:#FF7F50;color:#FFFFFF;font-family:Arial;font-size:13px;"><strong>Contact us</strong></span></div>
+<div id="wb_IconFont3" style="position:absolute;left:0px;top:0px;width:29px;height:34px;text-align:center;z-index:45;" data-top="transform:;" data-10-bottom-top="transform:;">
+<div id="IconFont3"><i class="fa fa-phone-square"></i></div></div>
 </div>
 </div>
 </body>
