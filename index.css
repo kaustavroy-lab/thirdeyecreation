@@ -43,10 +43,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-.visibility-hidden
-{
-   visibility: hidden;
-}
 #FlexGrid1
 {
    display: grid;
