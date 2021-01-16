@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>Video</title>
-<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="generator" content="Kaustav Roy">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="bg website.png" rel="icon" sizes="541x541" type="image/png">
 <link href="plyr.css" rel="stylesheet">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
-<link href="third_eye_creation.css?v=9" rel="stylesheet">
-<link href="video.css?v=9" rel="stylesheet">
+<link href="third_eye_creation.css?v=12" rel="stylesheet">
+<link href="video.css?v=12" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.lazyload.min.js"></script>
 <script src="plyr.min.js"></script>
@@ -19,17 +19,12 @@
 <script>
 var playerYouTube1;
 var playerYouTube2;
-var playerYouTube3;
 function onYouTubeIframeAPIReady() {
    playerYouTube1 = new YT.Player('YouTube1', {
       events: {
       }
    });
    playerYouTube2 = new YT.Player('YouTube2', {
-      events: {
-      }
-   });
-   playerYouTube3 = new YT.Player('YouTube3', {
       events: {
       }
    });
@@ -40,7 +35,6 @@ $(document).ready(function()
 {
    const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
    const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
-   const plyrYouTube3 = new Plyr('#wb_YouTube3', {loadSprite: false, iconUrl: 'plyr.svg'});
    $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
    $('img[data-src]').lazyload();
 });
@@ -62,7 +56,7 @@ $(document).ready(function()
 </div>
 <div id="FlexGrid1">
 <div class="header">
-<div id="wb_TabMenu2" style="display:inline-block;width:283px;height:36px;z-index:2;overflow:hidden;">
+<div id="wb_TabMenu2" style="display:inline-block;width:281px;height:34px;z-index:2;overflow:hidden;">
 <ul id="TabMenu2">
 <li><a href="./index.html">Home</a></li>
 <li><a href="./video.html" class="active">Videos</a></li>
@@ -71,7 +65,7 @@ $(document).ready(function()
 </ul>
 
 </div>
-<div id="wb_TabMenu1" style="display:inline-block;width:296px;height:36px;z-index:3;overflow:hidden;">
+<div id="wb_TabMenu1" style="display:inline-block;width:294px;height:34px;z-index:3;overflow:hidden;">
 <ul id="TabMenu1">
 <li><a href="./about.html">About</a></li>
 <li><a href="./feedback.html">Feedback</a></li>
@@ -90,10 +84,6 @@ $(document).ready(function()
 <iframe id="YouTube2" src="https://www.youtube.com/embed/qPPBv6aldpM?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
 
 </div>
-<div id="wb_YouTube3" style="display:inline-block;width:100%;z-index:8;">
-<iframe id="YouTube3" src="https://www.youtube.com/embed/qPPBv6aldpM?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;enablejsapi=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
-
-</div>
 </div>
 </div>
 </div>
@@ -110,17 +100,17 @@ $(document).ready(function()
 <span style="background-color:#FFF5EE;color:#DC143C;"><strong>Follow Us</strong></span>
 </div>
 <div id="CardContainer2">
-<div id="wb_Card9" style="display:flex;text-align:center;z-index:17;">
+<div id="wb_Card9" style="display:flex;text-align:center;z-index:15;">
    <div id="Card9-card-body">
       <img id="Card9-card-item0" src="images/icons8-facebook-64.png" alt="" title="">
    </div>
 </div>
-<div id="wb_Card11" style="display:flex;text-align:center;z-index:18;">
+<div id="wb_Card11" style="display:flex;text-align:center;z-index:16;">
    <div id="Card11-card-body">
       <img id="Card11-card-item0" src="images/youtube-icon.png" alt="" title="">
    </div>
 </div>
-<div id="wb_Card10" style="display:flex;text-align:center;z-index:19;">
+<div id="wb_Card10" style="display:flex;text-align:center;z-index:17;">
    <div id="Card10-card-body">
       <img id="Card10-card-item0" src="images/icons8-instagram-64.png" alt="" title="">
    </div>
@@ -138,17 +128,17 @@ $(document).ready(function()
 <div id="LayoutGrid10">
 <div class="row">
 <div class="col-1">
-<div id="wb_Image8" style="display:inline-block;width:61px;height:61px;z-index:22;">
+<div id="wb_Image8" style="display:inline-block;width:61px;height:61px;z-index:20;">
 <a href="./index.html"><img src="images/placeholder.gif" data-src="images/third eye 3 png.png" id="Image8" alt=""></a>
 </div>
-<div id="wb_Image7" style="display:none;width:100%;height:auto;z-index:23;">
+<div id="wb_Image7" style="display:none;width:100%;height:auto;z-index:21;">
 <img src="images/website.png" id="Image7" alt="">
 </div>
 <div id="wb_Text8">
 <p style="font-family:Arial;font-size:13px;line-height:16px;color:#000000;"><span style="font-family:Courier New;">©</span><span style="font-family:Courier New;"> Copyright 2021 Third Eye Creation</span></p>
 </div>
 <div id="wb_Text7">
-<p style="font-family:Arial;font-size:13px;line-height:16px;font-weight:bold;color:#000000;"><span style="font-family:Courier New;font-weight:normal;">Designed &amp; Developed by </span><a href="https://dristikononline.in/kaustavroy.html">Kaustav Roy</a></p>
+<p style="font-family:Arial;font-size:13px;line-height:16px;font-weight:bold;color:#000000;"><span style="font-family:Courier New;font-weight:normal;">Designed &amp; Developed by </span><a href="https://developer.dristikononline.in">Kaustav Roy</a></p>
 </div>
 </div>
 </div>
@@ -158,11 +148,11 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="Layer1" style="position:absolute;text-align:center;left:1062px;top:1517px;width:133px;height:58px;z-index:36;">
+<div id="Layer1" style="position:absolute;text-align:center;left:1062px;top:1517px;width:133px;height:58px;z-index:34;">
 <div id="Layer1-container" style="width:133px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_IconFont3" style="position:absolute;left:81px;top:0px;width:34px;height:40px;text-align:center;z-index:31;">
+<div id="wb_IconFont3" style="position:absolute;left:81px;top:0px;width:34px;height:40px;text-align:center;z-index:29;">
 <a href="./contactus.html"><div id="IconFont3"><i class="fa fa-phone-square"></i></div></a></div>
-<div id="wb_Text6" style="position:absolute;left:0px;top:19px;width:82px;height:15px;text-align:center;z-index:32;">
+<div id="wb_Text6" style="position:absolute;left:0px;top:19px;width:82px;height:15px;text-align:center;z-index:30;">
 <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="background-color:#FF7F50;font-weight:bold;">Contact us</span></p></div>
 </div>
 </div>
