@@ -1,8 +1,58 @@
+<?php
+session_start();
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'loginform')
+{
+   $success_page = './index.php';
+   if (isset($_SESSION['referrer']))
+   {
+      $success_page = $_SESSION['referrer'];
+   }
+   $error_page = './Career.html';
+   $usernames = array('Kittu','abcd');
+   $passwords = array('e8dc4081b13434b45189a720b77b6818','098f6bcd4621d373cade4e832627b4f6');
+   $fullnames = array('Kaustav Roy','asdf');
+   $crypt_pass = md5($_POST['password']);
+   $found = false;
+   $fullname = '';
+   $session_timeout = 600;
+   for ($i=0; $i<count($usernames); $i++)
+   {
+      if ($usernames[$i] == $_POST['username'] && $passwords[$i] == $crypt_pass)
+      {
+         $found = true;
+         $fullname = $fullnames[$i];
+      }
+   }
+   if ($found == false)
+   {
+      header('Location: '.$error_page);
+      exit;
+   }
+   else
+   {
+      $_SESSION['username'] = $_POST['username'];
+      $_SESSION['fullname'] = $fullname;
+      $_SESSION['expires_by'] = time() + $session_timeout;
+      $_SESSION['expires_timeout'] = $session_timeout;
+      $rememberme = isset($_POST['rememberme']) ? true : false;
+      if ($rememberme)
+      {
+         setcookie('username', $_POST['username'], time() + 3600*24*30);
+         setcookie('password', $_POST['password'], time() + 3600*24*30);
+      }
+      header('Location: '.$success_page);
+      exit;
+   }
+}
+$username = isset($_COOKIE['username']) ? $_COOKIE['username'] : '';
+$password = isset($_COOKIE['password']) ? $_COOKIE['password'] : '';
+?>
 <!doctype html>
 <html lang="en-us">
 <head>
 <meta charset="utf-8">
-<title>Career</title>
+<title>The Third Eye Creation</title>
+<meta name="robots" content="noindex, nofollow">
 <meta name="generator" content="Kaustav Roy">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="bg website.png" rel="icon" sizes="541x541" type="image/png">
@@ -12,7 +62,7 @@
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
 <link href="third_eye_creation.css?v=15" rel="stylesheet">
-<link href="Career.css?v=15" rel="stylesheet">
+<link href="log-in.css?v=15" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.lazyload.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
@@ -45,7 +95,7 @@ $(document).ready(function()
 </div>
 <div id="FlexGrid1">
 <div class="header">
-<div id="wb_TabMenu1" style="display:inline-block;width:283px;height:36px;z-index:2;overflow:hidden;">
+<div id="wb_TabMenu1" style="display:inline-block;width:281px;height:34px;z-index:2;overflow:hidden;">
 <ul id="TabMenu1">
 <li><a href="./index.php">Home</a></li>
 <li><a href="./video.html">Videos</a></li>
@@ -54,11 +104,11 @@ $(document).ready(function()
 </ul>
 
 </div>
-<div id="wb_TabMenu2" style="display:inline-block;width:296px;height:36px;z-index:3;overflow:hidden;">
+<div id="wb_TabMenu2" style="display:inline-block;width:294px;height:34px;z-index:3;overflow:hidden;">
 <ul id="TabMenu2">
 <li><a href="./about.html">About</a></li>
 <li><a href="./feedback.html">Feedback</a></li>
-<li><a href="./Career.html" class="active">Career</a></li>
+<li><a href="./Career.html">Career</a></li>
 <li><a href="./contactus.html">Contact Us</a></li>
 </ul>
 
@@ -90,11 +140,39 @@ $(document).ready(function()
 <p style="font-size:13px;line-height:16px;color:#FFFFFF;"><span style="background-color:#FF7F50;font-weight:bold;">Contact us</span></p></div>
 </div>
 </div>
-<div id="wb_LayoutGrid11">
-<div id="LayoutGrid11">
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
 <div class="row">
 <div class="col-1">
-<iframe name="InlineFrame1" id="InlineFrame1" src="https://docs.google.com/forms/d/e/1FAIpQLSfiXqUhPSUXnadtgaC2PLUv_-VHqBsAwo1mGBVhSS0ky24TdQ/viewform?usp=sf_link">Make Your Career</iframe>
+<div id="wb_Login1" style="display:inline-block;width:100%;text-align:center;z-index:21;">
+<form name="loginform" method="post" accept-charset="UTF-8" action="<?php echo basename(__FILE__); ?>" id="loginform">
+<input type="hidden" name="form_name" value="loginform">
+<table id="Login1">
+<tr>
+   <td class="header">Log In</td>
+</tr>
+<tr>
+   <td class="label"><label for="username">User Name</label></td>
+</tr>
+<tr>
+   <td class="row"><input class="input" name="username" type="text" id="username" value="<?php echo $username; ?>"></td>
+</tr>
+<tr>
+   <td class="label"><label for="password">Password</label></td>
+</tr>
+<tr>
+   <td class="row"><input class="input" name="password" type="password" id="password" value="<?php echo $password; ?>"></td>
+</tr>
+<tr>
+   <td class="row"><input id="rememberme" type="checkbox" name="rememberme"><label for="rememberme">Remember me</label></td>
+</tr>
+<tr>
+   <td style="text-align:center;vertical-align:bottom"><input class="button" type="submit" name="login" value="Log In" id="login"></td>
+</tr>
+</table>
+</form>
+
+</div>
 </div>
 </div>
 </div>
