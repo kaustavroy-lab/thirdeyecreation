@@ -2101,3 +2101,362 @@ width: 100%;}
    width: 100%;
    height: 40px;
 }
+#Label2
+{
+   display: block;
+   width: 100%;
+   line-height: 18px;
+   z-index: 43;
+}
+#wb_FontAwesomeIcon1
+{
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   text-align: center;
+   z-index: 38;
+}
+#wb_uid1
+{
+   color: #FFFF00;
+}
+#Label3
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 22;
+}
+#wb_uid2
+{
+   color: #DC143C;
+}
+#wb_TabMenu1
+{
+   display: inline-block;
+   width: 283px;
+   height: 36px;
+   z-index: 2;
+   overflow: hidden;
+}
+#Label4
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 25;
+}
+#wb_uid3
+{
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
+}
+#wb_TabMenu2
+{
+   display: inline-block;
+   width: 296px;
+   height: 36px;
+   z-index: 3;
+   overflow: hidden;
+}
+#Label5
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 28;
+}
+#wb_uid4
+{
+   background-color: #FF7F50;
+   font-weight: bold;
+}
+#Layer1-container
+{
+   width: 133px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_Image1
+{
+   display: inline-block;
+   width: 84px;
+   height: 84px;
+   z-index: 5;
+}
+#wb_uid5
+{
+   background-color: #FFF5EE;
+   color: #DC143C;
+}
+#Label6
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 31;
+}
+#Progressbar1
+{
+   display: block;
+   width: 100%;
+   height: 18px;
+   z-index: 23;
+}
+#Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 993px;
+   top: 888px;
+   width: 133px;
+   height: 58px;
+   z-index: 83;
+}
+#wb_Image2
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 7;
+}
+#wb_Bookmark2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 4;
+}
+#Layer2
+{
+   position: absolute;
+   text-align: center;
+   left: 1093px;
+   top: 982px;
+   width: 33px;
+   height: 51px;
+   z-index: 84;
+}
+#wb_uid6
+{
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
+}
+#Label7
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 34;
+}
+#Progressbar2
+{
+   display: block;
+   width: 100%;
+   height: 18px;
+   z-index: 26;
+}
+#wb_FontAwesomeIcon6
+{
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   text-align: center;
+   z-index: 39;
+}
+#wb_uid7
+{
+   font-family: "Courier New";
+}
+#wb_Card9
+{
+   display: flex;
+   text-align: center;
+   z-index: 50;
+}
+#Progressbar3
+{
+   display: block;
+   width: 100%;
+   height: 18px;
+   z-index: 29;
+}
+#Label8
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 24;
+}
+#wb_FontAwesomeIcon7
+{
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   text-align: center;
+   z-index: 40;
+}
+#wb_Text6
+{
+   position: absolute;
+   left: 0px;
+   top: 19px;
+   width: 82px;
+   height: 15px;
+   text-align: center;
+   z-index: 21;
+}
+#wb_uid8
+{
+   font-family: "Courier New";
+}
+#Progressbar4
+{
+   display: block;
+   width: 100%;
+   height: 18px;
+   z-index: 32;
+}
+#Label9
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 27;
+}
+#wb_FontAwesomeIcon8
+{
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   text-align: center;
+   z-index: 41;
+}
+#wb_uid10
+{
+   font-family: "Courier New";
+   font-weight: normal;
+}
+#wb_uid9
+{
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
+}
+#Progressbar5
+{
+   display: block;
+   width: 100%;
+   height: 18px;
+   z-index: 35;
+}
+#wb_FontAwesomeIcon9
+{
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   text-align: center;
+   z-index: 42;
+}
+#wb_Image7
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 56;
+}
+#Label10
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 30;
+}
+#wb_IconFont3
+{
+   position: absolute;
+   left: 81px;
+   top: 0px;
+   width: 34px;
+   height: 40px;
+   text-align: center;
+   z-index: 20;
+}
+#wb_IconFont4
+{
+   position: absolute;
+   left: 0px;
+   top: 12px;
+   width: 15px;
+   height: 21px;
+   text-align: center;
+   z-index: 64;
+}
+#wb_Image8
+{
+   display: inline-block;
+   width: 61px;
+   height: 61px;
+   z-index: 55;
+}
+#Label11
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 33;
+}
+#Bookmark2
+{
+   visibility: hidden;
+}
+#wb_Card10
+{
+   display: flex;
+   text-align: center;
+   z-index: 52;
+}
+#Label12
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 36;
+}
+#wb_Card11
+{
+   display: flex;
+   text-align: center;
+   z-index: 51;
+}
+#Line1
+{
+   display: block;
+   width: 100%;
+   z-index: 44;
+}
+#Layer2-container
+{
+   width: 33px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#Label1
+{
+   display: inline-block;
+   width: 131px;
+   line-height: 24px;
+   z-index: 37;
+}
+#wb_uid0
+{
+   color: #000000;
+}

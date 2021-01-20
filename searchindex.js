@@ -22,6 +22,5 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("https://www.thethirdeyecreation.com/feedback.html", "Feedback", "We serve all over the pan asia  Contact us  © Copyright 2021 Third Eye Creation  Designed & Developed by Kaustav Roy  #We complete shoot and video editing before the ceremony end  Follow Us   ", "");
    this[database_length++] = new SearchPage("https://www.thethirdeyecreation.com/Career.html", "Career", "We serve all over the pan asia  Contact us  © Copyright 2021 Third Eye Creation  Designed & Developed by Kaustav Roy  #We complete shoot and video editing before the ceremony end  Follow Us   ", "");
    this[database_length++] = new SearchPage("https://www.thethirdeyecreation.com/404.html", "The Third Eye Creation", "We serve all over the pan asia  Contact us  © Copyright 2021 Third Eye Creation  Designed & Developed by Kaustav Roy  #We complete shoot and video editing before the ceremony end  No Content Found ￼  Follow Us   ", "");
-   this[database_length++] = new SearchPage("https://www.thethirdeyecreation.com/log-in.html", "The Third Eye Creation", "We serve all over the pan asia  Contact us  © Copyright 2021 Third Eye Creation  Designed & Developed by Kaustav Roy  #We complete shoot and video editing before the ceremony end  Follow Us   ", "");
    return this;
 }

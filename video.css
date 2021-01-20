@@ -933,3 +933,152 @@ width: 100%;}
    background: #F6F6F6;
    color: #111111;
 }
+#wb_uid1
+{
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
+}
+#wb_YouTube1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 6;
+}
+#wb_uid2
+{
+   font-family: "Courier New";
+}
+#wb_YouTube2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 7;
+}
+#wb_TabMenu1
+{
+   display: inline-block;
+   width: 296px;
+   height: 36px;
+   z-index: 3;
+   overflow: hidden;
+}
+#wb_uid3
+{
+   font-family: "Courier New";
+}
+#wb_TabMenu2
+{
+   display: inline-block;
+   width: 283px;
+   height: 36px;
+   z-index: 2;
+   overflow: hidden;
+}
+#Layer1-container
+{
+   width: 133px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_uid4
+{
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
+}
+#wb_Image1
+{
+   display: inline-block;
+   width: 84px;
+   height: 84px;
+   z-index: 4;
+}
+#Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 1062px;
+   top: 1517px;
+   width: 133px;
+   height: 58px;
+   z-index: 34;
+}
+#wb_uid5
+{
+   font-family: "Courier New";
+   font-weight: normal;
+}
+#wb_uid6
+{
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
+}
+#wb_uid7
+{
+   background-color: #FF7F50;
+   font-weight: bold;
+}
+#wb_Text6
+{
+   position: absolute;
+   left: 0px;
+   top: 19px;
+   width: 82px;
+   height: 15px;
+   text-align: center;
+   z-index: 30;
+}
+#wb_Card9
+{
+   display: flex;
+   text-align: center;
+   z-index: 15;
+}
+#wb_IconFont3
+{
+   position: absolute;
+   left: 81px;
+   top: 0px;
+   width: 34px;
+   height: 40px;
+   text-align: center;
+   z-index: 29;
+}
+#wb_Image7
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 21;
+}
+#wb_Image8
+{
+   display: inline-block;
+   width: 61px;
+   height: 61px;
+   z-index: 20;
+}
+#wb_Card10
+{
+   display: flex;
+   text-align: center;
+   z-index: 17;
+}
+#wb_Card11
+{
+   display: flex;
+   text-align: center;
+   z-index: 16;
+}
+#wb_uid0
+{
+   background-color: #FFF5EE;
+   color: #DC143C;
+}

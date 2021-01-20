@@ -7,12 +7,6 @@ div#container
 }
 body
 {
-   background-color: #FFFFFF;
-   background-image: url(images/bg.jpg);
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -20,6 +14,21 @@ body
    line-height: 1.1875;
    margin: 0;
    text-align: center;
+}
+body:after
+{
+   background-color: #FFFFFF;
+   background-image: url(images/bg.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   content: "";
+   height: 100vh;
+   left: 0;
+   position: fixed;
+   right: 0;
+   top: 0;
+   z-index: -1;
 }
 a
 {
@@ -2557,4 +2566,420 @@ width: 100%;}
    max-width: 40px;
    width: 100%;
    height: 40px;
+}
+#wb_uid19
+{
+   font-family: "Courier New";
+   font-weight: normal;
+}
+#wb_Heading2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 62;
+}
+#wb_FontAwesomeIcon1
+{
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   text-align: center;
+   z-index: 58;
+}
+#wb_uid1
+{
+   color: #FFFF00;
+}
+#wb_Card3
+{
+   display: flex;
+   text-align: center;
+   z-index: 7;
+}
+#wb_Heading3
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 65;
+}
+#wb_FontAwesomeIcon2
+{
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   text-align: center;
+   z-index: 61;
+}
+#wb_uid2
+{
+   color: #DC143C;
+}
+#wb_Card4
+{
+   display: flex;
+   text-align: center;
+   z-index: 6;
+}
+#wb_TabMenu1
+{
+   display: inline-block;
+   width: 281px;
+   height: 34px;
+   z-index: 2;
+   overflow: hidden;
+}
+#wb_Heading4
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 68;
+}
+#wb_FontAwesomeIcon3
+{
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   text-align: center;
+   z-index: 64;
+}
+#wb_Card5
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 52;
+}
+#wb_uid3
+{
+   color: #000000;
+   font-family: "Arial";
+   font-size: 13px;
+}
+#wb_TabMenu2
+{
+   display: inline-block;
+   width: 294px;
+   height: 34px;
+   z-index: 3;
+   overflow: hidden;
+}
+#wb_Heading5
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 71;
+}
+#wb_FontAwesomeIcon4
+{
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   text-align: center;
+   z-index: 67;
+}
+#wb_Card6
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 55;
+}
+#Layer1-container
+{
+   width: 133px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_uid4
+{
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
+}
+#wb_Image1
+{
+   display: inline-block;
+   width: 84px;
+   height: 84px;
+   z-index: 9;
+}
+#wb_FontAwesomeIcon5
+{
+   display: inline-block;
+   width: 64px;
+   height: 64px;
+   text-align: center;
+   z-index: 70;
+}
+#wb_Card7
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 54;
+}
+#Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 993px;
+   top: 888px;
+   width: 133px;
+   height: 58px;
+   z-index: 98;
+}
+#wb_uid5
+{
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
+}
+#wb_Image2
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 12;
+}
+#wb_Bookmark2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 8;
+}
+#Layer2
+{
+   position: absolute;
+   text-align: center;
+   left: 1093px;
+   top: 982px;
+   width: 33px;
+   height: 51px;
+   z-index: 99;
+}
+#wb_Card8
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 53;
+}
+#wb_uid6
+{
+   font-weight: bold;
+}
+#wb_Image3
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 41;
+}
+#wb_Card9
+{
+   display: flex;
+   text-align: center;
+   z-index: 74;
+}
+#wb_uid7
+{
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
+}
+#wb_Text6
+{
+   position: absolute;
+   left: 0px;
+   top: 19px;
+   width: 82px;
+   height: 15px;
+   text-align: center;
+   z-index: 47;
+}
+#wb_uid8
+{
+   background-color: #FF7F50;
+   font-weight: bold;
+}
+#wb_Image5
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 38;
+}
+#wb_uid10
+{
+   color: #DC143C;
+   font-family: "Arial";
+   font-size: 13px;
+}
+#wb_uid9
+{
+   color: #DC143C;
+   font-family: "Arial";
+   font-size: 13px;
+}
+#wb_IconFont2
+{
+   display: inline-block;
+   width: 28px;
+   height: 24px;
+   text-align: center;
+   z-index: 42;
+}
+#wb_Image6
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 37;
+}
+#wb_Image7
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 80;
+}
+#wb_uid11
+{
+   color: #DC143C;
+   font-family: "Arial";
+   font-size: 13px;
+}
+#wb_IconFont3
+{
+   position: absolute;
+   left: 81px;
+   top: 0px;
+   width: 34px;
+   height: 40px;
+   text-align: center;
+   z-index: 46;
+}
+#wb_PhotoCollage1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 39;
+}
+#wb_IconFont4
+{
+   position: absolute;
+   left: 0px;
+   top: 12px;
+   width: 15px;
+   height: 21px;
+   text-align: center;
+   z-index: 93;
+}
+#wb_Image8
+{
+   display: inline-block;
+   width: 61px;
+   height: 61px;
+   z-index: 79;
+}
+#wb_uid12
+{
+   color: #DC143C;
+   font-family: "Arial";
+   font-size: 13px;
+}
+#wb_PhotoCollage2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 57;
+}
+#Bookmark2
+{
+   visibility: hidden;
+}
+#wb_Card10
+{
+   display: flex;
+   text-align: center;
+   z-index: 76;
+}
+#wb_uid13
+{
+   color: #DC143C;
+   font-family: "Arial";
+   font-size: 13px;
+}
+#wb_Image9
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 51;
+}
+#wb_Card11
+{
+   display: flex;
+   text-align: center;
+   z-index: 75;
+}
+#wb_uid14
+{
+   background-color: #FFF5EE;
+   color: #DC143C;
+}
+#wb_uid15
+{
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
+}
+#Layer2-container
+{
+   width: 33px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_uid16
+{
+   font-family: "Courier New";
+}
+#wb_uid17
+{
+   font-family: "Courier New";
+}
+#wb_Card1
+{
+   display: flex;
+   text-align: center;
+   z-index: 4;
+}
+#wb_uid18
+{
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
+}
+#wb_Heading1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 59;
+}
+#wb_uid0
+{
+   color: #000000;
+}
+#wb_Card2
+{
+   display: flex;
+   text-align: center;
+   z-index: 5;
 }
