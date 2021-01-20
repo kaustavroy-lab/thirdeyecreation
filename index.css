@@ -1143,6 +1143,7 @@ width: 100%;}
 #PhotoCollage1 .thumbnail
 {
    position: absolute;
+   margin: 0;
 }
 #PhotoCollage1 .thumbnail img
 {
@@ -2360,6 +2361,7 @@ width: 100%;}
 #PhotoCollage2 .thumbnail
 {
    position: absolute;
+   margin: 0;
 }
 #PhotoCollage2 .thumbnail img
 {
