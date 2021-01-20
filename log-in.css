@@ -1210,162 +1210,127 @@ width: 100%;}
    padding: 4px 14px 4px 14px;
    -webkit-appearance: none;
 }
-#wb_LayoutGrid6
+#log-inSignup1
 {
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1024px;
-}
-#LayoutGrid6
-{
-   box-sizing: border-box;
-   padding: 50px 15px 50px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid6 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
-{
-   float: left;
-}
-#LayoutGrid6 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 50%;
-   text-align: center;
-}
-#LayoutGrid6 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 50%;
-   text-align: center;
-}
-#LayoutGrid6:before,
-#LayoutGrid6:after,
-#LayoutGrid6 .row:before,
-#LayoutGrid6 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid6:after,
-#LayoutGrid6 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2
-{
-   float: none;
-   width: 100%;
-}
-}
-#Editbox1
-{
-   border: 1px solid #E1E1E1;
    background-color: #FFFFFF;
-   background-image: none;
-   color: #777777;
+   border-color:#CCCCCC;
+   border-width:1px;
+   border-style: solid;
+   border-radius: 4px;
+   color: #000000;
    font-family: Arial;
-   font-weight: 1;
-   font-style: normal;
-   font-size: 16px;
-   box-sizing: border-box;
-   line-height: 24px;
-   padding: 8px 8px 8px 8px;
-   margin: 0px 0px 15px 0px;
-   text-align: left;
-}
-#Button1
-{
-   border: 1px solid #048BB9;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #048BB9;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
+   font-weight: normal;
    font-size: 13px;
-   padding: 1px 1px 6px 6px;
+   font-style: normal;
+   text-align: left;
+   border-spacing: 6px;
+   width: 277px;
+   height: 454px;
+}
+#log-inSignup1 td
+{
+   padding: 0;
+}
+#log-inSignup1 .header
+{
+   background-color: #878787;
+   color: #FFFFFF;
+   height: 16px;
+   padding: 4px 4px 4px 4px;
    text-align: center;
+}
+#log-inSignup1 .label
+{
+   height: 16px;
+}
+#log-inSignup1 .row
+{
+   height: 30px;
+   text-align: left;
+}
+#log-inSignup1 .input
+{
+   background-color: #FFFFFF;
+   border-color: #CCCCCC;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   width: 100%;
+   height: 30px;
+   box-sizing: border-box;
+   padding: 6px 4px 6px 4px;
+}
+#log-inSignup1 .input:focus
+{
+   border-color: #66AFE9;
+   outline: 0;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+}
+#log-inSignup1 .button
+{
+   background-color: #3370B7;
+   border-color: #2E6DA4;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   padding: 4px 14px 4px 14px;
    -webkit-appearance: none;
+}
+#avatar *
+{
+   box-sizing: border-box;
+}
+#avatar
+{
+   display: table;
+   border-collapse: separate;
+   border-spacing: 0;
+}
+#avatar .input
+{
+   position: relative;
+   z-index: 2;
+   float: left;
+   width: 100%;
+   margin-bottom: 0px;
+}
+#avatar .input-group-btn, #avatar .input
+{
+   display: table-cell;
+}
+#avatar .input
+{
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
    margin: 0;
 }
-#Editbox2
+#avatar .input-group-btn
 {
-   border: 1px solid #E1E1E1;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #777777;
-   font-family: Arial;
-   font-weight: 1;
-   font-style: normal;
-   font-size: 16px;
-   box-sizing: border-box;
-   line-height: 24px;
-   padding: 8px 8px 8px 8px;
-   margin: 0px 0px 15px 0px;
-   text-align: left;
+   width: 1%;
+   white-space: nowrap;
+   vertical-align: middle;
+   position: relative;
+   font-size: 0px;
+   white-space: nowrap;
 }
-#Editbox3
+#avatar .button
 {
-   border: 1px solid #E1E1E1;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #777777;
-   font-family: Arial;
-   font-weight: 1;
-   font-style: normal;
-   font-size: 16px;
-   box-sizing: border-box;
-   line-height: 24px;
-   padding: 8px 8px 8px 8px;
-   margin: 0;
-   text-align: left;
-}
-#TextArea1
-{
-   border: 1px solid #E1E1E1;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #777777;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   box-sizing: border-box;
-   padding: 8px 8px 8px 8px;
-   margin: 0px 0px 15px 0px;
-   text-align: left;
-   overflow: auto;
-   resize: none;
+   border-bottom-left-radius: 0px;
+   border-top-left-radius: 0px;
+   display: inline-block;
+   height: 30px;
+   line-height: 16px;
+   margin-left: -1px;
+   padding: 6px 8px 6px 8px;
+   position: relative;
 }
