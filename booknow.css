@@ -482,6 +482,74 @@ width: 100%;}
    width: 100%;
 }
 }
+#wb_CareerLayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: rgba(251,251,251,0.79);
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#CareerLayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 10px 0px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#CareerLayoutGrid1 > .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#CareerLayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#CareerLayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#CareerLayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#CareerLayoutGrid1:before,
+#CareerLayoutGrid1:after,
+#CareerLayoutGrid1 .row:before,
+#CareerLayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#CareerLayoutGrid1:after,
+#CareerLayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#CareerLayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
 #wb_booknowLayoutGrid1
 {
    clear: both;
@@ -1404,22 +1472,6 @@ width: 100%;}
    vertical-align: top;
    object-fit: cover;
 }
-#booknowLabel1
-{
-   border: 0px solid transparent;
-   background-color: transparent;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: 1;
-   font-style: normal;
-   font-size: 13px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-   vertical-align: top;
-}
 #wb_booknowCard1
 {
    position: relative;
@@ -2088,25 +2140,51 @@ width: 100%;}
 {
    display: block;
 }
+#wb_CareerText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 10px 0px 10px 0px;
+   text-align: center;
+}
+#wb_CareerText1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 12px;
+}
+#wb_CareerText1 div
+{
+   text-align: center;
+}
+#wb_CareerText1
+{
+   display: block;
+   margin: 10px 0px 10px 0px;
+   box-sizing: border-box;
+width: 100%;}
 #booknowLabel7
 {
    display: block;
    width: 100%;
    line-height: 16px;
-   z-index: 33;
+   z-index: 35;
 }
 #wb_booknowEditbox6
 {
    display: inline-block;
    width: 100%;
-   z-index: 28;
+   z-index: 30;
 }
 #wb_booknowCard1
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 36;
+   z-index: 38;
 }
 #wb_uid1
 {
@@ -2120,7 +2198,7 @@ width: 100%;}
    display: block;
    width: 100%;
    line-height: 16px;
-   z-index: 27;
+   z-index: 29;
 }
 #wb_uid2
 {
@@ -2136,9 +2214,8 @@ width: 100%;}
 }
 #wb_uid3
 {
-   color: #000000;
-   font-family: "Arial";
-   font-size: 13px;
+   background-color: #DC143C;
+   color: #FFFFFF;
 }
 #wb_TabMenu2
 {
@@ -2158,16 +2235,16 @@ width: 100%;}
 }
 #wb_uid4
 {
-   font-size: 13px;
-   line-height: 16px;
    color: #000000;
+   font-family: "Arial";
+   font-size: 13px;
 }
 #booknowButton1
 {
    display: inline-block;
    width: 253px;
    height: 45px;
-   z-index: 35;
+   z-index: 37;
 }
 #wb_Image1
 {
@@ -2184,7 +2261,7 @@ width: 100%;}
    top: 888px;
    width: 133px;
    height: 58px;
-   z-index: 79;
+   z-index: 81;
 }
 #wb_uid5
 {
@@ -2216,11 +2293,13 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 80;
+   z-index: 82;
 }
 #wb_uid6
 {
-   font-weight: bold;
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #booknowEditbox2
 {
@@ -2230,13 +2309,13 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 20;
+   z-index: 22;
 }
 #wb_Card9
 {
    display: flex;
    text-align: center;
-   z-index: 46;
+   z-index: 48;
 }
 #wb_Text6
 {
@@ -2246,19 +2325,18 @@ width: 100%;}
    width: 82px;
    height: 15px;
    text-align: center;
-   z-index: 45;
+   z-index: 47;
 }
 #wb_uid7
 {
-   font-size: 13px;
-   line-height: 16px;
+   font-weight: bold;
 }
 #wb_Image4
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 39;
+   z-index: 41;
 }
 #booknowEditbox3
 {
@@ -2267,7 +2345,6 @@ width: 100%;}
 {
    font-size: 13px;
    line-height: 16px;
-   color: #FFFFFF;
 }
 #wb_IconFont1
 {
@@ -2275,37 +2352,36 @@ width: 100%;}
    width: 28px;
    height: 24px;
    text-align: center;
-   z-index: 40;
+   z-index: 42;
 }
 #booknowEditbox4
 {
 }
 #wb_uid10
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
-}
-#wb_uid9
-{
    background-color: #FF7F50;
    font-weight: bold;
 }
-#booknowEditbox5
+#wb_uid9
 {
-}
-#wb_uid11
-{
-   font-family: "Arial";
    font-size: 13px;
    line-height: 16px;
-   color: #000000;
+   color: #FFFFFF;
+}
+#booknowEditbox5
+{
 }
 #wb_Image7
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 52;
+   z-index: 54;
+}
+#wb_uid11
+{
+   background-color: #FFF5EE;
+   color: #DC143C;
 }
 #wb_IconFont3
 {
@@ -2315,7 +2391,7 @@ width: 100%;}
    width: 34px;
    height: 40px;
    text-align: center;
-   z-index: 44;
+   z-index: 46;
 }
 #booknowEditbox6
 {
@@ -2328,18 +2404,21 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 55;
+   z-index: 57;
 }
 #wb_uid12
 {
-   font-family: "Courier New";
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #wb_Image8
 {
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 51;
+   z-index: 53;
 }
 #Bookmark2
 {
@@ -2353,16 +2432,32 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 48;
+   z-index: 50;
 }
-#booknowLabel1
+#wb_uid14
+{
+   font-family: "Courier New";
+}
+#wb_Card11
+{
+   display: flex;
+   text-align: center;
+   z-index: 49;
+}
+#wb_booknowEditbox1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 24;
+}
+#booknowLabel2
 {
    display: block;
    width: 100%;
    line-height: 16px;
-   z-index: 37;
+   z-index: 23;
 }
-#wb_uid14
+#wb_uid15
 {
    font-family: "Arial";
    font-size: 13px;
@@ -2370,48 +2465,24 @@ width: 100%;}
    font-weight: bold;
    color: #000000;
 }
-#wb_Card11
-{
-   display: flex;
-   text-align: center;
-   z-index: 47;
-}
-#wb_booknowEditbox1
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 22;
-}
-#booknowLabel2
-{
-   display: block;
-   width: 100%;
-   line-height: 16px;
-   z-index: 21;
-}
-#wb_uid15
-{
-   font-family: "Courier New";
-   font-weight: normal;
-}
 #wb_booknowCombobox1
 {
    display: inline-block;
    width: 100%;
-   z-index: 30;
+   z-index: 32;
 }
 #wb_booknowEditbox2
 {
    display: inline-block;
    width: 100%;
-   z-index: 24;
+   z-index: 26;
 }
 #booknowLabel3
 {
    display: block;
    width: 100%;
    line-height: 16px;
-   z-index: 23;
+   z-index: 25;
 }
 #Layer2-container
 {
@@ -2421,44 +2492,49 @@ width: 100%;}
    margin-right: auto;
    text-align: left;
 }
+#wb_uid16
+{
+   font-family: "Courier New";
+   font-weight: normal;
+}
 #wb_booknowEditbox3
 {
    display: inline-block;
    width: 100%;
-   z-index: 26;
+   z-index: 28;
 }
 #booknowLabel4
 {
    display: block;
    width: 100%;
    line-height: 16px;
-   z-index: 25;
+   z-index: 27;
 }
 #wb_booknowEditbox4
 {
    display: inline-block;
    width: 100%;
-   z-index: 32;
+   z-index: 34;
 }
 #booknowLabel5
 {
    display: block;
    width: 100%;
    line-height: 16px;
-   z-index: 29;
+   z-index: 31;
 }
 #wb_booknowEditbox5
 {
    display: inline-block;
    width: 100%;
-   z-index: 34;
+   z-index: 36;
 }
 #booknowLabel6
 {
    display: block;
    width: 100%;
    line-height: 16px;
-   z-index: 31;
+   z-index: 33;
 }
 #wb_uid0
 {
