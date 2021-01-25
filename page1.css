@@ -1390,6 +1390,99 @@ width: 100%;}
    -webkit-appearance: none;
    margin: 0;
 }
+#page1FileUpload1 *
+{
+   box-sizing: border-box;
+}
+#page1FileUpload1{
+   display: table;
+   border-collapse: separate;
+   margin: 0;
+}
+#page1FileUpload1 .form-control
+{
+   display: block;
+   width: 100%;
+   height: 26px;
+   line-height: 18px;
+   padding: 4px 4px 4px 4px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   color: #555555;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#page1FileUpload1 .form-control
+{
+   position: relative;
+   z-index: 2;
+   float: left;
+   width: 100%;
+   margin-bottom: 0px;
+}
+#page1FileUpload1 label
+{
+   display: inline-block;
+   margin-bottom: 5px;
+   font-weight: 700;
+}
+#page1FileUpload1 .input-group-btn, page1FileUpload1 .form-control
+{
+   display: table-cell;
+}
+#page1FileUpload1 :first-child.form-control, page1FileUpload1 :first-child.input-group-btn > .btn, page1FileUpload1 :first-child.input-group-btn > .btn-group > .btn, page1FileUpload1 :last-child.input-group-btn > :not(:last-child):not(.dropdown-toggle).btn, page1FileUpload1 :last-child.input-group-btn > :not(:last-child).btn-group > .btn
+{
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#page1FileUpload1 .input-group-btn
+{
+   width: 1%;
+   white-space: nowrap;
+   vertical-align: middle;
+   position: relative;
+   font-size: 0px;
+   white-space: nowrap;
+}
+#page1FileUpload1 .btn
+{
+   display: inline-block;
+   margin-bottom: 0px;
+   font-weight: 400;
+   text-align: center;
+   vertical-align: middle;
+   cursor: pointer;
+   background-color: #428BCA;
+   background-image: none;
+   border: 1px solid #357EBD;
+   color: #FFFFFF;
+   white-space: nowrap;
+   padding: 4px 8px 4px 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 18px;
+   border-radius: 4px;
+   height: 26px;
+}
+#page1FileUpload1 .input-group-btn > .btn
+{
+   position: relative;
+}
+#page1FileUpload1 :last-child.form-control, #page1FileUpload1 :last-child.input-group-btn > .btn, #page1FileUpload1 :last-child.input-group-btn > .btn-group > .btn, #page1FileUpload1 :first-child.input-group-btn > :not(:first-child).btn, page1FileUpload1 :first-child.input-group-btn > :not(:first-child).btn-group > .btn
+{
+   border-bottom-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#page1FileUpload1 :last-child.input-group-btn > .btn, page1FileUpload1 :last-child.input-group-btn > .btn-group
+{
+   margin-left: -1px;
+}
 #wb_uid1
 {
    color: #FFFF00;
@@ -1411,7 +1504,7 @@ width: 100%;}
    display: inline-block;
    width: 96px;
    height: 25px;
-   z-index: 43;
+   z-index: 44;
 }
 #page1Editbox1
 {
@@ -1433,6 +1526,10 @@ width: 100%;}
    height: 34px;
    z-index: 3;
    overflow: hidden;
+}
+#page1FileUpload1-file
+{
+   display: none;
 }
 #page1Editbox2
 {
@@ -1488,7 +1585,7 @@ width: 100%;}
    top: 888px;
    width: 133px;
    height: 58px;
-   z-index: 52;
+   z-index: 54;
 }
 #wb_Image2
 {
@@ -1511,7 +1608,7 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 53;
+   z-index: 55;
 }
 #wb_uid6
 {
@@ -1600,6 +1697,13 @@ width: 100%;}
    display: flex;
    text-align: center;
    z-index: 23;
+}
+#page1FileUpload1
+{
+   display: table;
+   width: 100%;
+   height: 26px;
+   z-index: 43;
 }
 #wb_Card11
 {
