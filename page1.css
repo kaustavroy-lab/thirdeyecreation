@@ -1483,6 +1483,40 @@ width: 100%;}
 {
    margin-left: -1px;
 }
+#page1FileUpload1 .form-control.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#page1FileUpload1 .form-control.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#page1FileUpload1 .form-control.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#page1FileUpload1 .form-control.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_page1FileUpload1 .invalid-feedback
+{
+   position: absolute;
+   left: 0;
+   top: 100%;
+}
 #wb_uid1
 {
    color: #FFFF00;
@@ -1494,8 +1528,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 281px;
-   height: 34px;
+   width: 283px;
+   height: 36px;
    z-index: 2;
    overflow: hidden;
 }
@@ -1522,8 +1556,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 294px;
-   height: 34px;
+   width: 296px;
+   height: 36px;
    z-index: 3;
    overflow: hidden;
 }
@@ -1637,6 +1671,12 @@ width: 100%;}
    text-align: center;
    z-index: 20;
 }
+#wb_page1FileUpload1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 43;
+}
 #wb_uid8
 {
    font-family: "Courier New";
@@ -1700,10 +1740,6 @@ width: 100%;}
 }
 #page1FileUpload1
 {
-   display: table;
-   width: 100%;
-   height: 26px;
-   z-index: 43;
 }
 #wb_Card11
 {
