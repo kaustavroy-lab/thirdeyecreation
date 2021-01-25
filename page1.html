@@ -1,41 +1,4 @@
-<?php
-// Set the target directory for the uploaded files. 
-// Make sure the folder exists on the server and the permissions are set to 777!
-$uploaddir = './uploads/';
-// Set accepted file extensions.
-$allowed   = array('jpg','jpeg','gif','pdf');
-// Set the max. size of an uploaded file. 1024*1024 means 1 MB. The max. upload size is also limited by server settings.
-$max_size  = 1024 * 1024;
-// Set the success page when the file has been uploaded succesfully.
-$success_url = './thanks.html';
-
-if (isset($_FILES['file'])) 
-{
-   foreach ($_FILES['file']['error'] as $i => $error) 
-   {
-      if ($error == 0 && $_FILES['file']['size'][$i] <= $max_size) 
-      {
-         $file_ext  = pathinfo($_FILES['file']['name'][$i],PATHINFO_EXTENSION);
-         $file_name = basename($_FILES['file']['name'][$i],'.'.$file_ext);
-         if (in_array(strtolower($file_ext), $allowed)) 
-         {
-            $new_base = $_FILES['file']['name'][$i];
-            $t = 1;
-            while (file_exists($uploaddir.$new_base)) 
-            {
-               $new_base = $file_name.'['.$t.'].'.$file_ext;
-               $t++;
-            }
-            if (move_uploaded_file($_FILES['file']['tmp_name'][$i],$uploaddir.$new_base)) 
-            {
-               chmod($uploaddir.$new_base, 0644);
-               header('Location: '.$success_url);
-            }
-         }
-      }
-   }
-}
-?><!doctype html>
+<!doctype html>
 <html lang="en-us">
 <head>
 <meta charset="utf-8">
@@ -51,16 +14,15 @@ if (isset($_FILES['file']))
 <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
-<link href="third_eye_creation.css?v=32" rel="stylesheet">
-<link href="page1.css?v=32" rel="stylesheet">
+<link href="third_eye_creation.css?v=33" rel="stylesheet">
+<link href="page1.css?v=33" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.lazyload.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
-<script src="page1.js?v=32"></script>
+<script src="page1.js?v=33"></script>
 </head>
 <body>
 <div id="container">
-
 </div>
 <div id="wb_LayoutGrid1">
 <div id="LayoutGrid1">
@@ -187,7 +149,7 @@ if (isset($_FILES['file']))
 </div>
 </div>
 <div id="wb_page1LayoutGrid1">
-<form name="contact" method="post" action="https://script.google.com/macros/s/AKfycbzr7xdp8kPWuM1trtibP6H0SJ7p1WLNmhdVb4jmpNSavKbp25OEuafz/exec" enctype="multipart/form-data" accept-charset="UTF-8" id="page1LayoutGrid1">
+<form name="contact" method="post" action="https://script.google.com/macros/s/AKfycbzr7xdp8kPWuM1trtibP6H0SJ7p1WLNmhdVb4jmpNSavKbp25OEuafz/exec" enctype="multipart/form-data" id="page1LayoutGrid1">
 <div class="row">
 <div class="col-1">
 <div id="wb_page1LayoutGrid2">
