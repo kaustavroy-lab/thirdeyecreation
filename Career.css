@@ -1355,36 +1355,37 @@ width: 100%;}
 }
 #booknowEditbox1
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #000000;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 24px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #booknowEditbox1:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #booknowEditbox1::placeholder
 {
-   color: #7F7F7F;
+   color: #0C0C0C;
    opacity: 1;
 }
 #booknowEditbox1::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #0C0C0C;
 }
 #booknowEditbox1.is-valid
 {
@@ -1430,36 +1431,37 @@ width: 100%;}
 }
 #booknowEditbox2
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #0C0C0C;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 24px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #booknowEditbox2:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #booknowEditbox2::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #booknowEditbox2::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #booknowEditbox2.is-valid
 {
@@ -1505,36 +1507,37 @@ width: 100%;}
 }
 #booknowEditbox3
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #000000;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 23px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #booknowEditbox3:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #booknowEditbox3::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #booknowEditbox3::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #booknowEditbox3.is-valid
 {
@@ -1597,9 +1600,9 @@ width: 100%;}
 }
 #booknowCombobox1
 {
-   border: 1px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
    color: #000000;
    font-family: Arial;
@@ -1607,13 +1610,14 @@ width: 100%;}
    font-style: normal;
    font-size: 13px;
    padding: 4px 4px 4px 4px;
+   box-shadow: 0px 0px 2px #7F7F7F;
    box-sizing: border-box;
    width: 100%;
 }
 #booknowCombobox1:focus
 {
-   border-color: #24C000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(36,192,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #booknowCombobox1.is-valid
@@ -1695,14 +1699,16 @@ width: 100%;}
 #booknowButton1
 {
    border: 1px solid #FFFFFF;
-   border-radius: 4px;
-   background-color: #DC143C;
-   background: linear-gradient(to top, #DC143C 0%, #FFD700 100%);
+   border-radius: 6px;
+   background-clip: padding-box;
+   background-color: #24C000;
+   background-image: none;
    color: #FFFFFF;
+   box-shadow: 0px 0px 2px #7F7F7F;
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
-   font-size: 20px;
+   font-size: 15px;
    padding: 1px 6px 1px 6px;
    text-align: center;
    -webkit-appearance: none;
@@ -1727,36 +1733,37 @@ width: 100%;}
 }
 #booknowEditbox6
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #000000;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 22px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #booknowEditbox6:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #booknowEditbox6::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #booknowEditbox6::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #booknowEditbox6.is-valid
 {
@@ -1814,6 +1821,7 @@ width: 100%;}
    margin: 0;
    padding: 0;
    text-align: center;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #booknowCard1-card-body
 {
@@ -1901,36 +1909,37 @@ width: 100%;}
 }
 #CareerEditbox1
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #000000;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 24px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #CareerEditbox1:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #CareerEditbox1::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #CareerEditbox1::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #CareerEditbox1.is-valid
 {
@@ -1993,36 +2002,37 @@ width: 100%;}
 }
 #CareerEditbox2
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #000000;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 26px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #CareerEditbox2:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #CareerEditbox2::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #CareerEditbox2::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #CareerEditbox2.is-valid
 {
@@ -2068,36 +2078,37 @@ width: 100%;}
 }
 #CareerEditbox3
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #000000;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 26px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #CareerEditbox3:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #CareerEditbox3::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #CareerEditbox3::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #CareerEditbox3.is-valid
 {
@@ -2143,36 +2154,37 @@ width: 100%;}
 }
 #CareerEditbox4
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #000000;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 24px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #CareerEditbox4:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #CareerEditbox4::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #CareerEditbox4::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #CareerEditbox4.is-valid
 {
@@ -2235,36 +2247,37 @@ width: 100%;}
 }
 #CareerEditbox5
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #000000;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 22px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #CareerEditbox5:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #CareerEditbox5::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #CareerEditbox5::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #CareerEditbox5.is-valid
 {
@@ -2327,36 +2340,37 @@ width: 100%;}
 }
 #CareerEditbox6
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #000000;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 24px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
 }
 #CareerEditbox6:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #CareerEditbox6::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #CareerEditbox6::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #CareerEditbox6.is-valid
 {
@@ -2405,36 +2419,41 @@ width: 100%;}
 }
 #CareerEditbox7
 {
-   border: 1px solid transparent;
-   border-radius: 4px;
-   background-color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #FFC000;
    background-image: none;
-   color: #DC143C;
+   color: #0C0C0C;
    font-family: Arial;
    font-weight: 1;
    font-style: normal;
    font-size: 13px;
    box-sizing: border-box;
-   line-height: 16px;
+   line-height: 24px;
    padding: 4px 4px 4px 4px;
    text-align: center;
    box-sizing: border-box;
    width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
+}
+#wb_CareerEditbox7
+{
+   margin: 0px 0px 7px 0px;
 }
 #CareerEditbox7:focus
 {
-   border-color: #FF0000;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,0,0,0.60);
+   border-color: #0080FF;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(0,128,255,0.60);
    outline: 0;
 }
 #CareerEditbox7::placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
    opacity: 1;
 }
 #CareerEditbox7::-ms-input-placeholder
 {
-   color: #7F7F7F;
+   color: #000000;
 }
 #CareerEditbox7.is-valid
 {
@@ -2585,13 +2604,13 @@ width: 100%;}
    font-size: 13px;
    box-sizing: border-box;
    padding: 4px 4px 4px 4px;
-   margin: 0;
+   margin: 5px 0px 5px 0px;
    text-align: left;
    vertical-align: top;
 }
 #wb_CareerCheckbox1
 {
-   margin: 0;
+   margin: 5px 0px 5px 0px;
 }
 #wb_CareerCheckbox1
 {
@@ -2603,7 +2622,7 @@ width: 100%;}
 }
 #wb_CareerCheckbox1 input[type='checkbox']
 {
-   position: absolute;
+   position: relative;
    padding: 0;
    margin: 0;
    opacity: 0;
@@ -2634,7 +2653,7 @@ width: 100%;}
    left: 0;
    top: 0;
    background-color: #FFFFFF;
-   border: 1px solid transparent;
+   border: 1px solid #FF0042;
    border-radius: 4px;
 }
 #wb_CareerCheckbox1 label::after
@@ -2665,6 +2684,20 @@ width: 100%;}
 {
    outline: thin dotted;
 }
+#wb_CareerCheckbox1 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#CareerCheckbox1.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
 #wb_CareerLayoutGrid3
 {
    clear: both;
@@ -2692,7 +2725,7 @@ width: 100%;}
    margin-right: 0;
    margin-left: 0;
 }
-#CareerLayoutGrid3 > .row > .col-1
+#CareerLayoutGrid3 > .row > .col-1, #CareerLayoutGrid3 > .row > .col-2
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -2701,7 +2734,7 @@ width: 100%;}
    padding-left: 0px;
    position: relative;
 }
-#CareerLayoutGrid3 > .row > .col-1
+#CareerLayoutGrid3 > .row > .col-1, #CareerLayoutGrid3 > .row > .col-2
 {
    float: left;
 }
@@ -2710,7 +2743,15 @@ width: 100%;}
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 100%;
+   width: 50%;
+   text-align: center;
+}
+#CareerLayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
    text-align: center;
 }
 #CareerLayoutGrid3:before,
@@ -2728,7 +2769,7 @@ width: 100%;}
 }
 @media (max-width: 0px)
 {
-#CareerLayoutGrid3 > .row > .col-1
+#CareerLayoutGrid3 > .row > .col-1, #CareerLayoutGrid3 > .row > .col-2
 {
    float: none;
    width: 100% !important;
@@ -2750,6 +2791,24 @@ width: 100%;}
    height: 100%;
    vertical-align: top;
    object-fit: cover;
+}
+#CareerButton1
+{
+   border: 1px solid #FFFFFF;
+   border-radius: 6px;
+   background-clip: padding-box;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   box-shadow: 0px 0px 2px #7F7F7F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 5px 0px 0px 0px;
 }
 #booknowLabel7
 {
@@ -2775,7 +2834,7 @@ width: 100%;}
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 56;
+   z-index: 57;
 }
 #wb_uid1
 {
@@ -2846,8 +2905,8 @@ width: 100%;}
 #booknowButton1
 {
    display: inline-block;
-   width: 253px;
-   height: 45px;
+   width: 66px;
+   height: 29px;
    z-index: 55;
 }
 #wb_CareerEditbox6
@@ -2911,7 +2970,7 @@ width: 100%;}
    top: 888px;
    width: 133px;
    height: 58px;
-   z-index: 109;
+   z-index: 111;
 }
 #wb_Image2
 {
@@ -2934,7 +2993,7 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 110;
+   z-index: 112;
 }
 #wb_CareerImage1
 {
@@ -2968,7 +3027,7 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 61;
+   z-index: 62;
 }
 #wb_uid7
 {
@@ -3004,6 +3063,13 @@ width: 100%;}
    font-size: 13px;
    line-height: 16px;
    color: #000000;
+}
+#CareerButton1
+{
+   display: inline-block;
+   width: 53px;
+   height: 29px;
+   z-index: 56;
 }
 #CareerLabel7
 {
@@ -3043,7 +3109,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 67;
+   z-index: 68;
 }
 #CareerEditbox4
 {
@@ -3069,7 +3135,7 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 75;
+   z-index: 76;
 }
 #wb_uid12
 {
@@ -3081,7 +3147,7 @@ width: 100%;}
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 66;
+   z-index: 67;
 }
 #CareerEditbox5
 {
@@ -3094,7 +3160,7 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 63;
+   z-index: 64;
 }
 #CareerEditbox6
 {
@@ -3103,7 +3169,7 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 62;
+   z-index: 63;
 }
 #CareerEditbox7
 {

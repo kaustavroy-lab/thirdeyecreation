@@ -7,6 +7,14 @@ $(document).ready(function()
       var isValid = $.validate.form(this);
       return isValid;
    });
+   LoadValue('page1Editbox1', 'session', 0);
+   LoadValue('page1Editbox2', 'session', 0);
+   $("#page1LayoutGrid1").submit(function(event)
+   {
+      StoreValue('page1Editbox1', 'session', 0);
+      StoreValue('page1Editbox2', 'session', 0);
+      return true;
+   });
    $("#page1FileUpload1 :file").on('change', function()
    {
       var input = $(this).parents('.input-group').find(':text');
@@ -15,10 +23,10 @@ $(document).ready(function()
    });
    $("#page1FileUpload1 .form-control").validate(
    {
-      required: false,
+      required: true,
       bootstrap: true,
       type: 'custom',
-      param: /([^\/\\]+)\.(jpg)$/i,
+      param: /([^\/\\]+)\.(pdf)$/i,
       color_text: '#000000',
       color_hint: '#00FF00',
       color_error: '#FF0000',

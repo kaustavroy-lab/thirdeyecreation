@@ -141,6 +141,7 @@ $(document).ready(function()
       required: true,
       bootstrap: true,
       type: 'text',
+      length_min: '2',
       color_text: '#000000',
       color_hint: '#00FF00',
       color_error: '#FF0000',
