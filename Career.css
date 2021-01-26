@@ -657,7 +657,7 @@ width: 100%;}
    background-image: none;
    border: 0px solid #FFFFFF;
    width: 100%;
-   text-align: left;
+   text-align: center;
 }
 #booknowLayoutGrid1:before,
 #booknowLayoutGrid1:after,
@@ -1234,7 +1234,7 @@ width: 100%;}
 #booknowLayoutGrid2
 {
    box-sizing: border-box;
-   padding: 0px 0px 10px 0px;
+   padding: 0;
    margin-right: auto;
    margin-left: auto;
 }
@@ -1706,7 +1706,7 @@ width: 100%;}
    padding: 1px 6px 1px 6px;
    text-align: center;
    -webkit-appearance: none;
-   margin: 0;
+   margin: 5px 0px 0px 0px;
 }
 #booknowLabel8
 {
@@ -2478,6 +2478,279 @@ width: 100%;}
 {
    display: block;
 }
+#wb_CareerLayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-clip: padding-box;
+   background-color: rgba(251,251,251,0.82);
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#CareerLayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#CareerLayoutGrid2 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#CareerLayoutGrid2 > .row > .col-1, #CareerLayoutGrid2 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#CareerLayoutGrid2 > .row > .col-1, #CareerLayoutGrid2 > .row > .col-2
+{
+   float: left;
+}
+#CareerLayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: right;
+}
+#CareerLayoutGrid2 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 83.33333333%;
+   text-align: left;
+}
+#CareerLayoutGrid2:before,
+#CareerLayoutGrid2:after,
+#CareerLayoutGrid2 .row:before,
+#CareerLayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#CareerLayoutGrid2:after,
+#CareerLayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#CareerLayoutGrid2 > .row > .col-1, #CareerLayoutGrid2 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_CareerImage1
+{
+   height: 100%;
+   margin: -10px 0px 0px 0px;
+   vertical-align: top;
+}
+#CareerImage1
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
+#CareerLabel7
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#wb_CareerCheckbox1
+{
+   margin: 0;
+}
+#wb_CareerCheckbox1
+{
+   position: relative;
+}
+#wb_CareerCheckbox1, #wb_CareerCheckbox1 *, #wb_CareerCheckbox1 *::before, #wb_CareerCheckbox1 *::after
+{
+   box-sizing: border-box;
+}
+#wb_CareerCheckbox1 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 29px;
+   height: 29px;
+   left: 0;
+   top: 0;
+}
+#wb_CareerCheckbox1 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_CareerCheckbox1 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 29px;
+   height: 29px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid transparent;
+   border-radius: 4px;
+}
+#wb_CareerCheckbox1 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 29px;
+   height: 29px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 29px;
+}
+#wb_CareerCheckbox1 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3csvg%20height%3d%2229%22%20width%3d%2229%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%3cg%20style%3d%22fill:%23FFFFFF%22%20transform%3d%22scale%280.0162%29%22%3e%0d%0a%3cpath%20transform%3d%22rotate%28180%29%20scale%28%2d1%2c1%29%20translate%280%2c%2d1536%29%22%20d%3d%22M1671%20970q0%20%2d40%20%2d28%20%2d68l%2d724%20%2d724l%2d136%20%2d136q%2d28%20%2d28%20%2d68%20%2d28t%2d68%2028l%2d136%20136l%2d362%20362q%2d28%2028%20%2d28%2068t28%2068l136%20136q28%2028%2068%2028t68%20%2d28l294%20%2d295l656%20657q28%2028%2068%2028t68%20%2d28l136%20%2d136q28%20%2d28%2028%20%2d68z%22/%3e%3c/g%3e%3c/svg%3e') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_CareerCheckbox1 input[type='checkbox']:checked + label::before
+{
+   background-color: #24C000;
+   background-image: none;
+   border-color: #24C000;
+}
+#wb_CareerCheckbox1 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_CareerLayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-clip: padding-box;
+   background-color: rgba(251,251,251,0.82);
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#CareerLayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 0px 10px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#CareerLayoutGrid3 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#CareerLayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#CareerLayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#CareerLayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#CareerLayoutGrid3:before,
+#CareerLayoutGrid3:after,
+#CareerLayoutGrid3 .row:before,
+#CareerLayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#CareerLayoutGrid3:after,
+#CareerLayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#CareerLayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_CareerImage2
+{
+   height: 100%;
+   margin: -10px 0px 0px 0px;
+   vertical-align: top;
+}
+#CareerImage2
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
 #booknowLabel7
 {
    display: block;
@@ -2502,7 +2775,7 @@ width: 100%;}
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 52;
+   z-index: 56;
 }
 #wb_uid1
 {
@@ -2575,7 +2848,7 @@ width: 100%;}
    display: inline-block;
    width: 253px;
    height: 45px;
-   z-index: 51;
+   z-index: 55;
 }
 #wb_CareerEditbox6
 {
@@ -2638,7 +2911,7 @@ width: 100%;}
    top: 888px;
    width: 133px;
    height: 58px;
-   z-index: 99;
+   z-index: 109;
 }
 #wb_Image2
 {
@@ -2661,7 +2934,14 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 100;
+   z-index: 110;
+}
+#wb_CareerImage1
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 51;
 }
 #CareerLabel5
 {
@@ -2688,12 +2968,19 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 55;
+   z-index: 61;
 }
 #wb_uid7
 {
    background-color: #FFF5EE;
    color: #DC143C;
+}
+#wb_CareerImage2
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 54;
 }
 #booknowEditbox3
 {
@@ -2717,6 +3004,17 @@ width: 100%;}
    font-size: 13px;
    line-height: 16px;
    color: #000000;
+}
+#CareerLabel7
+{
+   display: block;
+   width: 100%;
+   line-height: 16px;
+   z-index: 53;
+}
+#CareerCheckbox1
+{
+   display: inline-block;
 }
 #CareerEditbox2
 {
@@ -2745,7 +3043,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 61;
+   z-index: 67;
 }
 #CareerEditbox4
 {
@@ -2771,7 +3069,7 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 69;
+   z-index: 75;
 }
 #wb_uid12
 {
@@ -2783,7 +3081,7 @@ width: 100%;}
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 60;
+   z-index: 66;
 }
 #CareerEditbox5
 {
@@ -2796,7 +3094,7 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 57;
+   z-index: 63;
 }
 #CareerEditbox6
 {
@@ -2805,7 +3103,7 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 56;
+   z-index: 62;
 }
 #CareerEditbox7
 {
@@ -2862,6 +3160,13 @@ width: 100%;}
    width: 100%;
    line-height: 16px;
    z-index: 37;
+}
+#wb_CareerCheckbox1
+{
+   display: inline-block;
+   width: 33px;
+   height: 29px;
+   z-index: 52;
 }
 #booknowLabel5
 {

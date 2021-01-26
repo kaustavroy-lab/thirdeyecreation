@@ -214,8 +214,7 @@ $(document).ready(function()
    {
       required: false,
       bootstrap: true,
-      type: 'custom',
-      param: /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ \t\r\n\f0-9-]*$/,
+      type: 'text',
       length_min: '3',
       length_max: '100',
       color_text: '#000000',
@@ -251,5 +250,17 @@ $(document).ready(function()
       effect: 'none',
       error_text: 'minimum 50 words'
    });
+   $("#CareerCheckbox1").change(function()
+   {
+      if ($('#CareerCheckbox1').is(':checked'))
+      {
+         ShowObjectWithEffect('booknowButton1', 1, '', 0);
+      }
+      if (!$('#CareerCheckbox1').is(':checked'))
+      {
+         ShowObjectWithEffect('booknowButton1', 0, '', 0);
+      }
+   });
+   $("#CareerCheckbox1").trigger('change');
    $('img[data-src]').lazyload();
 });
