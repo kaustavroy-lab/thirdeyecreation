@@ -136,24 +136,5 @@ $(document).ready(function()
       effect: 'none',
       error_text: ''
    });
-   $("#booknowEditbox6").validate(
-   {
-      required: true,
-      bootstrap: true,
-      type: 'text',
-      length_min: '2',
-      color_text: '#000000',
-      color_hint: '#00FF00',
-      color_error: '#FF0000',
-      color_border: '#808080',
-      nohint: false,
-      font_family: 'Arial',
-      font_size: '13px',
-      position: 'topleft',
-      offsetx: 0,
-      offsety: 0,
-      effect: 'none',
-      error_text: '*Required'
-   });
    $('img[data-src]').lazyload();
 });
