@@ -1,0 +1,206 @@
+body
+{
+   background-color: #FFFFFF;
+   margin: 0;
+   padding: 0;
+}
+p
+{
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+}
+th
+{
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #337AB7;
+   color: #FFFFFF;
+   text-align: left;
+}
+td
+{
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   vertical-align: top;
+}
+.table 
+{
+   background-color: transparent;
+   border: 1px solid #DDDDDD;
+   border-collapse: collapse;
+   border-spacing: 0;
+   max-width: 100%;
+   width: 100%;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td 
+{
+   padding: 8px;
+   line-height: 1.4285;
+   vertical-align: top;
+   border-top: 1px solid #DDDDDD;
+}
+.table > thead > tr > th
+{
+   vertical-align: bottom;
+   border-bottom: 2px solid #DDDDDD;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td 
+{
+   border-top: 0;
+}
+.table-striped>tbody>tr:nth-child(odd)>td
+{
+   background-color: #FFFFFF;
+}
+.table-hover > tbody > tr:hover > td
+{
+   background-color: #F5F5F5 !important;
+}
+td img
+{
+   border-width: 0;
+}
+a, a:hover, a:visited
+{
+   color: #000000;
+}
+input, select, textarea
+{
+   box-sizing: border-box;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   margin-bottom: 10px;
+   text-decoration: none;
+   color: #555555;
+   border:1px #CCCCCC solid;
+}
+label
+{
+   display: inline-block;
+   padding: 6px 0px 6px 0px;
+   text-align: left;
+}
+.form-control
+{
+   margin-bottom: 10px;
+   padding: 6px 6px 6px 6px;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 1.4285;
+   color: #555555;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   line-height: 1.4285;
+   border-radius: 4px;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus
+{
+   border-color: #66AFE9;
+   outline: 0;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+}
+.btn, a.btn
+{
+   display: inline-block;
+   padding: 6px 12px;
+   margin-bottom: 0px;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.4285;
+   text-align: center;
+   text-decoration: none;
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: pointer;
+   -webkit-user-select: none;
+   user-select: none;
+   background-color: #337AB7;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   color: #FFFFFF;
+}
+#nav
+{
+   background-color: #337AB7;
+   float: left;
+   list-style-type: none;
+   margin: 0 0 6px 0;
+   padding: 0;
+   width: 100%;
+}
+#nav li
+{
+   float: left;
+   position: relative;
+}
+#nav a
+{
+   display: block;
+   background-color: #337AB7;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   text-decoration: none;
+   padding: 8px 8px 8px 8px;
+}
+#nav a:hover
+{
+   background-color: #FFFFFF;
+   color: #337AB7;
+}
+#nav ul
+{
+   margin: 0;
+   padding: 0;
+   background: transparent;
+   list-style: none;
+   position: absolute;
+   left: -9999px;
+}
+#nav ul li
+{
+   float: none;
+}
+#nav ul a
+{
+   white-space: nowrap;
+}
+#nav li:hover ul
+{
+   left: 0;
+}
+#nav li:hover a
+{
+   background-color: #FFFFFF;
+   color: #337AB7;
+}
+#nav li:hover ul a
+{
+   text-decoration: none;
+   background-color: #337AB7;
+   color: #FFFFFF;
+}
+#nav li:hover ul li a:hover
+{
+   background-color: #FFFFFF;
+   color: #337AB7;
+}

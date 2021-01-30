@@ -40,6 +40,17 @@ $(document).ready(function()
       effect: 'none',
       error_text: ''
    });
+   $.getJSON('page1.json?v=' + new Date().getTime(), function(data)
+   {
+      $.each(data, function(key, value)
+      {
+         $('#wb_'+value.object).html(value.content);
+      });
+   })
+   .always(function()
+   {
+      $('.editable-content-hidden').removeClass('editable-content-hidden');
+   });
    $('img[data-src]').lazyload();
 });
             const scriptURL = 'https://script.google.com/macros/s/AKfycbzr7xdp8kPWuM1trtibP6H0SJ7p1WLNmhdVb4jmpNSavKbp25OEuafz/exec'
