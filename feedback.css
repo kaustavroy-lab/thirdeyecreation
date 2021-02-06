@@ -482,68 +482,6 @@ width: 100%;}
    width: 100%;
 }
 }
-#Layer1
-{
-   background-color: transparent;
-   background-image: none;
-}
-#wb_IconFont3
-{
-   background-color: #7CFC00;
-   background: linear-gradient(to bottom, #244A00 0%, #77F200 25%, #244A00 100%);
-   border: 9px solid transparent;
-   border-radius: 2px;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-}
-#wb_IconFont3:hover
-{
-   background-color: #FFFFFF;
-   background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 25%, #FFFFFF 100%);
-   border: 9px solid transparent;
-}
-#IconFont3
-{
-   height: 40px;
-   width: 34px;
-}
-#IconFont3 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 34px;
-   line-height: 40px;
-   vertical-align: middle;
-   width: 28px;
-}
-#wb_IconFont3:hover i
-{
-   color: #800000;
-}
-#wb_Text6 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 5px 0px 0px 0px;
-   text-align: center;
-}
-#wb_Text6
-{
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 16px;
-}
-#wb_Text6 p, #wb_Text6 ul
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_LayoutGrid7
 {
    clear: both;
@@ -2101,12 +2039,74 @@ width: 100%;}
    width: 100%;
    height: 40px;
 }
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_IconFont3
+{
+   background-color: #7CFC00;
+   background: linear-gradient(to bottom, #572D51 0%, #359395 25%, #572D51 100%);
+   border: 4px solid transparent;
+   border-radius: 2px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_IconFont3:hover
+{
+   background-color: #FFFFFF;
+   background: linear-gradient(to bottom, #86B7EC 0%, #A2C6E9 25%, #86B7EC 100%);
+   border: 4px solid transparent;
+}
+#IconFont3
+{
+   height: 20px;
+   width: 23px;
+}
+#IconFont3 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+   width: 16px;
+}
+#wb_IconFont3:hover i
+{
+   color: #800000;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text6
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 13.5px;
+}
+#wb_Text6 p, #wb_Text6 ul
+{
+   margin: 0;
+   padding: 0;
+}
 #Label2
 {
    display: block;
    width: 100%;
    line-height: 18px;
-   z-index: 43;
+   z-index: 41;
 }
 #wb_FontAwesomeIcon1
 {
@@ -2114,7 +2114,7 @@ width: 100%;}
    width: 24px;
    height: 24px;
    text-align: center;
-   z-index: 38;
+   z-index: 36;
 }
 #wb_uid1
 {
@@ -2125,7 +2125,7 @@ width: 100%;}
    display: inline-block;
    width: 71px;
    line-height: 18px;
-   z-index: 22;
+   z-index: 20;
 }
 #wb_uid2
 {
@@ -2139,18 +2139,17 @@ width: 100%;}
    z-index: 2;
    overflow: hidden;
 }
+#wb_uid3
+{
+   background-color: #FFF5EE;
+   color: #DC143C;
+}
 #Label4
 {
    display: inline-block;
    width: 71px;
    line-height: 18px;
-   z-index: 25;
-}
-#wb_uid3
-{
-   font-size: 13px;
-   line-height: 16px;
-   color: #FFFFFF;
+   z-index: 23;
 }
 #wb_TabMenu2
 {
@@ -2160,25 +2159,27 @@ width: 100%;}
    z-index: 3;
    overflow: hidden;
 }
+#Layer1-container
+{
+   width: 97px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_uid4
+{
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
+}
 #Label5
 {
    display: inline-block;
    width: 71px;
    line-height: 18px;
-   z-index: 28;
-}
-#wb_uid4
-{
-   background-color: #FF7F50;
-   font-weight: bold;
-}
-#Layer1-container
-{
-   width: 133px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
+   z-index: 26;
 }
 #wb_Image1
 {
@@ -2187,34 +2188,33 @@ width: 100%;}
    height: 84px;
    z-index: 5;
 }
+#Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 1046px;
+   top: 896px;
+   width: 97px;
+   height: 28px;
+   z-index: 84;
+}
 #wb_uid5
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
+   font-family: "Courier New";
 }
 #Label6
 {
    display: inline-block;
    width: 71px;
    line-height: 18px;
-   z-index: 31;
+   z-index: 29;
 }
 #Progressbar1
 {
    display: block;
    width: 100%;
    height: 18px;
-   z-index: 23;
-}
-#Layer1
-{
-   position: absolute;
-   text-align: center;
-   left: 993px;
-   top: 888px;
-   width: 133px;
-   height: 58px;
-   z-index: 83;
+   z-index: 21;
 }
 #wb_Image2
 {
@@ -2237,28 +2237,25 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 84;
+   z-index: 83;
 }
 #wb_uid6
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   font-family: "Courier New";
 }
 #Label7
 {
    display: inline-block;
    width: 71px;
    line-height: 18px;
-   z-index: 34;
+   z-index: 32;
 }
 #Progressbar2
 {
    display: block;
    width: 100%;
    height: 18px;
-   z-index: 26;
+   z-index: 24;
 }
 #wb_FontAwesomeIcon6
 {
@@ -2266,82 +2263,19 @@ width: 100%;}
    width: 24px;
    height: 24px;
    text-align: center;
-   z-index: 39;
-}
-#wb_uid7
-{
-   font-family: "Courier New";
-}
-#wb_Card9
-{
-   display: flex;
-   text-align: center;
-   z-index: 50;
-}
-#Progressbar3
-{
-   display: block;
-   width: 100%;
-   height: 18px;
-   z-index: 29;
-}
-#Label8
-{
-   display: inline-block;
-   width: 71px;
-   line-height: 18px;
-   z-index: 24;
-}
-#wb_FontAwesomeIcon7
-{
-   display: inline-block;
-   width: 24px;
-   height: 24px;
-   text-align: center;
-   z-index: 40;
+   z-index: 37;
 }
 #wb_Text6
 {
    position: absolute;
    left: 0px;
-   top: 19px;
-   width: 82px;
-   height: 15px;
+   top: 8px;
+   width: 68px;
+   height: 13px;
    text-align: center;
-   z-index: 21;
+   z-index: 82;
 }
-#wb_uid8
-{
-   font-family: "Courier New";
-}
-#Progressbar4
-{
-   display: block;
-   width: 100%;
-   height: 18px;
-   z-index: 32;
-}
-#Label9
-{
-   display: inline-block;
-   width: 71px;
-   line-height: 18px;
-   z-index: 27;
-}
-#wb_FontAwesomeIcon8
-{
-   display: inline-block;
-   width: 24px;
-   height: 24px;
-   text-align: center;
-   z-index: 41;
-}
-#wb_uid10
-{
-   font-family: "Courier New";
-   font-weight: normal;
-}
-#wb_uid9
+#wb_uid7
 {
    font-family: "Arial";
    font-size: 13px;
@@ -2349,12 +2283,78 @@ width: 100%;}
    font-weight: bold;
    color: #000000;
 }
+#wb_Card9
+{
+   display: flex;
+   text-align: center;
+   z-index: 48;
+}
+#Progressbar3
+{
+   display: block;
+   width: 100%;
+   height: 18px;
+   z-index: 27;
+}
+#Label8
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 22;
+}
+#wb_FontAwesomeIcon7
+{
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   text-align: center;
+   z-index: 38;
+}
+#wb_uid8
+{
+   font-family: "Courier New";
+   font-weight: normal;
+}
+#Progressbar4
+{
+   display: block;
+   width: 100%;
+   height: 18px;
+   z-index: 30;
+}
+#Label9
+{
+   display: inline-block;
+   width: 71px;
+   line-height: 18px;
+   z-index: 25;
+}
+#wb_FontAwesomeIcon8
+{
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   text-align: center;
+   z-index: 39;
+}
+#wb_uid10
+{
+   background-color: #C21010;
+   font-weight: bold;
+}
+#wb_uid9
+{
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
+}
 #Progressbar5
 {
    display: block;
    width: 100%;
    height: 18px;
-   z-index: 35;
+   z-index: 33;
 }
 #wb_FontAwesomeIcon9
 {
@@ -2362,31 +2362,31 @@ width: 100%;}
    width: 24px;
    height: 24px;
    text-align: center;
-   z-index: 42;
+   z-index: 40;
+}
+#wb_IconFont3
+{
+   position: absolute;
+   left: 66px;
+   top: 0px;
+   width: 23px;
+   height: 20px;
+   text-align: center;
+   z-index: 81;
 }
 #wb_Image7
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 56;
+   z-index: 54;
 }
 #Label10
 {
    display: inline-block;
    width: 71px;
    line-height: 18px;
-   z-index: 30;
-}
-#wb_IconFont3
-{
-   position: absolute;
-   left: 81px;
-   top: 0px;
-   width: 34px;
-   height: 40px;
-   text-align: center;
-   z-index: 20;
+   z-index: 28;
 }
 #wb_IconFont4
 {
@@ -2396,21 +2396,21 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 64;
+   z-index: 62;
 }
 #wb_Image8
 {
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 55;
+   z-index: 53;
 }
 #Label11
 {
    display: inline-block;
    width: 71px;
    line-height: 18px;
-   z-index: 33;
+   z-index: 31;
 }
 #Bookmark2
 {
@@ -2420,26 +2420,26 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 52;
+   z-index: 50;
 }
 #Label12
 {
    display: inline-block;
    width: 71px;
    line-height: 18px;
-   z-index: 36;
+   z-index: 34;
 }
 #wb_Card11
 {
    display: flex;
    text-align: center;
-   z-index: 51;
+   z-index: 49;
 }
 #Line1
 {
    display: block;
    width: 100%;
-   z-index: 44;
+   z-index: 42;
 }
 #Layer2-container
 {
@@ -2454,7 +2454,7 @@ width: 100%;}
    display: inline-block;
    width: 131px;
    line-height: 24px;
-   z-index: 37;
+   z-index: 35;
 }
 #wb_uid0
 {

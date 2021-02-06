@@ -5,7 +5,6 @@ $(document).ready(function()
       var isValid = $.validate.form(this);
       return isValid;
    });
-   $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
    $("#Layer2").stickylayer({orientation: 4, position: [0, 0], delay: 500});
    function skrollrInit()
    {
@@ -136,5 +135,6 @@ $(document).ready(function()
       effect: 'none',
       error_text: ''
    });
+   $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
    $('img[data-src]').lazyload();
 });

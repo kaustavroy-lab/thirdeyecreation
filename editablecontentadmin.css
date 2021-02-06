@@ -8,7 +8,7 @@ p
 {
    font-size: 13px;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
    text-decoration: none;
    color: #000000;
@@ -17,7 +17,7 @@ th
 {
    font-size: 13px;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
    text-decoration: none;
    background-color: #337AB7;
@@ -28,7 +28,7 @@ td
 {
    font-size: 13px;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
    text-decoration: none;
    color: #000000;
@@ -80,7 +80,7 @@ input, select, textarea
    box-sizing: border-box;
    font-size: 13px;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
    margin-bottom: 10px;
    text-decoration: none;

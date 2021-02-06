@@ -1,6 +1,5 @@
 $(document).ready(function()
 {
-   $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
    $("#booknowLayoutGrid1").submit(function(event)
    {
       var isValid = $.validate.form(this);

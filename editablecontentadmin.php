@@ -1,7 +1,7 @@
 <?php
    session_start();
    error_reporting(0);
-   define('ADMIN_PASS', '5f4dcc3b5aa765d61d8327deb882cf99');
+   define('ADMIN_PASS', '21232f297a57a5a743894a0e4a801fc3');
    $session_timeout = 600;
    $username = 'admin';
    $labelHome = 'Home';
@@ -19,7 +19,7 @@
    $labelPassword = 'Password';
    $objects =
    [
-      ['page' => 'page1.html', 'object' => 'page1EditableContent1', 'label' => 'page1EditableContent1']
+      ['page' => 'page1.php', 'object' => 'page1EditableContent1', 'label' => 'page1EditableContent1']
    ];
    $admin_password = isset($_COOKIE['editablecontentadmin_pwd']) ? $_COOKIE['editablecontentadmin_pwd'] : '';
 

@@ -414,68 +414,6 @@ input:focus, textarea:focus, select:focus
    margin: 5px 0px 7px 0px;
    box-sizing: border-box;
 width: 100%;}
-#Layer1
-{
-   background-color: transparent;
-   background-image: none;
-}
-#wb_IconFont3
-{
-   background-color: #7CFC00;
-   background: linear-gradient(to bottom, #244A00 0%, #77F200 25%, #244A00 100%);
-   border: 9px solid transparent;
-   border-radius: 2px;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-}
-#wb_IconFont3:hover
-{
-   background-color: #FFFFFF;
-   background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 25%, #FFFFFF 100%);
-   border: 9px solid transparent;
-}
-#IconFont3
-{
-   height: 40px;
-   width: 34px;
-}
-#IconFont3 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 34px;
-   line-height: 40px;
-   vertical-align: middle;
-   width: 28px;
-}
-#wb_IconFont3:hover i
-{
-   color: #800000;
-}
-#wb_Text6 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 5px 0px 0px 0px;
-   text-align: center;
-}
-#wb_Text6
-{
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 16px;
-}
-#wb_Text6 p, #wb_Text6 ul
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_LayoutGrid11
 {
    clear: both;
@@ -4108,19 +4046,19 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 53;
+   z-index: 51;
 }
 #wb_CareerEditbox3
 {
    display: inline-block;
    width: 100%;
-   z-index: 49;
+   z-index: 47;
 }
 #wb_booknowEditbox6
 {
    display: inline-block;
    width: 100%;
-   z-index: 40;
+   z-index: 38;
 }
 #wb_CareerIconFont3
 {
@@ -4128,14 +4066,14 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 30;
+   z-index: 28;
 }
 #wb_booknowCard1
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 68;
+   z-index: 66;
 }
 #wb_uid1
 {
@@ -4146,13 +4084,13 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 56;
+   z-index: 54;
 }
 #wb_CareerEditbox4
 {
    display: inline-block;
    width: 100%;
-   z-index: 52;
+   z-index: 50;
 }
 #booknowCombobox1
 {
@@ -4163,7 +4101,7 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 33;
+   z-index: 31;
 }
 #wb_uid2
 {
@@ -4182,13 +4120,13 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 59;
+   z-index: 57;
 }
 #wb_CareerEditbox5
 {
    display: inline-block;
    width: 100%;
-   z-index: 55;
+   z-index: 53;
 }
 #wb_CareerIconFont5
 {
@@ -4196,13 +4134,11 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 36;
+   z-index: 34;
 }
 #wb_uid3
 {
-   font-size: 13px;
-   line-height: 16px;
-   color: #FFFFFF;
+   color: #000000;
 }
 #wb_TabMenu2
 {
@@ -4217,13 +4153,13 @@ width: 100%;}
    display: inline-block;
    width: 66px;
    height: 29px;
-   z-index: 66;
+   z-index: 64;
 }
 #wb_CareerEditbox6
 {
    display: inline-block;
    width: 100%;
-   z-index: 58;
+   z-index: 56;
 }
 #wb_CareerIconFont6
 {
@@ -4231,20 +4167,11 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 39;
+   z-index: 37;
 }
 #wb_uid4
 {
-   background-color: #FF7F50;
-   font-weight: bold;
-}
-#Layer1-container
-{
-   width: 133px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
+   color: #000000;
 }
 #wb_Image1
 {
@@ -4253,11 +4180,16 @@ width: 100%;}
    height: 84px;
    z-index: 5;
 }
+#wb_uid5
+{
+   background-color: #FFF5EE;
+   color: #DC143C;
+}
 #wb_CareerEditbox7
 {
    display: inline-block;
    width: 100%;
-   z-index: 61;
+   z-index: 59;
 }
 #wb_CareerIconFont7
 {
@@ -4265,24 +4197,10 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 42;
+   z-index: 40;
 }
 #booknowEditbox1
 {
-}
-#wb_uid5
-{
-   color: #000000;
-}
-#Layer1
-{
-   position: absolute;
-   text-align: center;
-   left: 993px;
-   top: 888px;
-   width: 133px;
-   height: 58px;
-   z-index: 144;
 }
 #wb_Image2
 {
@@ -4305,14 +4223,21 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 145;
+   z-index: 142;
+}
+#wb_uid6
+{
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #wb_CareerImage1
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 62;
+   z-index: 60;
 }
 #wb_CareerIconFont8
 {
@@ -4320,7 +4245,7 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 45;
+   z-index: 43;
 }
 #booknowEditbox2
 {
@@ -4330,29 +4255,24 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 26;
+   z-index: 24;
 }
-#wb_uid6
+#wb_uid7
 {
-   color: #000000;
+   font-family: "Courier New";
 }
 #wb_Card9
 {
    display: flex;
    text-align: center;
-   z-index: 87;
-}
-#wb_uid7
-{
-   background-color: #FFF5EE;
-   color: #DC143C;
+   z-index: 85;
 }
 #wb_CareerImage2
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 65;
+   z-index: 63;
 }
 #wb_CareerIconFont9
 {
@@ -4360,7 +4280,7 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 48;
+   z-index: 46;
 }
 #booknowEditbox3
 {
@@ -4368,36 +4288,23 @@ width: 100%;}
 #CareerEditbox1
 {
 }
-#wb_Text6
-{
-   position: absolute;
-   left: 0px;
-   top: 19px;
-   width: 82px;
-   height: 15px;
-   text-align: center;
-   z-index: 20;
-}
 #wb_uid8
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   font-family: "Courier New";
 }
 #CareerButton1
 {
    display: inline-block;
    width: 53px;
    height: 29px;
-   z-index: 67;
+   z-index: 65;
 }
 #CareerLabel7
 {
    display: block;
    width: 100%;
    line-height: 16px;
-   z-index: 64;
+   z-index: 62;
 }
 #CareerCheckbox1
 {
@@ -4411,15 +4318,20 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 29;
+   z-index: 27;
 }
 #wb_uid10
 {
    font-family: "Courier New";
+   font-weight: normal;
 }
 #wb_uid9
 {
-   font-family: "Courier New";
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
 }
 #CareerEditbox3
 {
@@ -4429,22 +4341,14 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 32;
-}
-#wb_uid11
-{
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   font-weight: bold;
-   color: #000000;
+   z-index: 30;
 }
 #wb_Image7
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 93;
+   z-index: 91;
 }
 #CareerEditbox4
 {
@@ -4457,17 +4361,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 35;
-}
-#wb_IconFont3
-{
-   position: absolute;
-   left: 81px;
-   top: 0px;
-   width: 34px;
-   height: 40px;
-   text-align: center;
-   z-index: 19;
+   z-index: 33;
 }
 #wb_IconFont4
 {
@@ -4477,19 +4371,14 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 101;
-}
-#wb_uid12
-{
-   font-family: "Courier New";
-   font-weight: normal;
+   z-index: 99;
 }
 #wb_Image8
 {
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 92;
+   z-index: 90;
 }
 #CareerEditbox5
 {
@@ -4499,7 +4388,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 38;
+   z-index: 36;
 }
 #Bookmark2
 {
@@ -4509,7 +4398,7 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 89;
+   z-index: 87;
 }
 #CareerEditbox6
 {
@@ -4519,13 +4408,13 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 41;
+   z-index: 39;
 }
 #wb_Card11
 {
    display: flex;
    text-align: center;
-   z-index: 88;
+   z-index: 86;
 }
 #CareerEditbox7
 {
@@ -4536,20 +4425,20 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 51;
+   z-index: 49;
 }
 #wb_CareerImage8
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 44;
+   z-index: 42;
 }
 #wb_booknowEditbox1
 {
    display: inline-block;
    width: 100%;
-   z-index: 28;
+   z-index: 26;
 }
 #wb_CareerIconFont11
 {
@@ -4557,26 +4446,26 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 54;
+   z-index: 52;
 }
 #wb_CareerImage9
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 47;
+   z-index: 45;
 }
 #wb_booknowCombobox1
 {
    display: inline-block;
    width: 100%;
-   z-index: 37;
+   z-index: 35;
 }
 #wb_booknowEditbox2
 {
    display: inline-block;
    width: 100%;
-   z-index: 31;
+   z-index: 29;
 }
 #Layer2-container
 {
@@ -4592,20 +4481,20 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 57;
+   z-index: 55;
 }
 #wb_booknowEditbox3
 {
    display: inline-block;
    width: 100%;
-   z-index: 43;
+   z-index: 41;
 }
 #wb_CareerCheckbox1
 {
    display: inline-block;
    width: 33px;
    height: 29px;
-   z-index: 63;
+   z-index: 61;
 }
 #wb_CareerIconFont13
 {
@@ -4613,13 +4502,13 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 60;
+   z-index: 58;
 }
 #wb_CareerEditbox1
 {
    display: inline-block;
    width: 100%;
-   z-index: 34;
+   z-index: 32;
 }
 #wb_CareerIconFont1
 {
@@ -4627,20 +4516,20 @@ width: 100%;}
    width: 36px;
    height: 32px;
    text-align: center;
-   z-index: 27;
+   z-index: 25;
 }
 #wb_CareerImage10
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 50;
+   z-index: 48;
 }
 #wb_CareerEditbox2
 {
    display: inline-block;
    width: 100%;
-   z-index: 46;
+   z-index: 44;
 }
 #wb_uid0
 {

@@ -921,68 +921,6 @@ width: 100%;}
    width: 100%;
 }
 }
-#Layer1
-{
-   background-color: transparent;
-   background-image: none;
-}
-#wb_IconFont3
-{
-   background-color: #7CFC00;
-   background: linear-gradient(to bottom, #244A00 0%, #77F200 25%, #244A00 100%);
-   border: 9px solid transparent;
-   border-radius: 2px;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-}
-#wb_IconFont3:hover
-{
-   background-color: #FFFFFF;
-   background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 25%, #FFFFFF 100%);
-   border: 9px solid transparent;
-}
-#IconFont3
-{
-   height: 40px;
-   width: 34px;
-}
-#IconFont3 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 34px;
-   line-height: 40px;
-   vertical-align: middle;
-   width: 28px;
-}
-#wb_IconFont3:hover i
-{
-   color: #800000;
-}
-#wb_Text6 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 5px 0px 0px 0px;
-   text-align: center;
-}
-#wb_Text6
-{
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 16px;
-}
-#wb_Text6 p, #wb_Text6 ul
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_count-up
 {
    clear: both;
@@ -2452,15 +2390,81 @@ width: 100%;}
    margin: 7px 0px 20px 0px;
    box-sizing: border-box;
 width: 100%;}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_IconFont3
+{
+   background-color: #7CFC00;
+   background: linear-gradient(to bottom, #572D51 0%, #359395 25%, #572D51 100%);
+   border: 4px solid transparent;
+   border-radius: 2px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_IconFont3:hover
+{
+   background-color: #FFFFFF;
+   background: linear-gradient(to bottom, #86B7EC 0%, #A2C6E9 25%, #86B7EC 100%);
+   border: 4px solid transparent;
+}
+#IconFont3
+{
+   height: 20px;
+   width: 23px;
+}
+#IconFont3 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+   width: 16px;
+}
+#wb_IconFont3:hover i
+{
+   color: #800000;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text6
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 13.5px;
+}
+#wb_Text6 p, #wb_Text6 ul
+{
+   margin: 0;
+   padding: 0;
+}
 #wb_uid19
 {
-   font-family: "Courier New";
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
 }
 #wb_Heading2
 {
    display: inline-block;
    width: 100%;
-   z-index: 56;
+   z-index: 54;
 }
 #wb_FontAwesomeIcon1
 {
@@ -2468,7 +2472,7 @@ width: 100%;}
    width: 64px;
    height: 64px;
    text-align: center;
-   z-index: 52;
+   z-index: 50;
 }
 #wb_Card3
 {
@@ -2484,7 +2488,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 59;
+   z-index: 57;
 }
 #wb_FontAwesomeIcon2
 {
@@ -2492,7 +2496,7 @@ width: 100%;}
    width: 64px;
    height: 64px;
    text-align: center;
-   z-index: 55;
+   z-index: 53;
 }
 #wb_Card4
 {
@@ -2516,7 +2520,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 62;
+   z-index: 60;
 }
 #wb_FontAwesomeIcon3
 {
@@ -2524,7 +2528,7 @@ width: 100%;}
    width: 64px;
    height: 64px;
    text-align: center;
-   z-index: 58;
+   z-index: 56;
 }
 #wb_uid3
 {
@@ -2540,11 +2544,19 @@ width: 100%;}
    z-index: 3;
    overflow: hidden;
 }
+#Layer1-container
+{
+   width: 97px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
 #wb_Heading5
 {
    display: inline-block;
    width: 100%;
-   z-index: 65;
+   z-index: 63;
 }
 #wb_FontAwesomeIcon4
 {
@@ -2552,15 +2564,7 @@ width: 100%;}
    width: 64px;
    height: 64px;
    text-align: center;
-   z-index: 61;
-}
-#Layer1-container
-{
-   width: 133px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
+   z-index: 59;
 }
 #wb_uid4
 {
@@ -2575,23 +2579,23 @@ width: 100%;}
    height: 84px;
    z-index: 5;
 }
+#Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 1036px;
+   top: 839px;
+   width: 97px;
+   height: 28px;
+   z-index: 95;
+}
 #wb_FontAwesomeIcon5
 {
    display: inline-block;
    width: 64px;
    height: 64px;
    text-align: center;
-   z-index: 64;
-}
-#Layer1
-{
-   position: absolute;
-   text-align: center;
-   left: 993px;
-   top: 888px;
-   width: 133px;
-   height: 58px;
-   z-index: 94;
+   z-index: 62;
 }
 #wb_uid5
 {
@@ -2620,7 +2624,7 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 95;
+   z-index: 94;
 }
 #wb_Image3
 {
@@ -2635,21 +2639,21 @@ width: 100%;}
    line-height: 16px;
    color: #000000;
 }
-#wb_Card9
-{
-   display: flex;
-   text-align: center;
-   z-index: 68;
-}
 #wb_Text6
 {
    position: absolute;
    left: 0px;
-   top: 19px;
-   width: 82px;
-   height: 15px;
+   top: 8px;
+   width: 68px;
+   height: 13px;
    text-align: center;
-   z-index: 51;
+   z-index: 93;
+}
+#wb_Card9
+{
+   display: flex;
+   text-align: center;
+   z-index: 66;
 }
 #wb_uid7
 {
@@ -2667,6 +2671,7 @@ width: 100%;}
 #wb_uid20
 {
    font-family: "Courier New";
+   font-weight: normal;
 }
 #wb_uid8
 {
@@ -2689,17 +2694,15 @@ width: 100%;}
 }
 #wb_uid21
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   font-weight: bold;
-   color: #000000;
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
 }
 #wb_uid10
 {
+   color: #DC143C;
+   font-family: "Arial";
    font-size: 13px;
-   line-height: 16px;
-   color: #FFFFFF;
 }
 #wb_uid9
 {
@@ -2717,30 +2720,31 @@ width: 100%;}
 }
 #wb_uid22
 {
-   font-family: "Courier New";
-   font-weight: normal;
+   background-color: #C21010;
+   font-weight: bold;
+}
+#wb_IconFont3
+{
+   position: absolute;
+   left: 66px;
+   top: 0px;
+   width: 23px;
+   height: 20px;
+   text-align: center;
+   z-index: 92;
 }
 #wb_Image7
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 74;
+   z-index: 72;
 }
 #wb_uid11
 {
-   background-color: #FF7F50;
-   font-weight: bold;
-}
-#wb_IconFont3
-{
-   position: absolute;
-   left: 81px;
-   top: 0px;
-   width: 34px;
-   height: 40px;
-   text-align: center;
-   z-index: 50;
+   color: #DC143C;
+   font-family: "Arial";
+   font-size: 13px;
 }
 #wb_IconFont4
 {
@@ -2750,14 +2754,14 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 86;
+   z-index: 84;
 }
 #wb_Image8
 {
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 73;
+   z-index: 71;
 }
 #wb_uid12
 {
@@ -2773,7 +2777,7 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 70;
+   z-index: 68;
 }
 #wb_uid13
 {
@@ -2793,7 +2797,7 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 69;
+   z-index: 67;
 }
 #wb_uid14
 {
@@ -2803,9 +2807,8 @@ width: 100%;}
 }
 #wb_uid15
 {
+   background-color: #FFF5EE;
    color: #DC143C;
-   font-family: "Arial";
-   font-size: 13px;
 }
 #Layer2-container
 {
@@ -2817,14 +2820,14 @@ width: 100%;}
 }
 #wb_uid16
 {
-   color: #DC143C;
    font-family: "Arial";
    font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #wb_uid17
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
+   font-family: "Courier New";
 }
 #wb_Card1
 {
@@ -2834,16 +2837,13 @@ width: 100%;}
 }
 #wb_uid18
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   font-family: "Courier New";
 }
 #wb_Heading1
 {
    display: inline-block;
    width: 100%;
-   z-index: 53;
+   z-index: 51;
 }
 #wb_Card2
 {
