@@ -108,7 +108,7 @@ $(document).ready(function()
       offsetx: 0,
       offsety: 0,
       effect: 'none',
-      error_text: '*Required'
+      error_text: '*Please Enter Your Date Of Birth'
    });
    $("#CareerEditbox1").validate(
    {

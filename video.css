@@ -238,7 +238,7 @@ input:focus, textarea:focus, select:focus
 {
    display: block;
    position: relative;
-   margin: 0;
+   margin: 0px 0px 20px 0px;
    height: 0;
    overflow: hidden;
    box-sizing: border-box;
@@ -959,8 +959,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 296px;
-   height: 36px;
+   width: 307px;
+   height: 34px;
    z-index: 3;
    overflow: hidden;
 }
@@ -971,8 +971,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 283px;
-   height: 36px;
+   width: 292px;
+   height: 34px;
    z-index: 2;
    overflow: hidden;
 }

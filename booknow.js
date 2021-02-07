@@ -102,7 +102,7 @@ $(document).ready(function()
       bootstrap: true,
       type: 'custom',
       param: /^[0-9-]*$/,
-      length_min: '5',
+      length_min: '4',
       color_text: '#000000',
       color_hint: '#00FF00',
       color_error: '#FF0000',
@@ -134,6 +134,25 @@ $(document).ready(function()
       offsety: 0,
       effect: 'none',
       error_text: ''
+   });
+   $("#booknowEditbox6").validate(
+   {
+      required: true,
+      bootstrap: true,
+      type: 'text',
+      length_min: '2',
+      color_text: '#000000',
+      color_hint: '#00FF00',
+      color_error: '#FF0000',
+      color_border: '#808080',
+      nohint: false,
+      font_family: 'Arial',
+      font_size: '13px',
+      position: 'topleft',
+      offsetx: 0,
+      offsety: 0,
+      effect: 'none',
+      error_text: '*Please Enter Your Event Date'
    });
    $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
    $('img[data-src]').lazyload();

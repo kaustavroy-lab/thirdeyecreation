@@ -112,7 +112,7 @@ function TimerStartindexTimer1()
    {
       var event = null;
       $('#indexLayer1').modal('show');
-   }, 15000);
+   }, 20000);
 }
 function TimerStopindexTimer1()
 {
