@@ -26,7 +26,6 @@
       {
          value: 0
       });
-      $("#wb_TabMenu2").affix({offset:{top: $("#wb_TabMenu2").offset().top}});
       $('img[data-src]').lazyload();
    });
    

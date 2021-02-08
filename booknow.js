@@ -156,6 +156,5 @@
          error_text: '*Please Enter Your Event Date'
       });
       $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
-      $("#wb_TabMenu2").affix({offset:{top: $("#wb_TabMenu2").offset().top}});
       $('img[data-src]').lazyload();
    });

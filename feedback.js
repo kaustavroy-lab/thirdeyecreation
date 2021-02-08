@@ -23,6 +23,5 @@
          value: 0
       });
       $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
-      $("#wb_TabMenu2").affix({offset:{top: $("#wb_TabMenu2").offset().top}});
       $('img[data-src]').lazyload();
    });

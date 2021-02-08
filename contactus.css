@@ -2962,13 +2962,6 @@ width: 100%;}
    background: #F6F6F6;
    color: #111111;
 }
-#wb_TabMenu2.affix
-{
-   top: 0 !important;
-   position: fixed !important;
-   left: 50% !important;
-   margin-left: -8px;
-}
 #wb_contactusIconFont1
 {
    background-color: transparent;
@@ -3176,8 +3169,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 284px;
-   height: 34px;
+   width: 286px;
+   height: 36px;
    z-index: 0;
    overflow: hidden;
 }
@@ -3211,8 +3204,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 299px;
-   height: 34px;
+   width: 301px;
+   height: 36px;
    z-index: 1;
    overflow: hidden;
 }

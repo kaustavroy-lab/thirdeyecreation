@@ -5,7 +5,6 @@
       $("#PhotoGallery1").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
       $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
       $("#galleryLayer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
-      $("#wb_galleryTabMenu2").affix({offset:{top: $("#wb_galleryTabMenu2").offset().top}});
       $('#indexLayer1').on('show.bs.modal', function (e) 
       {
          $('#indexLayer1 .modal-dialog').removeClass('animate-hide');

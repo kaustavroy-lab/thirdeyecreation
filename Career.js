@@ -281,6 +281,5 @@
          }
       });
       $("#CareerCheckbox1").trigger('change');
-      $("#wb_TabMenu2").affix({offset:{top: $("#wb_TabMenu2").offset().top}});
       $('img[data-src]').lazyload();
    });
