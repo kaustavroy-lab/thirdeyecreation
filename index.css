@@ -18,7 +18,7 @@ body
 body:after
 {
    background-color: #FFFFFF;
-   background-image: url(images/bg.jpg);
+   background-image: url(bg%7e1.webp);
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -3130,8 +3130,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 286px;
-   height: 36px;
+   width: 284px;
+   height: 34px;
    z-index: 0;
    overflow: hidden;
 }
@@ -3182,8 +3182,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 301px;
-   height: 36px;
+   width: 299px;
+   height: 34px;
    z-index: 1;
    overflow: hidden;
 }
