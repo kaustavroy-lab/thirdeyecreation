@@ -4073,8 +4073,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 284px;
-   height: 34px;
+   width: 286px;
+   height: 36px;
    z-index: 0;
    overflow: hidden;
 }
@@ -4106,8 +4106,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 299px;
-   height: 34px;
+   width: 301px;
+   height: 36px;
    z-index: 1;
    overflow: hidden;
 }
