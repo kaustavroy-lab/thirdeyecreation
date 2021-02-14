@@ -234,7 +234,7 @@ input:focus, textarea:focus, select:focus
    color: #000000;
    font-family: "Reggae One";
    font-weight: normal;
-   font-size: 20px;
+   font-size: 15px;
 }
 #wb_Text1 div
 {
@@ -1205,6 +1205,7 @@ width: 100%;}
 #wb_uid6
 {
    font-weight: bold;
+   color: #000000;
 }
 #wb_Card9
 {
