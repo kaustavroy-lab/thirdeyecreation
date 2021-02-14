@@ -232,7 +232,7 @@ input:focus, textarea:focus, select:focus
 #wb_Text1
 {
    color: #000000;
-   font-family: "Ballet 16pt";
+   font-family: "Reggae One";
    font-weight: normal;
    font-size: 20px;
 }
@@ -1585,7 +1585,7 @@ width: 100%;}
    background-image: none;
    border: 0px solid #000000;
    padding: 0;
-   margin: 0;
+   margin: 15px 0px 0px 0px;
    text-align: center;
 }
 #wb_CareerText1
@@ -1602,7 +1602,7 @@ width: 100%;}
 #wb_CareerText1
 {
    display: block;
-   margin: 0;
+   margin: 15px 0px 0px 0px;
    box-sizing: border-box;
 width: 100%;}
 #wb_CareerText2 
