@@ -496,7 +496,7 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 13;
+   z-index: 15;
 }
 #wb_uid51
 {
@@ -533,6 +533,10 @@ width: 100%;}
 {
    margin: 0 0 0 24px;
 }
+#wb_uid53
+{
+   z-index: 7;
+}
 #wb_uid42
 {
    color: #000000;
@@ -550,6 +554,10 @@ width: 100%;}
 #wb_uid8
 {
    font-weight: bold;
+}
+#wb_uid54
+{
+   z-index: 16;
 }
 #wb_uid43
 {
@@ -604,7 +612,7 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 12;
+   z-index: 14;
 }
 #wb_Image8
 {

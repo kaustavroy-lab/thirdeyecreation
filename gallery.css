@@ -1495,7 +1495,7 @@ width: 100%;}
    width: 301px;
    height: 18px;
    text-align: center;
-   z-index: 42;
+   z-index: 44;
 }
 #indexEditbox2
 {
@@ -1515,7 +1515,7 @@ width: 100%;}
    width: 301px;
    height: 12px;
    text-align: center;
-   z-index: 40;
+   z-index: 42;
 }
 #indexLayer1
 {
@@ -1529,7 +1529,7 @@ width: 100%;}
    width: 23px;
    height: 20px;
    text-align: center;
-   z-index: 32;
+   z-index: 34;
 }
 #Layer1-container
 {
@@ -1557,7 +1557,7 @@ width: 100%;}
    top: 121px;
    width: 283px;
    height: 45px;
-   z-index: 35;
+   z-index: 37;
 }
 #indexLayer2
 {
@@ -1567,7 +1567,7 @@ width: 100%;}
    top: 7px;
    width: 350px;
    height: 408px;
-   z-index: 43;
+   z-index: 45;
 }
 #Layer1
 {
@@ -1578,7 +1578,7 @@ width: 100%;}
    top: 393px;
    width: 133px;
    height: 58px;
-   z-index: 56;
+   z-index: 58;
 }
 #wb_uid5
 {
@@ -1592,7 +1592,7 @@ width: 100%;}
    top: 0px;
    width: 354px;
    height: 34px;
-   z-index: 44;
+   z-index: 46;
 }
 #wb_indexEditbox2
 {
@@ -1601,7 +1601,7 @@ width: 100%;}
    top: 181px;
    width: 283px;
    height: 45px;
-   z-index: 38;
+   z-index: 40;
 }
 #wb_uid6
 {
@@ -1618,7 +1618,7 @@ width: 100%;}
    top: 32px;
    width: 79px;
    height: 79px;
-   z-index: 34;
+   z-index: 36;
 }
 #wb_Text6
 {
@@ -1628,7 +1628,7 @@ width: 100%;}
    width: 82px;
    height: 15px;
    text-align: center;
-   z-index: 28;
+   z-index: 30;
 }
 #wb_uid7
 {
@@ -1643,9 +1643,7 @@ width: 100%;}
 }
 #wb_uid8
 {
-   font-size: 13px;
-   line-height: 16px;
-   color: #FFFFFF;
+   z-index: 22;
 }
 #indexButton1
 {
@@ -1654,18 +1652,18 @@ width: 100%;}
    top: 255px;
    width: 160px;
    height: 37px;
-   z-index: 39;
+   z-index: 41;
 }
 #wb_uid10
 {
-   font-size: 12px;
-   line-height: 13.5px;
-   color: #FFFFFF;
+   background-color: #FF7F50;
+   font-weight: bold;
 }
 #wb_uid9
 {
-   background-color: #FF7F50;
-   font-weight: bold;
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
 }
 #indexButton2
 {
@@ -1674,7 +1672,7 @@ width: 100%;}
    top: 314px;
    width: 83px;
    height: 22px;
-   z-index: 41;
+   z-index: 43;
 }
 #wb_indexIconFont1
 {
@@ -1684,12 +1682,13 @@ width: 100%;}
    width: 46px;
    height: 42px;
    text-align: center;
-   z-index: 36;
+   z-index: 38;
 }
 #wb_uid11
 {
-   background-color: #C21010;
-   font-weight: bold;
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
 }
 #wb_IconFont3
 {
@@ -1699,7 +1698,7 @@ width: 100%;}
    width: 34px;
    height: 40px;
    text-align: center;
-   z-index: 27;
+   z-index: 29;
 }
 #wb_Image7
 {
@@ -1711,8 +1710,8 @@ width: 100%;}
 #wb_galleryTabMenu1
 {
    display: inline-block;
-   width: 286px;
-   height: 36px;
+   width: 284px;
+   height: 34px;
    z-index: 0;
    overflow: hidden;
 }
@@ -1724,7 +1723,7 @@ width: 100%;}
    width: 46px;
    height: 42px;
    text-align: center;
-   z-index: 37;
+   z-index: 39;
 }
 #indexLayer2-container
 {
@@ -1733,6 +1732,11 @@ width: 100%;}
    margin-left: auto;
    margin-right: auto;
    text-align: left;
+}
+#wb_uid12
+{
+   background-color: #C21010;
+   font-weight: bold;
 }
 #wb_Image8
 {
@@ -1744,10 +1748,14 @@ width: 100%;}
 #wb_galleryTabMenu2
 {
    display: inline-block;
-   width: 301px;
-   height: 36px;
+   width: 299px;
+   height: 34px;
    z-index: 1;
    overflow: hidden;
+}
+#wb_uid13
+{
+   z-index: 60;
 }
 #wb_Card10
 {
@@ -1783,7 +1791,7 @@ width: 100%;}
    width: 68px;
    height: 13px;
    text-align: center;
-   z-index: 33;
+   z-index: 35;
 }
 #galleryLayer1
 {
@@ -1793,7 +1801,7 @@ width: 100%;}
    top: 307px;
    width: 97px;
    height: 28px;
-   z-index: 57;
+   z-index: 59;
 }
 #wb_uid0
 {

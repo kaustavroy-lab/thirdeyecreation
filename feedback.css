@@ -268,7 +268,7 @@ input:focus, textarea:focus, select:focus
 #wb_Text1
 {
    color: #000000;
-   font-family: Aladin;
+   font-family: "Ballet 16pt";
    font-weight: normal;
    font-size: 20px;
 }
@@ -749,7 +749,7 @@ width: 100%;}
 #wb_Text9
 {
    color: #FFFF00;
-   font-family: Aladin;
+   font-family: Satisfy;
    font-weight: normal;
    font-size: 19px;
 }
@@ -2134,8 +2134,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 286px;
-   height: 36px;
+   width: 284px;
+   height: 34px;
    z-index: 0;
    overflow: hidden;
 }
@@ -2154,8 +2154,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 301px;
-   height: 36px;
+   width: 299px;
+   height: 34px;
    z-index: 1;
    overflow: hidden;
 }
@@ -2196,7 +2196,7 @@ width: 100%;}
    top: 896px;
    width: 97px;
    height: 28px;
-   z-index: 84;
+   z-index: 86;
 }
 #wb_uid5
 {
@@ -2237,7 +2237,7 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 83;
+   z-index: 85;
 }
 #wb_uid6
 {
@@ -2273,7 +2273,7 @@ width: 100%;}
    width: 68px;
    height: 13px;
    text-align: center;
-   z-index: 82;
+   z-index: 84;
 }
 #wb_uid7
 {
@@ -2340,14 +2340,13 @@ width: 100%;}
 }
 #wb_uid10
 {
-   background-color: #C21010;
-   font-weight: bold;
-}
-#wb_uid9
-{
    font-size: 12px;
    line-height: 13.5px;
    color: #FFFFFF;
+}
+#wb_uid9
+{
+   z-index: 57;
 }
 #Progressbar5
 {
@@ -2364,6 +2363,11 @@ width: 100%;}
    text-align: center;
    z-index: 40;
 }
+#wb_uid11
+{
+   background-color: #C21010;
+   font-weight: bold;
+}
 #wb_IconFont3
 {
    position: absolute;
@@ -2372,7 +2376,7 @@ width: 100%;}
    width: 23px;
    height: 20px;
    text-align: center;
-   z-index: 81;
+   z-index: 83;
 }
 #wb_Image7
 {
@@ -2388,6 +2392,10 @@ width: 100%;}
    line-height: 18px;
    z-index: 28;
 }
+#wb_uid12
+{
+   z-index: 87;
+}
 #wb_IconFont4
 {
    position: absolute;
@@ -2396,7 +2404,7 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 62;
+   z-index: 64;
 }
 #wb_Image8
 {

@@ -232,7 +232,7 @@ input:focus, textarea:focus, select:focus
 #wb_Text1
 {
    color: #000000;
-   font-family: Aladin;
+   font-family: "Ballet 16pt";
    font-weight: normal;
    font-size: 20px;
 }
@@ -893,7 +893,7 @@ width: 100%;}
 #wb_Text9
 {
    color: #FFFF00;
-   font-family: Aladin;
+   font-family: Satisfy;
    font-weight: normal;
    font-size: 19px;
 }
@@ -1591,7 +1591,7 @@ width: 100%;}
 #wb_CareerText1
 {
    color: #000000;
-   font-family: Arial;
+   font-family: Satisfy;
    font-weight: normal;
    font-size: 13px;
 }
@@ -4073,8 +4073,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 286px;
-   height: 36px;
+   width: 284px;
+   height: 34px;
    z-index: 0;
    overflow: hidden;
 }
@@ -4106,8 +4106,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 301px;
-   height: 36px;
+   width: 299px;
+   height: 34px;
    z-index: 1;
    overflow: hidden;
 }
@@ -4186,7 +4186,7 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 141;
+   z-index: 143;
 }
 #wb_uid6
 {
@@ -4306,6 +4306,10 @@ width: 100%;}
    height: auto;
    z-index: 30;
 }
+#wb_uid11
+{
+   z-index: 93;
+}
 #wb_Image7
 {
    display: none;
@@ -4326,6 +4330,10 @@ width: 100%;}
    height: auto;
    z-index: 33;
 }
+#wb_uid12
+{
+   z-index: 144;
+}
 #wb_IconFont4
 {
    position: absolute;
@@ -4334,7 +4342,7 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 98;
+   z-index: 100;
 }
 #wb_Image8
 {

@@ -232,7 +232,7 @@ input:focus, textarea:focus, select:focus
 #wb_Text1
 {
    color: #000000;
-   font-family: Aladin;
+   font-family: "Ballet 16pt";
    font-weight: normal;
    font-size: 20px;
 }
@@ -742,7 +742,7 @@ width: 100%;}
 #wb_Text9
 {
    color: #FFFF00;
-   font-family: Aladin;
+   font-family: Satisfy;
    font-weight: normal;
    font-size: 19px;
 }
@@ -1094,6 +1094,26 @@ width: 100%;}
    background: #F6F6F6;
    color: #111111;
 }
+#Button1
+{
+   line-height: 46px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 2px solid #FFC000;
+   border-radius: 5px;
+   background-color: #8B0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 21px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 20px 0px 0px 0px;
+}
 #wb_uid1
 {
    color: #FFFF00;
@@ -1105,8 +1125,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 286px;
-   height: 36px;
+   width: 284px;
+   height: 34px;
    z-index: 0;
    overflow: hidden;
 }
@@ -1119,8 +1139,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 301px;
-   height: 36px;
+   width: 299px;
+   height: 34px;
    z-index: 1;
    overflow: hidden;
 }
@@ -1157,7 +1177,7 @@ width: 100%;}
    top: 888px;
    width: 133px;
    height: 58px;
-   z-index: 40;
+   z-index: 43;
 }
 #wb_Image2
 {
@@ -1180,7 +1200,7 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 41;
+   z-index: 44;
 }
 #wb_uid6
 {
@@ -1191,7 +1211,7 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 22;
+   z-index: 23;
 }
 #wb_uid7
 {
@@ -1236,7 +1256,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 28;
+   z-index: 29;
 }
 #wb_IconFont3
 {
@@ -1256,7 +1276,7 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 36;
+   z-index: 39;
 }
 #wb_uid12
 {
@@ -1268,23 +1288,38 @@ width: 100%;}
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 27;
+   z-index: 28;
 }
 #Bookmark2
 {
    visibility: hidden;
 }
+#wb_uid13
+{
+   z-index: 32;
+}
 #wb_Card10
 {
    display: flex;
    text-align: center;
-   z-index: 24;
+   z-index: 25;
+}
+#wb_uid14
+{
+   z-index: 45;
 }
 #wb_Card11
 {
    display: flex;
    text-align: center;
-   z-index: 23;
+   z-index: 24;
+}
+#Button1
+{
+   display: inline-block;
+   width: 255px;
+   height: 46px;
+   z-index: 22;
 }
 #Layer2-container
 {

@@ -1,7 +1,7 @@
    
    $(document).ready(function()
    {
-      $("#CardContainer1").owlCarousel({autoplayTimeout:5000, margin: 16, autoplay: true, nav: false, loop: true, dots: false, items: 1, slideBy: 1});
+      $("#CardContainer1").owlCarousel({autoplayTimeout:7000, margin: 16, autoplay: true, nav: false, loop: true, dots: false, items: 1, slideBy: 1});
       function skrollrInit()
       {
          skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
@@ -14,7 +14,7 @@
       $("#Layer2").stickylayer({orientation: 4, position: [0, 0], delay: 500});
       $("a[data-rel='indexPhotoCollage1']").attr('rel', 'indexPhotoCollage1');
       $('#wb_indexPhotoCollage1 img').attr('title', '');$('#wb_indexPhotoCollage1').galleria({height:1});
-      $("#indexPhotoCollage1").photocollage({ effect: 'none', duration: 600, padding: 3, lazyload: true, matrix: '1,2,0,1,0,0,1,1,1' });
+      $("#indexPhotoCollage1").photocollage({ effect: 'none', duration: 600, padding: 3, lazyload: true, matrix: '2,0,2,0,1,1,0,0,0,0,2,0,4,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,1' });
       $('#indexLayer1').on('show.bs.modal', function (e) 
       {
          $('#indexLayer1 .modal-dialog').removeClass('animate-hide');
@@ -122,4 +122,48 @@
          clearTimeout(wb_indexTimer1);
       }
       TimerStartindexTimer1();
+                                    
+                              var disabled_message = "";
+                              document.oncontextmenu = function() 
+                              { 
+                                 return false; 
+                              }
+                              document.onmousedown = function md(e) 
+                              { 
+                                try 
+                                { 
+                                   if (event.button==2||event.button==3) 
+                                   {
+                                      if (disabled_message != '')
+                                         alert(disabled_message);
+                                      return false; 
+                                   }
+                                }  
+                                catch (e) 
+                                { 
+                                   if (e.which == 3) return false; 
+                                } 
+                              }
+                                    
+      var disabled_message = "";
+      document.oncontextmenu = function() 
+      { 
+         return false; 
+      }
+      document.onmousedown = function md(e) 
+      { 
+        try 
+        { 
+           if (event.button==2||event.button==3) 
+           {
+              if (disabled_message != '')
+                 alert(disabled_message);
+              return false; 
+           }
+        }  
+        catch (e) 
+        { 
+           if (e.which == 3) return false; 
+        } 
+      }
       

@@ -232,7 +232,7 @@ input:focus, textarea:focus, select:focus
 #wb_Text1
 {
    color: #000000;
-   font-family: Aladin;
+   font-family: "Ballet 16pt";
    font-weight: normal;
    font-size: 20px;
 }
@@ -1268,7 +1268,7 @@ width: 100%;}
 #wb_Text9
 {
    color: #FFFF00;
-   font-family: Aladin;
+   font-family: Satisfy;
    font-weight: normal;
    font-size: 19px;
 }
@@ -2511,8 +2511,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 286px;
-   height: 36px;
+   width: 284px;
+   height: 34px;
    z-index: 0;
    overflow: hidden;
 }
@@ -2539,8 +2539,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 301px;
-   height: 36px;
+   width: 299px;
+   height: 34px;
    z-index: 1;
    overflow: hidden;
 }
@@ -2587,7 +2587,7 @@ width: 100%;}
    top: 839px;
    width: 97px;
    height: 28px;
-   z-index: 95;
+   z-index: 97;
 }
 #wb_FontAwesomeIcon5
 {
@@ -2624,7 +2624,7 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 94;
+   z-index: 96;
 }
 #wb_Image3
 {
@@ -2647,7 +2647,7 @@ width: 100%;}
    width: 68px;
    height: 13px;
    text-align: center;
-   z-index: 93;
+   z-index: 95;
 }
 #wb_Card9
 {
@@ -2694,9 +2694,7 @@ width: 100%;}
 }
 #wb_uid21
 {
-   font-size: 12px;
-   line-height: 13.5px;
-   color: #FFFFFF;
+   z-index: 75;
 }
 #wb_uid10
 {
@@ -2720,8 +2718,9 @@ width: 100%;}
 }
 #wb_uid22
 {
-   background-color: #C21010;
-   font-weight: bold;
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
 }
 #wb_IconFont3
 {
@@ -2731,7 +2730,7 @@ width: 100%;}
    width: 23px;
    height: 20px;
    text-align: center;
-   z-index: 92;
+   z-index: 94;
 }
 #wb_Image7
 {
@@ -2746,6 +2745,11 @@ width: 100%;}
    font-family: "Arial";
    font-size: 13px;
 }
+#wb_uid23
+{
+   background-color: #C21010;
+   font-weight: bold;
+}
 #wb_IconFont4
 {
    position: absolute;
@@ -2754,7 +2758,7 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 84;
+   z-index: 86;
 }
 #wb_Image8
 {
@@ -2772,6 +2776,10 @@ width: 100%;}
 #Bookmark2
 {
    visibility: hidden;
+}
+#wb_uid24
+{
+   z-index: 98;
 }
 #wb_Card10
 {
