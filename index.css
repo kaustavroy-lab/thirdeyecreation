@@ -316,7 +316,6 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    padding: 0;
    text-align: center;
-   box-shadow: 0px 0px 5px #000000;
 }
 #Card3-card-body
 {
@@ -330,8 +329,8 @@ input:focus, textarea:focus, select:focus
    border-radius: 3px 3px 0 0;
    margin: 0;
    padding: 0;
-   border: 0px solid transparent;
-   border-radius: 0px;
+   border: 1px solid transparent;
+   border-radius: 5px;
    width: 100%;
 }
 #wb_Card1
