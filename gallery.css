@@ -1710,8 +1710,8 @@ width: 100%;}
 #wb_galleryTabMenu1
 {
    display: inline-block;
-   width: 286px;
-   height: 36px;
+   width: 284px;
+   height: 34px;
    z-index: 0;
    overflow: hidden;
 }
@@ -1748,8 +1748,8 @@ width: 100%;}
 #wb_galleryTabMenu2
 {
    display: inline-block;
-   width: 301px;
-   height: 36px;
+   width: 299px;
+   height: 34px;
    z-index: 1;
    overflow: hidden;
 }
