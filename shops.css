@@ -1940,8 +1940,7 @@ width: 100%;}
 }
 #wb_uid3
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
+   color: #000000;
 }
 #wb_TabMenu2
 {
@@ -1953,10 +1952,8 @@ width: 100%;}
 }
 #wb_uid4
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   background-color: #FFF5EE;
+   color: #DC143C;
 }
 #wb_Image1
 {
@@ -1967,7 +1964,10 @@ width: 100%;}
 }
 #wb_uid5
 {
-   font-family: "Courier New";
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #wb_Image2
 {
@@ -1988,11 +1988,7 @@ width: 100%;}
 }
 #wb_uid7
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   font-weight: bold;
-   color: #000000;
+   font-family: "Courier New";
 }
 #wb_Card9
 {
@@ -2001,6 +1997,14 @@ width: 100%;}
    z-index: 32;
 }
 #wb_uid8
+{
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
+}
+#wb_uid9
 {
    font-family: "Courier New";
    font-weight: normal;

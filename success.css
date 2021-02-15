@@ -23,17 +23,17 @@ body
 }
 a
 {
-   color: #DC143C;
-   text-decoration: none;
+   color: #FFFFFF;
+   text-decoration: underline;
 }
 a:active
 {
-   color: #FF0000;
+   color: #A5A5A5;
 }
 a:hover
 {
    color: #000000;
-   text-decoration: none;
+   text-decoration: underline;
 }
 input:focus, textarea:focus, select:focus
 {
@@ -767,7 +767,7 @@ width: 100%;}
 }
 #wb_Text2
 {
-   color: #FFFFFF;
+   color: #000000;
    font-family: "Yeseva One";
    font-weight: normal;
    font-size: 53px;
@@ -1114,6 +1114,34 @@ width: 100%;}
    -webkit-appearance: none;
    margin: 20px 0px 0px 0px;
 }
+#wb_successText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_successText1
+{
+   color: #F2F2F2;
+   font-family: Calibri;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 18px;
+}
+#wb_successText1 p, #wb_successText1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_successText1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
 #wb_uid1
 {
    color: #FFFF00;
@@ -1125,8 +1153,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 286px;
-   height: 36px;
+   width: 284px;
+   height: 34px;
    z-index: 0;
    overflow: hidden;
 }
@@ -1139,8 +1167,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 301px;
-   height: 36px;
+   width: 299px;
+   height: 34px;
    z-index: 1;
    overflow: hidden;
 }
@@ -1167,7 +1195,7 @@ width: 100%;}
 #wb_uid5
 {
    font-weight: bold;
-   color: #FFFFFF;
+   color: #000000;
 }
 #Layer1
 {
@@ -1177,7 +1205,7 @@ width: 100%;}
    top: 888px;
    width: 133px;
    height: 58px;
-   z-index: 43;
+   z-index: 44;
 }
 #wb_Image2
 {
@@ -1200,23 +1228,23 @@ width: 100%;}
    top: 982px;
    width: 33px;
    height: 51px;
-   z-index: 44;
+   z-index: 45;
 }
 #wb_uid6
 {
    font-weight: bold;
-   color: #000000;
+   color: #F2F2F2;
 }
 #wb_Card9
 {
    display: flex;
    text-align: center;
-   z-index: 23;
+   z-index: 24;
 }
 #wb_uid7
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
+   font-weight: bold;
+   color: #F2F2F2;
 }
 #wb_Text6
 {
@@ -1230,25 +1258,23 @@ width: 100%;}
 }
 #wb_uid8
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   font-weight: bold;
+   color: #F2F2F2;
 }
 #wb_uid10
 {
-   font-family: "Courier New";
+   background-color: #FFF5EE;
+   color: #DC143C;
 }
 #wb_uid9
 {
-   font-family: "Courier New";
+   font-weight: normal;
 }
 #wb_uid11
 {
    font-family: "Arial";
    font-size: 13px;
    line-height: 16px;
-   font-weight: bold;
    color: #000000;
 }
 #wb_Image7
@@ -1256,7 +1282,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 29;
+   z-index: 30;
 }
 #wb_IconFont3
 {
@@ -1276,19 +1302,18 @@ width: 100%;}
    width: 15px;
    height: 21px;
    text-align: center;
-   z-index: 39;
+   z-index: 40;
 }
 #wb_uid12
 {
    font-family: "Courier New";
-   font-weight: normal;
 }
 #wb_Image8
 {
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 28;
+   z-index: 29;
 }
 #Bookmark2
 {
@@ -1296,30 +1321,39 @@ width: 100%;}
 }
 #wb_uid13
 {
-   z-index: 32;
+   font-family: "Courier New";
 }
 #wb_Card10
 {
    display: flex;
    text-align: center;
-   z-index: 25;
+   z-index: 26;
 }
 #wb_uid14
 {
-   z-index: 45;
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
 }
 #wb_Card11
 {
    display: flex;
    text-align: center;
-   z-index: 24;
+   z-index: 25;
+}
+#wb_uid15
+{
+   font-family: "Courier New";
+   font-weight: normal;
 }
 #Button1
 {
    display: inline-block;
    width: 255px;
    height: 46px;
-   z-index: 22;
+   z-index: 23;
 }
 #Layer2-container
 {
@@ -1328,6 +1362,14 @@ width: 100%;}
    margin-left: auto;
    margin-right: auto;
    text-align: left;
+}
+#wb_uid16
+{
+   z-index: 33;
+}
+#wb_uid17
+{
+   z-index: 46;
 }
 #wb_uid0
 {
