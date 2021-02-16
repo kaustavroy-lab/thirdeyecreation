@@ -189,6 +189,190 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
+#wb_shopsLayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: rgba(251,251,251,0.59);
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#shopsLayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 10px 0px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#shopsLayoutGrid3 > .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#shopsLayoutGrid3 > .row > .col-1, #shopsLayoutGrid3 > .row > .col-2, #shopsLayoutGrid3 > .row > .col-3, #shopsLayoutGrid3 > .row > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#shopsLayoutGrid3 > .row > .col-1, #shopsLayoutGrid3 > .row > .col-2, #shopsLayoutGrid3 > .row > .col-3, #shopsLayoutGrid3 > .row > .col-4
+{
+   float: left;
+}
+#shopsLayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#shopsLayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#shopsLayoutGrid3 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#shopsLayoutGrid3 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#shopsLayoutGrid3:before,
+#shopsLayoutGrid3:after,
+#shopsLayoutGrid3 .row:before,
+#shopsLayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#shopsLayoutGrid3:after,
+#shopsLayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#shopsLayoutGrid3 > .row > .col-1, #shopsLayoutGrid3 > .row > .col-2, #shopsLayoutGrid3 > .row > .col-3, #shopsLayoutGrid3 > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_shopsLayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: rgba(251,251,251,0.59);
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#shopsLayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 10px 0px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#shopsLayoutGrid1 > .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#shopsLayoutGrid1 > .row > .col-1, #shopsLayoutGrid1 > .row > .col-2, #shopsLayoutGrid1 > .row > .col-3, #shopsLayoutGrid1 > .row > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#shopsLayoutGrid1 > .row > .col-1, #shopsLayoutGrid1 > .row > .col-2, #shopsLayoutGrid1 > .row > .col-3, #shopsLayoutGrid1 > .row > .col-4
+{
+   float: left;
+}
+#shopsLayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#shopsLayoutGrid1 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#shopsLayoutGrid1 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#shopsLayoutGrid1 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#shopsLayoutGrid1:before,
+#shopsLayoutGrid1:after,
+#shopsLayoutGrid1 .row:before,
+#shopsLayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#shopsLayoutGrid1:after,
+#shopsLayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#shopsLayoutGrid1 > .row > .col-1, #shopsLayoutGrid1 > .row > .col-2, #shopsLayoutGrid1 > .row > .col-3, #shopsLayoutGrid1 > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
 #wb_LayoutGrid3
 {
    clear: both;
@@ -405,74 +589,6 @@ input:focus, textarea:focus, select:focus
 #shopsCardContainer1 .owl-dots .owl-dot.active span, #shopsCardContainer1 .owl-dots .owl-dot:hover span
 {
    background: #869791;
-}
-#wb_shopsLayoutGrid2
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0px 0px 15px 0px;
-}
-#shopsLayoutGrid2
-{
-   box-sizing: border-box;
-   padding: 0;
-   margin-right: auto;
-   margin-left: auto;
-}
-#shopsLayoutGrid2 > .row
-{
-   margin-right: 0;
-   margin-left: 0;
-}
-#shopsLayoutGrid2 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 0px;
-   padding-left: 0px;
-   position: relative;
-}
-#shopsLayoutGrid2 > .row > .col-1
-{
-   float: left;
-}
-#shopsLayoutGrid2 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#shopsLayoutGrid2:before,
-#shopsLayoutGrid2:after,
-#shopsLayoutGrid2 .row:before,
-#shopsLayoutGrid2 .row:after
-{
-   display: table;
-   content: " ";
-}
-#shopsLayoutGrid2:after,
-#shopsLayoutGrid2 .row:after
-{
-   clear: both;
-}
-@media (max-width: 0px)
-{
-#shopsLayoutGrid2 > .row > .col-1
-{
-   float: none;
-   width: 100%;
-}
 }
 #wb_LayoutGrid15
 {
@@ -1187,132 +1303,6 @@ width: 100%;}
    font-size: 13px;
    width: 13px;
 }
-#wb_shopsLayoutGrid3
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: rgba(251,251,251,0.59);
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#shopsLayoutGrid3
-{
-   box-sizing: border-box;
-   padding: 0px 10px 10px 10px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#shopsLayoutGrid3 > .row
-{
-   margin-right: -10px;
-   margin-left: -10px;
-}
-#shopsLayoutGrid3 > .row > .col-1, #shopsLayoutGrid3 > .row > .col-2, #shopsLayoutGrid3 > .row > .col-3, #shopsLayoutGrid3 > .row > .col-4
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 10px;
-   padding-left: 10px;
-   position: relative;
-}
-#shopsLayoutGrid3 > .row > .col-1, #shopsLayoutGrid3 > .row > .col-2, #shopsLayoutGrid3 > .row > .col-3, #shopsLayoutGrid3 > .row > .col-4
-{
-   float: left;
-}
-#shopsLayoutGrid3 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: center;
-}
-#shopsLayoutGrid3 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: left;
-}
-#shopsLayoutGrid3 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: left;
-}
-#shopsLayoutGrid3 > .row > .col-4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: left;
-}
-#shopsLayoutGrid3:before,
-#shopsLayoutGrid3:after,
-#shopsLayoutGrid3 .row:before,
-#shopsLayoutGrid3 .row:after
-{
-   display: table;
-   content: " ";
-}
-#shopsLayoutGrid3:after,
-#shopsLayoutGrid3 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#shopsLayoutGrid3 > .row > .col-1, #shopsLayoutGrid3 > .row > .col-2, #shopsLayoutGrid3 > .row > .col-3, #shopsLayoutGrid3 > .row > .col-4
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_shopsImage2
-{
-   height: 100%;
-   margin: -10px 0px 0px 0px;
-   vertical-align: top;
-}
-#shopsImage2
-{
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: 100%;
-   vertical-align: top;
-   object-fit: cover;
-}
-#wb_shopsImage1
-{
-   height: 100%;
-   margin: -10px 0px 0px 0px;
-   vertical-align: top;
-}
-#shopsImage1
-{
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: 100%;
-   vertical-align: top;
-   object-fit: cover;
-}
 #wb_shopsCard5
 {
    position: relative;
@@ -1910,6 +1900,518 @@ width: 100%;}
    font-size: 13px;
    width: 13px;
 }
+#wb_shopsCard8
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-clip: padding-box;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   box-shadow: 0px 0px 3px #595959;
+}
+#shopsCard8-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#shopsCard8-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 1px solid #DEDEDE;
+   border-radius: 10px 10px 0 0;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-clip: padding-box;
+   background-color: #F7F7F9;
+   background-image: none;
+}
+#shopsCard8-card-header h1
+{
+   color: #292B2C;
+   font-family: Courgette;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+   margin: 0;
+}
+#shopsCard8-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   width: 100%;
+}
+#shopsCard8-card-item2
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 12px 10px 12px 10px;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   color: #445AB2;
+   font-family: "Reggae One";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#shopsCard8-card-item2 i
+{
+   color: #4472C4;
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#shopsCard8-card-item3
+{
+   box-sizing: border-box;
+   margin: -5px 0px 0px 0px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+}
+#shopsCard8-card-item4
+{
+   display: inline-block;
+   height: 35px;
+   box-sizing: border-box;
+   border-radius: 0 0 10px 10px;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 1px solid #0275D8;
+   border-radius: 4px;
+   background-clip: padding-box;
+   background-color: #445AB2;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#shopsCard8-card-item4:focus
+{
+   -webkit-transform: rotateX(0deg) ;
+   transform: rotateX(0deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#shopsCard8-card-item4 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#wb_shopsCard9
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-clip: padding-box;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   box-shadow: 0px 0px 3px #595959;
+}
+#shopsCard9-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#shopsCard9-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 1px solid #DEDEDE;
+   border-radius: 10px 10px 0 0;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-clip: padding-box;
+   background-color: #F7F7F9;
+   background-image: none;
+}
+#shopsCard9-card-header h1
+{
+   color: #292B2C;
+   font-family: Courgette;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+   margin: 0;
+}
+#shopsCard9-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   width: 100%;
+}
+#shopsCard9-card-item2
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 12px 10px 12px 10px;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   color: #445AB2;
+   font-family: "Reggae One";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#shopsCard9-card-item2 i
+{
+   color: #4472C4;
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#shopsCard9-card-item3
+{
+   box-sizing: border-box;
+   margin: -5px 0px 0px 0px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+}
+#shopsCard9-card-item4
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+}
+#shopsCard9-card-item5
+{
+   display: inline-block;
+   height: 35px;
+   box-sizing: border-box;
+   border-radius: 0 0 10px 10px;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 1px solid #0275D8;
+   border-radius: 4px;
+   background-clip: padding-box;
+   background-color: #445AB2;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#shopsCard9-card-item5:focus
+{
+   -webkit-transform: rotateX(0deg) ;
+   transform: rotateX(0deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#shopsCard9-card-item5 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#shopsCard9-card-item5 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#wb_shopsCard10
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-clip: padding-box;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   box-shadow: 0px 0px 3px #595959;
+}
+#shopsCard10-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#shopsCard10-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 1px solid #DEDEDE;
+   border-radius: 10px 10px 0 0;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-clip: padding-box;
+   background-color: #F7F7F9;
+   background-image: none;
+}
+#shopsCard10-card-header h1
+{
+   color: #292B2C;
+   font-family: Courgette;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+   margin: 0;
+}
+#shopsCard10-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   width: 100%;
+}
+#shopsCard10-card-item2
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 12px 10px 12px 10px;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   color: #445AB2;
+   font-family: "Reggae One";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#shopsCard10-card-item2 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#shopsCard10-card-item2 i
+{
+   color: #4472C4;
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#shopsCard10-card-item3
+{
+   box-sizing: border-box;
+   margin: -5px 0px 0px 0px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+}
+#shopsCard10-card-item4
+{
+   display: inline-block;
+   height: 35px;
+   box-sizing: border-box;
+   border-radius: 0 0 10px 10px;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 1px solid #0275D8;
+   border-radius: 4px;
+   background-clip: padding-box;
+   background-color: #445AB2;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#shopsCard10-card-item4:focus
+{
+   -webkit-transform: rotateX(0deg) ;
+   transform: rotateX(0deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#shopsCard10-card-item4 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#wb_shopsCard12
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-clip: padding-box;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   box-shadow: 0px 0px 3px #595959;
+}
+#shopsCard12-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#shopsCard12-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 1px solid #DEDEDE;
+   border-radius: 10px 10px 0 0;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-clip: padding-box;
+   background-color: #F7F7F9;
+   background-image: none;
+}
+#shopsCard12-card-header h1
+{
+   color: #292B2C;
+   font-family: Courgette;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+   margin: 0;
+}
+#shopsCard12-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   width: 100%;
+}
+#shopsCard12-card-item2
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 12px 10px 12px 10px;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   color: #445AB2;
+   font-family: "Reggae One";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#shopsCard12-card-item2 i
+{
+   color: #4472C4;
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#shopsCard12-card-item3
+{
+   box-sizing: border-box;
+   margin: -5px 0px 0px 0px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+}
+#shopsCard12-card-item4
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+}
+#shopsCard12-card-item5
+{
+   display: inline-block;
+   height: 35px;
+   box-sizing: border-box;
+   border-radius: 0 0 10px 10px;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 1px solid #0275D8;
+   border-radius: 4px;
+   background-clip: padding-box;
+   background-color: #445AB2;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#shopsCard12-card-item5:focus
+{
+   -webkit-transform: rotateX(0deg) ;
+   transform: rotateX(0deg) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#shopsCard12-card-item5 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
 #wb_shopsCard6
 {
    display: flex;
@@ -1938,6 +2440,13 @@ width: 100%;}
    z-index: 0;
    overflow: hidden;
 }
+#wb_shopsCard8
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 18;
+}
 #wb_uid3
 {
    font-weight: bold;
@@ -1949,6 +2458,13 @@ width: 100%;}
    height: 34px;
    z-index: 1;
    overflow: hidden;
+}
+#wb_shopsCard9
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 19;
 }
 #wb_uid4
 {
@@ -1983,6 +2499,13 @@ width: 100%;}
    background-color: #FFF5EE;
    color: #DC143C;
 }
+#wb_shopsCard10
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 20;
+}
 #wb_uid7
 {
    font-family: "Arial";
@@ -1994,11 +2517,18 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 32;
+   z-index: 33;
 }
 #wb_uid8
 {
    font-family: "Courier New";
+}
+#wb_shopsCard12
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 21;
 }
 #wb_uid10
 {
@@ -2022,14 +2552,14 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 38;
+   z-index: 39;
 }
 #wb_Image8
 {
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 37;
+   z-index: 38;
 }
 #Bookmark2
 {
@@ -2039,55 +2569,41 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 34;
+   z-index: 35;
 }
 #wb_Card11
 {
    display: flex;
    text-align: center;
-   z-index: 33;
+   z-index: 34;
 }
 #wb_shopsCard1
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 27;
+   z-index: 14;
 }
 #wb_shopsCard2
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 28;
+   z-index: 15;
 }
 #wb_shopsCard3
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 29;
-}
-#wb_shopsImage1
-{
-   display: none;
-   width: 100%;
-   height: auto;
-   z-index: 10;
+   z-index: 16;
 }
 #wb_shopsCard4
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 30;
-}
-#wb_shopsImage2
-{
-   display: none;
-   width: 100%;
-   height: auto;
-   z-index: 26;
+   z-index: 17;
 }
 #wb_shopsCard5
 {
