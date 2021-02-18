@@ -4,7 +4,6 @@
       $("a[data-rel='PhotoGallery1']").attr('rel', 'PhotoGallery1');
       $("#PhotoGallery1").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
       $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
-      $("#galleryLayer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
       $('#indexLayer1').on('show.bs.modal', function (e) 
       {
          $('#indexLayer1 .modal-dialog').removeClass('animate-hide');
@@ -61,6 +60,8 @@
          effect: 'none',
          error_text: 'Enter Your Correct Number'
       });
+      $("#indexLayer5").stickylayer({orientation: 4, position: [0, 0], delay: 500});
+      $("#indexLayer4").stickylayer({orientation: 6, position: [0, 0], delay: 500});
       $('img[data-src]').lazyload();
    });
       
@@ -78,29 +79,7 @@
          clearTimeout(wb_indexTimer1);
       }
       TimerStartindexTimer1();
-                                    
-                              var disabled_message = "";
-                              document.oncontextmenu = function() 
-                              { 
-                                 return false; 
-                              }
-                              document.onmousedown = function md(e) 
-                              { 
-                                try 
-                                { 
-                                   if (event.button==2||event.button==3) 
-                                   {
-                                      if (disabled_message != '')
-                                         alert(disabled_message);
-                                      return false; 
-                                   }
-                                }  
-                                catch (e) 
-                                { 
-                                   if (e.which == 3) return false; 
-                                } 
-                              }
-                                    
+            
       var disabled_message = "";
       document.oncontextmenu = function() 
       { 
@@ -122,4 +101,26 @@
            if (e.which == 3) return false; 
         } 
       }
-      
+                        
+                  var disabled_message = "";
+                  document.oncontextmenu = function() 
+                  { 
+                     return false; 
+                  }
+                  document.onmousedown = function md(e) 
+                  { 
+                    try 
+                    { 
+                       if (event.button==2||event.button==3) 
+                       {
+                          if (disabled_message != '')
+                             alert(disabled_message);
+                          return false; 
+                       }
+                    }  
+                    catch (e) 
+                    { 
+                       if (e.which == 3) return false; 
+                    } 
+                  }
+                  

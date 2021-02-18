@@ -14,13 +14,13 @@
 	</url>
 	<url>
 		<loc>https://www.thethirdeyecreation.com/video.html</loc>
-		<lastmod>2021-02-14</lastmod>
+		<lastmod>2021-02-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://www.thethirdeyecreation.com/gallery.html</loc>
-		<lastmod>2021-02-14</lastmod>
+		<lastmod>2021-02-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.7</priority>
 	</url>
@@ -44,7 +44,7 @@
 	</url>
 	<url>
 		<loc>https://www.thethirdeyecreation.com/feedback.html</loc>
-		<lastmod>2021-02-14</lastmod>
+		<lastmod>2021-02-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -71,5 +71,11 @@
 		<lastmod>2021-02-18</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.3</priority>
+	</url>
+	<url>
+		<loc>https://www.thethirdeyecreation.com/master_framework.html</loc>
+		<lastmod>2021-02-18</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
 	</url>
 </urlset>

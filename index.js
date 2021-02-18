@@ -7,27 +7,25 @@
          skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
       }
       skrollrInit();
-      $("#Layer1").stickylayer({orientation: 6, position: [0, 0], delay: 500});
       $("a[data-rel='PhotoCollage1']").attr('rel', 'PhotoCollage1');
       $("#PhotoCollage1").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
       $("#PhotoCollage1").photocollage({ effect: 'css', duration: 600, padding: 3, lazyload: true, matrix: '1,2,0,1,0,0,1,1,1' });
-      $("#Layer2").stickylayer({orientation: 4, position: [0, 0], delay: 500});
       $("a[data-rel='indexPhotoCollage1']").attr('rel', 'indexPhotoCollage1');
       $('#wb_indexPhotoCollage1 img').attr('title', '');$('#wb_indexPhotoCollage1').galleria({height:1});
       $("#indexPhotoCollage1").photocollage({ effect: 'none', duration: 600, padding: 3, lazyload: true, matrix: '2,0,2,0,1,1,0,0,0,0,2,0,4,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,1' });
-      $('#indexLayer1').on('show.bs.modal', function (e) 
+      $('#indexLayer6').on('show.bs.modal', function (e) 
       {
-         $('#indexLayer1 .modal-dialog').removeClass('animate-hide');
-         $('#indexLayer1 .modal-dialog').addClass('animate-show');
+         $('#indexLayer6 .modal-dialog').removeClass('animate-hide');
+         $('#indexLayer6 .modal-dialog').addClass('animate-show');
       });
-      $('#indexLayer1').on('hide.bs.modal', function (e)
+      $('#indexLayer6').on('hide.bs.modal', function (e)
       {
-         $('#indexLayer1 .modal-dialog').removeClass('animate-show');
-         var element = document.getElementById('indexLayer1');
+         $('#indexLayer6 .modal-dialog').removeClass('animate-show');
+         var element = document.getElementById('indexLayer6');
          var forceReflow = element.offsetWidth;
-         $('#indexLayer1 .modal-dialog').addClass('animate-hide');
+         $('#indexLayer6 .modal-dialog').addClass('animate-hide');
       });
-      $("#indexEditbox1").validate(
+      $("#indexEditbox3").validate(
       {
          required: true,
          bootstrap: true,
@@ -47,7 +45,7 @@
          effect: 'none',
          error_text: 'Enter Your Correct Name'
       });
-      $("#indexEditbox2").validate(
+      $("#indexEditbox4").validate(
       {
          required: true,
          bootstrap: true,
@@ -71,6 +69,8 @@
          effect: 'none',
          error_text: 'Enter Your Correct Number'
       });
+      $("#indexLayer5").stickylayer({orientation: 4, position: [0, 0], delay: 500});
+      $("#indexLayer4").stickylayer({orientation: 6, position: [0, 0], delay: 500});
       $('img[data-src]').lazyload();
    });
    
@@ -108,20 +108,20 @@
       }).triggerHandler('scroll');
    });
       
-      var wb_indexTimer1;
-      function TimerStartindexTimer1()
+      var wb_indexTimer2;
+      function TimerStartindexTimer2()
       {
-         wb_indexTimer1 = setTimeout(function()
+         wb_indexTimer2 = setTimeout(function()
          {
             var event = null;
-            $('#indexLayer1').modal('show');
+            ShowObject('indexLayer1', 1);
          }, 20000);
       }
-      function TimerStopindexTimer1()
+      function TimerStopindexTimer2()
       {
-         clearTimeout(wb_indexTimer1);
+         clearTimeout(wb_indexTimer2);
       }
-      TimerStartindexTimer1();
+      TimerStartindexTimer2();
             
       var disabled_message = "";
       document.oncontextmenu = function() 

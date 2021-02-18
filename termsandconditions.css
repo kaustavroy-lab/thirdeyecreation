@@ -34,12 +34,12 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#wb_Image8
+#wb_termsandconditionsImage1
 {
    margin: 0;
    vertical-align: top;
 }
-#Image8
+#termsandconditionsImage1
 {
    border: 0px solid #000000;
    padding: 0;
@@ -56,7 +56,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FBFBFB;
+   background-color: #FFFFFF;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
@@ -184,13 +184,13 @@ input:focus, textarea:focus, select:focus
    width: 100%;
 }
 }
-#wb_Image7
+#wb_termsandconditionsImage2
 {
    height: 100%;
    margin: -10px 0px 0px 0px;
    vertical-align: top;
 }
-#Image7
+#termsandconditionsImage2
 {
    border: 0px solid #000000;
    box-sizing: border-box;
@@ -201,7 +201,7 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    object-fit: cover;
 }
-#wb_Text8 
+#wb_termsandconditionsText3 
 {
    background-color: transparent;
    background-image: none;
@@ -210,7 +210,7 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: center;
 }
-#wb_Text8
+#wb_termsandconditionsText3
 {
    color: #000000;
    font-family: "Courier New";
@@ -218,18 +218,18 @@ input:focus, textarea:focus, select:focus
    font-size: 13px;
    line-height: 15px;
 }
-#wb_Text8 p, #wb_Text8 ul
+#wb_termsandconditionsText3 p, #wb_termsandconditionsText3 ul
 {
    margin: 0;
    padding: 0;
 }
-#wb_Text8
+#wb_termsandconditionsText3
 {
    display: block;
    margin: 0;
    box-sizing: border-box;
 width: 100%;}
-#wb_Text7 
+#wb_termsandconditionsText4 
 {
    background-color: transparent;
    background-image: none;
@@ -238,7 +238,7 @@ width: 100%;}
    margin: 0px 0px 10px 0px;
    text-align: center;
 }
-#wb_Text7
+#wb_termsandconditionsText4
 {
    color: #000000;
    font-family: "Courier New";
@@ -246,18 +246,18 @@ width: 100%;}
    font-size: 13px;
    line-height: 15px;
 }
-#wb_Text7 p, #wb_Text7 ul
+#wb_termsandconditionsText4 p, #wb_termsandconditionsText4 ul
 {
    margin: 0;
    padding: 0;
 }
-#wb_Text7
+#wb_termsandconditionsText4
 {
    display: block;
    margin: 0px 0px 10px 0px;
    box-sizing: border-box;
 width: 100%;}
-#wb_LayoutGrid10
+#wb_termsandconditionsLayoutGrid1
 {
    clear: both;
    position: relative;
@@ -272,19 +272,19 @@ width: 100%;}
    box-sizing: border-box;
    margin: 0;
 }
-#LayoutGrid10
+#termsandconditionsLayoutGrid1
 {
    box-sizing: border-box;
    padding: 0;
    margin-right: auto;
    margin-left: auto;
 }
-#LayoutGrid10 > .row
+#termsandconditionsLayoutGrid1 > .row
 {
    margin-right: 0;
    margin-left: 0;
 }
-#LayoutGrid10 > .row > .col-1
+#termsandconditionsLayoutGrid1 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -293,11 +293,11 @@ width: 100%;}
    padding-left: 0px;
    position: relative;
 }
-#LayoutGrid10 > .row > .col-1
+#termsandconditionsLayoutGrid1 > .row > .col-1
 {
    float: left;
 }
-#LayoutGrid10 > .row > .col-1
+#termsandconditionsLayoutGrid1 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -305,22 +305,22 @@ width: 100%;}
    width: 100%;
    text-align: center;
 }
-#LayoutGrid10:before,
-#LayoutGrid10:after,
-#LayoutGrid10 .row:before,
-#LayoutGrid10 .row:after
+#termsandconditionsLayoutGrid1:before,
+#termsandconditionsLayoutGrid1:after,
+#termsandconditionsLayoutGrid1 .row:before,
+#termsandconditionsLayoutGrid1 .row:after
 {
    display: table;
    content: " ";
 }
-#LayoutGrid10:after,
-#LayoutGrid10 .row:after
+#termsandconditionsLayoutGrid1:after,
+#termsandconditionsLayoutGrid1 .row:after
 {
    clear: both;
 }
 @media (max-width: 0px)
 {
-#LayoutGrid10 > .row > .col-1
+#termsandconditionsLayoutGrid1 > .row > .col-1
 {
    float: none;
    width: 100% !important;
@@ -509,6 +509,13 @@ width: 100%;}
 {
    z-index: 14;
 }
+#wb_termsandconditionsImage1
+{
+   display: inline-block;
+   width: 61px;
+   height: 61px;
+   z-index: 3;
+}
 #wb_uid43
 {
    margin: 0 0 0 24px;
@@ -530,7 +537,7 @@ width: 100%;}
    color: #000000;
    list-style-type: disc;
 }
-#wb_Image7
+#wb_termsandconditionsImage2
 {
    display: none;
    width: 100%;
@@ -553,13 +560,6 @@ width: 100%;}
 #wb_uid11
 {
    font-weight: bold;
-}
-#wb_Image8
-{
-   display: inline-block;
-   width: 61px;
-   height: 61px;
-   z-index: 3;
 }
 #wb_uid45
 {
