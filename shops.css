@@ -2412,6 +2412,34 @@ width: 100%;}
    font-size: 13px;
    width: 13px;
 }
+#wb_shopsText2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_shopsText2
+{
+   color: #000000;
+   font-family: Courgette;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 15px;
+}
+#wb_shopsText2 p, #wb_shopsText2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_shopsText2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+width: 100%;}
 #wb_shopsCard6
 {
    display: flex;
@@ -2445,7 +2473,7 @@ width: 100%;}
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 18;
+   z-index: 19;
 }
 #wb_uid3
 {
@@ -2464,7 +2492,7 @@ width: 100%;}
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 19;
+   z-index: 20;
 }
 #wb_uid4
 {
@@ -2494,49 +2522,45 @@ width: 100%;}
    width: 100%;
    z-index: 2;
 }
-#wb_uid6
-{
-   background-color: #FFF5EE;
-   color: #DC143C;
-}
 #wb_shopsCard10
-{
-   display: flex;
-   width: 100%;
-   text-align: center;
-   z-index: 20;
-}
-#wb_uid7
-{
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
-}
-#wb_Card9
-{
-   display: flex;
-   text-align: center;
-   z-index: 33;
-}
-#wb_uid8
-{
-   font-family: "Courier New";
-}
-#wb_shopsCard12
 {
    display: flex;
    width: 100%;
    text-align: center;
    z-index: 21;
 }
-#wb_uid10
+#wb_uid6
+{
+   color: #000000;
+}
+#wb_Card9
+{
+   display: flex;
+   text-align: center;
+   z-index: 34;
+}
+#wb_uid7
+{
+   background-color: #FFF5EE;
+   color: #DC143C;
+}
+#wb_uid8
 {
    font-family: "Arial";
    font-size: 13px;
    line-height: 16px;
-   font-weight: bold;
    color: #000000;
+}
+#wb_shopsCard12
+{
+   display: flex;
+   width: 100%;
+   text-align: center;
+   z-index: 22;
+}
+#wb_uid10
+{
+   font-family: "Courier New";
 }
 #wb_uid9
 {
@@ -2544,22 +2568,30 @@ width: 100%;}
 }
 #wb_uid11
 {
-   font-family: "Courier New";
-   font-weight: normal;
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
 }
 #wb_Image7
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 39;
+   z-index: 40;
+}
+#wb_uid12
+{
+   font-family: "Courier New";
+   font-weight: normal;
 }
 #wb_Image8
 {
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 38;
+   z-index: 39;
 }
 #Bookmark2
 {
@@ -2569,41 +2601,41 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 35;
+   z-index: 36;
 }
 #wb_Card11
 {
    display: flex;
    text-align: center;
-   z-index: 34;
+   z-index: 35;
 }
 #wb_shopsCard1
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 14;
+   z-index: 15;
 }
 #wb_shopsCard2
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 15;
+   z-index: 16;
 }
 #wb_shopsCard3
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 16;
+   z-index: 17;
 }
 #wb_shopsCard4
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 17;
+   z-index: 18;
 }
 #wb_shopsCard5
 {

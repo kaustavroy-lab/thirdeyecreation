@@ -2969,6 +2969,10 @@ width: 100%;}
    background: #F6F6F6;
    color: #111111;
 }
+#wb_uid19
+{
+   z-index: 106;
+}
 #wb_booknowEditbox6
 {
    display: inline-block;
@@ -2989,8 +2993,8 @@ width: 100%;}
 #wb_TabMenu1
 {
    display: inline-block;
-   width: 286px;
-   height: 36px;
+   width: 284px;
+   height: 34px;
    z-index: 0;
    overflow: hidden;
 }
@@ -3002,8 +3006,8 @@ width: 100%;}
 #wb_TabMenu2
 {
    display: inline-block;
-   width: 301px;
-   height: 36px;
+   width: 299px;
+   height: 34px;
    z-index: 1;
    overflow: hidden;
 }
@@ -3015,18 +3019,16 @@ width: 100%;}
    margin-right: auto;
    text-align: left;
 }
-#wb_uid4
-{
-   color: #000000;
-   font-family: "Arial";
-   font-size: 13px;
-}
 #booknowButton1
 {
    display: inline-block;
    width: 77px;
    height: 27px;
    z-index: 44;
+}
+#wb_uid4
+{
+   color: #FFFFFF;
 }
 #wb_Image1
 {
@@ -3047,9 +3049,9 @@ width: 100%;}
 }
 #wb_uid5
 {
-   font-size: 13px;
-   line-height: 16px;
    color: #000000;
+   font-family: "Arial";
+   font-size: 13px;
 }
 #booknowEditbox1
 {
@@ -3111,7 +3113,9 @@ width: 100%;}
 }
 #wb_uid7
 {
-   font-weight: bold;
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #wb_Image4
 {
@@ -3132,8 +3136,7 @@ width: 100%;}
 }
 #wb_uid8
 {
-   font-size: 13px;
-   line-height: 16px;
+   font-weight: bold;
 }
 #wb_IconFont1
 {
@@ -3162,15 +3165,13 @@ width: 100%;}
 }
 #wb_uid10
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   background-color: #FFF5EE;
+   color: #DC143C;
 }
 #wb_uid9
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
+   font-size: 13px;
+   line-height: 16px;
 }
 #booknowEditbox5
 {
@@ -3194,7 +3195,10 @@ width: 100%;}
 }
 #wb_uid11
 {
-   font-family: "Courier New";
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #wb_Image7
 {
@@ -3247,11 +3251,7 @@ width: 100%;}
 }
 #wb_uid13
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   font-weight: bold;
-   color: #000000;
+   font-family: "Courier New";
 }
 #wb_Card10
 {
@@ -3276,8 +3276,11 @@ width: 100%;}
 }
 #wb_uid14
 {
-   font-family: "Courier New";
-   font-weight: normal;
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
 }
 #wb_Card11
 {
@@ -3308,7 +3311,8 @@ width: 100%;}
 }
 #wb_uid15
 {
-   z-index: 69;
+   font-family: "Courier New";
+   font-weight: normal;
 }
 #wb_booknowCombobox1
 {
@@ -3330,12 +3334,6 @@ width: 100%;}
    width: 100%;
    z-index: 27;
 }
-#wb_uid16
-{
-   font-size: 12px;
-   line-height: 13.5px;
-   color: #FFFFFF;
-}
 #Layer2-container
 {
    width: 33px;
@@ -3343,6 +3341,10 @@ width: 100%;}
    margin-left: auto;
    margin-right: auto;
    text-align: left;
+}
+#wb_uid16
+{
+   z-index: 69;
 }
 #wb_booknowIconFont4
 {
@@ -3360,8 +3362,9 @@ width: 100%;}
 }
 #wb_uid17
 {
-   background-color: #C21010;
-   font-weight: bold;
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
 }
 #wb_booknowEditbox4
 {
@@ -3387,7 +3390,8 @@ width: 100%;}
 }
 #wb_uid18
 {
-   z-index: 106;
+   background-color: #C21010;
+   font-weight: bold;
 }
 #wb_booknowEditbox5
 {
