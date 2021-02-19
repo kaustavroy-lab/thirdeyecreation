@@ -2000,138 +2000,6 @@ width: 100%;}
    width: 100%;
    height: 35px;
 }
-#TabMenu1
-{
-   text-align: left;
-   float: left;
-   margin: 0;
-   width: 100%;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 12px;
-   font-style: normal;
-   list-style-type: none;
-   padding: 9px 0px 4px 5px;
-   overflow: hidden;
-}
-#TabMenu1 li
-{
-   float: left;
-}
-#TabMenu1 li a.active, #TabMenu1 li a:hover.active
-{
-   position: relative;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
-   z-index: 2;
-}
-#TabMenu1 li a
-{
-   padding: 4px 14px 8px 7px;
-   margin-right: 2px;
-   text-decoration: none;
-   border-bottom: none;
-   position: relative;
-   top: 0;
-   -webkit-transition: 200ms all linear;
-   transition: 200ms all linear;
-}
-#TabMenu1 li a:hover
-{
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   top: -4px;
-}
-#TabMenu1
-{
-   border-bottom: 1px solid #D19405;
-}
-#TabMenu1 li a.active, #TabMenu1 li a:hover.active
-{
-   background-color: #FFFFFF;
-   color: #0074C7;
-}
-#TabMenu1 li a
-{
-   border: 1px solid #D19405;
-   border-top-left-radius: 5px;
-   border-top-right-radius: 5px;
-   background-color: #FECE2F;
-   color: #4C3000;
-}
-#TabMenu1 li a:hover
-{
-   background: #FFDD57;
-   color: #381F00;
-}
-#TabMenu2
-{
-   text-align: left;
-   float: left;
-   margin: 0;
-   width: 100%;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 12px;
-   font-style: normal;
-   list-style-type: none;
-   padding: 9px 0px 4px 5px;
-   overflow: hidden;
-}
-#TabMenu2 li
-{
-   float: left;
-}
-#TabMenu2 li a.active, #TabMenu2 li a:hover.active
-{
-   position: relative;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
-   z-index: 2;
-}
-#TabMenu2 li a
-{
-   padding: 4px 14px 8px 7px;
-   margin-right: 2px;
-   text-decoration: none;
-   border-bottom: none;
-   position: relative;
-   top: 0;
-   -webkit-transition: 200ms all linear;
-   transition: 200ms all linear;
-}
-#TabMenu2 li a:hover
-{
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   top: -4px;
-}
-#TabMenu2
-{
-   border-bottom: 1px solid #D19405;
-}
-#TabMenu2 li a.active, #TabMenu2 li a:hover.active
-{
-   background-color: #FFFFFF;
-   color: #0074C7;
-}
-#TabMenu2 li a
-{
-   border: 1px solid #D19405;
-   border-top-left-radius: 5px;
-   border-top-right-radius: 5px;
-   background-color: #FECE2F;
-   color: #4C3000;
-}
-#TabMenu2 li a:hover
-{
-   background: #FFDD57;
-   color: #381F00;
-}
 #wb_indexImage2
 {
    height: 100%;
@@ -2660,6 +2528,138 @@ width: 100%;}
    width: 100% !important;
 }
 }
+#master_frameworkTabMenu1
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 9.3px;
+   font-style: normal;
+   list-style-type: none;
+   padding: 10px 0px 4px 5px;
+   overflow: hidden;
+}
+#master_frameworkTabMenu1 li
+{
+   float: left;
+}
+#master_frameworkTabMenu1 li a.active, #master_frameworkTabMenu1 li a:hover.active
+{
+   position: relative;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: underline;
+   z-index: 2;
+}
+#master_frameworkTabMenu1 li a
+{
+   padding: 5px 14px 8px 14px;
+   margin-right: 3px;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   -webkit-transition: 200ms all linear;
+   transition: 200ms all linear;
+}
+#master_frameworkTabMenu1 li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   top: -4px;
+}
+#master_frameworkTabMenu1
+{
+   border-bottom: 1px solid #FFFFFF;
+}
+#master_frameworkTabMenu1 li a.active, #master_frameworkTabMenu1 li a:hover.active
+{
+   background-color: #8B0000;
+   color: #FFFFFF;
+}
+#master_frameworkTabMenu1 li a
+{
+   border: 1px solid #FFFFFF;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #CC0000;
+   color: #FFFFFF;
+}
+#master_frameworkTabMenu1 li a:hover
+{
+   background: #FFFFFF;
+   color: #CC0000;
+}
+#master_frameworkTabMenu2
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 9.3px;
+   font-style: normal;
+   list-style-type: none;
+   padding: 10px 0px 4px 5px;
+   overflow: hidden;
+}
+#master_frameworkTabMenu2 li
+{
+   float: left;
+}
+#master_frameworkTabMenu2 li a.active, #master_frameworkTabMenu2 li a:hover.active
+{
+   position: relative;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: underline;
+   z-index: 2;
+}
+#master_frameworkTabMenu2 li a
+{
+   padding: 5px 14px 8px 14px;
+   margin-right: 3px;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   -webkit-transition: 200ms all linear;
+   transition: 200ms all linear;
+}
+#master_frameworkTabMenu2 li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   top: -4px;
+}
+#master_frameworkTabMenu2
+{
+   border-bottom: 1px solid #FFFFFF;
+}
+#master_frameworkTabMenu2 li a.active, #master_frameworkTabMenu2 li a:hover.active
+{
+   background-color: #8B0000;
+   color: #FFFFFF;
+}
+#master_frameworkTabMenu2 li a
+{
+   border: 1px solid #FFFFFF;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #CC0000;
+   color: #FFFFFF;
+}
+#master_frameworkTabMenu2 li a:hover
+{
+   background: #FFFFFF;
+   color: #CC0000;
+}
 #Label2
 {
    display: block;
@@ -2690,14 +2690,6 @@ width: 100%;}
 {
    color: #DC143C;
 }
-#wb_TabMenu1
-{
-   display: inline-block;
-   width: 275px;
-   height: 28px;
-   z-index: 5;
-   overflow: hidden;
-}
 #wb_uid3
 {
    background-color: #FFF5EE;
@@ -2709,14 +2701,6 @@ width: 100%;}
    width: 71px;
    line-height: 18px;
    z-index: 23;
-}
-#wb_TabMenu2
-{
-   display: inline-block;
-   width: 293px;
-   height: 28px;
-   z-index: 6;
-   overflow: hidden;
 }
 #wb_uid4
 {
@@ -2759,6 +2743,14 @@ width: 100%;}
    width: 100%;
    height: 18px;
    z-index: 21;
+}
+#wb_master_frameworkTabMenu1
+{
+   display: inline-block;
+   width: 280px;
+   height: 29px;
+   z-index: 5;
+   overflow: hidden;
 }
 #wb_Image2
 {
@@ -2817,6 +2809,14 @@ width: 100%;}
    width: 100%;
    height: auto;
    z-index: 14;
+}
+#wb_master_frameworkTabMenu2
+{
+   display: inline-block;
+   width: 294px;
+   height: 29px;
+   z-index: 6;
+   overflow: hidden;
 }
 #indexLayer5
 {
