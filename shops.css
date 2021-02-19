@@ -53,6 +53,13 @@ input:focus, textarea:focus, select:focus
    height: 61px;
    vertical-align: top;
 }
+#Image8:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 300ms linear 0ms;
+   transition: transform 300ms linear 0ms;
+}
 #wb_LayoutGrid1
 {
    clear: both;
@@ -270,6 +277,13 @@ input:focus, textarea:focus, select:focus
    width: 84px;
    height: 84px;
    vertical-align: top;
+}
+#Image1:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 300ms linear 0ms;
+   transition: transform 300ms linear 0ms;
 }
 #wb_Image2
 {
@@ -2020,6 +2034,20 @@ width: 100%;}
    margin: 0;
    box-sizing: border-box;
 width: 100%;}
+#wb_contactusImage1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#contactusImage1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 191px;
+   height: 191px;
+   vertical-align: top;
+}
 #wb_LayoutGrid15
 {
    clear: both;
@@ -2409,6 +2437,13 @@ width: 100%;}
    width: 100%;
    height: 35px;
 }
+#wb_Card9:hover
+{
+   -webkit-transform: rotate(360deg) scale(1.05,1.05) ;
+   transform: rotate(360deg) scale(1.05,1.05) ;
+   -webkit-transition: -webkit-transform 250ms linear 0ms;
+   transition: transform 250ms linear 0ms;
+}
 #wb_Card11
 {
    position: relative;
@@ -2451,6 +2486,13 @@ width: 100%;}
    width: 100%;
    height: 35px;
 }
+#wb_Card11:hover
+{
+   -webkit-transform: rotate(360deg) scale(1.05,1.05) ;
+   transform: rotate(360deg) scale(1.05,1.05) ;
+   -webkit-transition: -webkit-transform 250ms linear 0ms;
+   transition: transform 250ms linear 0ms;
+}
 #wb_Card10
 {
    position: relative;
@@ -2492,6 +2534,13 @@ width: 100%;}
    max-width: 35px;
    width: 100%;
    height: 35px;
+}
+#wb_Card10:hover
+{
+   -webkit-transform: rotate(360deg) scale(1.05,1.05) ;
+   transform: rotate(360deg) scale(1.05,1.05) ;
+   -webkit-transition: -webkit-transform 250ms linear 0ms;
+   transition: transform 250ms linear 0ms;
 }
 #wb_indexImage2
 {
@@ -3183,7 +3232,7 @@ width: 100%;}
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 31;
+   z-index: 32;
 }
 #wb_uid3
 {
@@ -3194,7 +3243,7 @@ width: 100%;}
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 32;
+   z-index: 33;
 }
 #wb_uid4
 {
@@ -3240,14 +3289,14 @@ width: 100%;}
    top: 532px;
    width: 97px;
    height: 28px;
-   z-index: 71;
+   z-index: 72;
 }
 #wb_shopsCard10
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 33;
+   z-index: 34;
 }
 #wb_uid6
 {
@@ -3276,20 +3325,20 @@ width: 100%;}
    top: 723px;
    width: 25px;
    height: 21px;
-   z-index: 70;
+   z-index: 71;
 }
 #wb_indexImage2
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 46;
+   z-index: 47;
 }
 #wb_Card9
 {
    display: flex;
    text-align: center;
-   z-index: 38;
+   z-index: 39;
 }
 #wb_uid7
 {
@@ -3310,25 +3359,25 @@ width: 100%;}
    width: 68px;
    height: 13px;
    text-align: center;
-   z-index: 62;
+   z-index: 63;
 }
 #wb_uid20
 {
-   z-index: 56;
+   z-index: 57;
 }
 #wb_indexImage3
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 53;
+   z-index: 54;
 }
 #wb_shopsCard12
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 34;
+   z-index: 35;
 }
 #wb_uid8
 {
@@ -3381,7 +3430,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 45;
+   z-index: 46;
 }
 #wb_indexIconFont3
 {
@@ -3391,7 +3440,7 @@ width: 100%;}
    width: 23px;
    height: 20px;
    text-align: center;
-   z-index: 61;
+   z-index: 62;
 }
 #wb_uid12
 {
@@ -3405,7 +3454,7 @@ width: 100%;}
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 44;
+   z-index: 45;
 }
 #Bookmark2
 {
@@ -3419,7 +3468,7 @@ width: 100%;}
    width: 19px;
    height: 15px;
    text-align: center;
-   z-index: 57;
+   z-index: 58;
 }
 #wb_uid13
 {
@@ -3431,24 +3480,31 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 40;
+   z-index: 41;
 }
 #wb_uid14
 {
-   z-index: 69;
+   z-index: 70;
 }
 #wb_Card11
 {
    display: flex;
    text-align: center;
-   z-index: 39;
+   z-index: 40;
 }
 #wb_shopsCard1
 {
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 27;
+   z-index: 28;
+}
+#wb_contactusImage1
+{
+   display: inline-block;
+   width: 191px;
+   height: 191px;
+   z-index: 22;
 }
 #wb_uid15
 {
@@ -3462,7 +3518,7 @@ width: 100%;}
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 28;
+   z-index: 29;
 }
 #wb_uid16
 {
@@ -3473,7 +3529,7 @@ width: 100%;}
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 29;
+   z-index: 30;
 }
 #indexLayer4-container
 {
@@ -3492,7 +3548,7 @@ width: 100%;}
    display: flex;
    width: 100%;
    text-align: center;
-   z-index: 30;
+   z-index: 31;
 }
 #wb_uid18
 {

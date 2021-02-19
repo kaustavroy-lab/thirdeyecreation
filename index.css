@@ -62,6 +62,13 @@ input:focus, textarea:focus, select:focus
    height: 61px;
    vertical-align: top;
 }
+#Image8:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 300ms linear 0ms;
+   transition: transform 300ms linear 0ms;
+}
 #wb_LayoutGrid1
 {
    clear: both;
@@ -279,6 +286,13 @@ input:focus, textarea:focus, select:focus
    width: 84px;
    height: 84px;
    vertical-align: top;
+}
+#Image1:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 300ms linear 0ms;
+   transition: transform 300ms linear 0ms;
 }
 #wb_Image2
 {
@@ -3107,6 +3121,13 @@ width: 100%;}
    width: 100%;
    height: 35px;
 }
+#wb_Card9:hover
+{
+   -webkit-transform: rotate(360deg) scale(1.05,1.05) ;
+   transform: rotate(360deg) scale(1.05,1.05) ;
+   -webkit-transition: -webkit-transform 250ms linear 0ms;
+   transition: transform 250ms linear 0ms;
+}
 #wb_Card11
 {
    position: relative;
@@ -3149,6 +3170,13 @@ width: 100%;}
    width: 100%;
    height: 35px;
 }
+#wb_Card11:hover
+{
+   -webkit-transform: rotate(360deg) scale(1.05,1.05) ;
+   transform: rotate(360deg) scale(1.05,1.05) ;
+   -webkit-transition: -webkit-transform 250ms linear 0ms;
+   transition: transform 250ms linear 0ms;
+}
 #wb_Card10
 {
    position: relative;
@@ -3190,6 +3218,13 @@ width: 100%;}
    max-width: 35px;
    width: 100%;
    height: 35px;
+}
+#wb_Card10:hover
+{
+   -webkit-transform: rotate(360deg) scale(1.05,1.05) ;
+   transform: rotate(360deg) scale(1.05,1.05) ;
+   -webkit-transition: -webkit-transform 250ms linear 0ms;
+   transition: transform 250ms linear 0ms;
 }
 #wb_indexImage2
 {

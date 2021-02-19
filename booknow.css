@@ -53,6 +53,13 @@ input:focus, textarea:focus, select:focus
    height: 61px;
    vertical-align: top;
 }
+#Image8:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 300ms linear 0ms;
+   transition: transform 300ms linear 0ms;
+}
 #wb_LayoutGrid1
 {
    clear: both;
@@ -270,6 +277,13 @@ input:focus, textarea:focus, select:focus
    width: 84px;
    height: 84px;
    vertical-align: top;
+}
+#Image1:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 300ms linear 0ms;
+   transition: transform 300ms linear 0ms;
 }
 #wb_Image2
 {
@@ -2463,6 +2477,20 @@ width: 100%;}
 {
    color: #FF0042;
 }
+#wb_contactusImage1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#contactusImage1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 150px;
+   height: 38px;
+   vertical-align: top;
+}
 #wb_LayoutGrid15
 {
    clear: both;
@@ -2852,6 +2880,13 @@ width: 100%;}
    width: 100%;
    height: 35px;
 }
+#wb_Card9:hover
+{
+   -webkit-transform: rotate(360deg) scale(1.05,1.05) ;
+   transform: rotate(360deg) scale(1.05,1.05) ;
+   -webkit-transition: -webkit-transform 250ms linear 0ms;
+   transition: transform 250ms linear 0ms;
+}
 #wb_Card11
 {
    position: relative;
@@ -2894,6 +2929,13 @@ width: 100%;}
    width: 100%;
    height: 35px;
 }
+#wb_Card11:hover
+{
+   -webkit-transform: rotate(360deg) scale(1.05,1.05) ;
+   transform: rotate(360deg) scale(1.05,1.05) ;
+   -webkit-transition: -webkit-transform 250ms linear 0ms;
+   transition: transform 250ms linear 0ms;
+}
 #wb_Card10
 {
    position: relative;
@@ -2935,6 +2977,13 @@ width: 100%;}
    max-width: 35px;
    width: 100%;
    height: 35px;
+}
+#wb_Card10:hover
+{
+   -webkit-transform: rotate(360deg) scale(1.05,1.05) ;
+   transform: rotate(360deg) scale(1.05,1.05) ;
+   -webkit-transition: -webkit-transform 250ms linear 0ms;
+   transition: transform 250ms linear 0ms;
 }
 #wb_indexImage2
 {
@@ -3598,13 +3647,13 @@ width: 100%;}
 }
 #wb_uid19
 {
-   z-index: 106;
+   z-index: 108;
 }
 #wb_booknowEditbox6
 {
    display: inline-block;
    width: 100%;
-   z-index: 33;
+   z-index: 35;
 }
 #wb_uid1
 {
@@ -3633,7 +3682,7 @@ width: 100%;}
    display: inline-block;
    width: 77px;
    height: 27px;
-   z-index: 44;
+   z-index: 46;
 }
 #wb_Image1
 {
@@ -3680,7 +3729,7 @@ width: 100%;}
    top: 532px;
    width: 97px;
    height: 28px;
-   z-index: 121;
+   z-index: 123;
 }
 #wb_uid6
 {
@@ -3693,7 +3742,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 43;
+   z-index: 45;
 }
 #booknowEditbox2
 {
@@ -3721,20 +3770,20 @@ width: 100%;}
    top: 723px;
    width: 25px;
    height: 21px;
-   z-index: 120;
+   z-index: 122;
 }
 #wb_indexImage2
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 96;
+   z-index: 98;
 }
 #wb_Card9
 {
    display: flex;
    text-align: center;
-   z-index: 88;
+   z-index: 90;
 }
 #wb_uid7
 {
@@ -3745,7 +3794,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 55;
+   z-index: 57;
 }
 #booknowEditbox3
 {
@@ -3755,7 +3804,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 22;
+   z-index: 24;
 }
 #wb_master_frameworkImage2
 {
@@ -3778,14 +3827,14 @@ width: 100%;}
    width: 68px;
    height: 13px;
    text-align: center;
-   z-index: 112;
+   z-index: 114;
 }
 #wb_indexImage3
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 103;
+   z-index: 105;
 }
 #wb_uid8
 {
@@ -3798,14 +3847,14 @@ width: 100%;}
    width: 28px;
    height: 24px;
    text-align: center;
-   z-index: 56;
+   z-index: 58;
 }
 #CareerButton1
 {
    display: inline-block;
    width: 67px;
    height: 27px;
-   z-index: 45;
+   z-index: 47;
 }
 #booknowEditbox4
 {
@@ -3815,7 +3864,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 25;
+   z-index: 27;
 }
 #wb_master_frameworkImage3
 {
@@ -3849,7 +3898,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 28;
+   z-index: 30;
 }
 #indexLayer5-container
 {
@@ -3871,7 +3920,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 95;
+   z-index: 97;
 }
 #booknowEditbox6
 {
@@ -3881,7 +3930,7 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 31;
+   z-index: 33;
 }
 #wb_indexIconFont3
 {
@@ -3891,7 +3940,7 @@ width: 100%;}
    width: 23px;
    height: 20px;
    text-align: center;
-   z-index: 111;
+   z-index: 113;
 }
 #wb_uid12
 {
@@ -3904,14 +3953,14 @@ width: 100%;}
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 94;
+   z-index: 96;
 }
 #wb_booknowImage6
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 34;
+   z-index: 36;
 }
 #Bookmark2
 {
@@ -3925,24 +3974,24 @@ width: 100%;}
    width: 19px;
    height: 15px;
    text-align: center;
-   z-index: 107;
+   z-index: 109;
 }
 #wb_uid13
 {
-   z-index: 119;
+   z-index: 121;
 }
 #wb_Card10
 {
    display: flex;
    text-align: center;
-   z-index: 90;
+   z-index: 92;
 }
 #wb_booknowImage7
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 37;
+   z-index: 39;
 }
 #wb_booknowIconFont1
 {
@@ -3950,7 +3999,7 @@ width: 100%;}
    width: 38px;
    height: 37px;
    text-align: center;
-   z-index: 26;
+   z-index: 28;
 }
 #wb_uid14
 {
@@ -3963,14 +4012,14 @@ width: 100%;}
 {
    display: flex;
    text-align: center;
-   z-index: 89;
+   z-index: 91;
 }
 #wb_booknowImage8
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 40;
+   z-index: 42;
 }
 #wb_booknowIconFont2
 {
@@ -3978,13 +4027,20 @@ width: 100%;}
    width: 38px;
    height: 37px;
    text-align: center;
-   z-index: 29;
+   z-index: 31;
 }
 #wb_booknowEditbox1
 {
    display: inline-block;
    width: 100%;
-   z-index: 24;
+   z-index: 26;
+}
+#wb_contactusImage1
+{
+   display: inline-block;
+   width: 150px;
+   height: 38px;
+   z-index: 22;
 }
 #wb_uid15
 {
@@ -3994,7 +4050,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 36;
+   z-index: 38;
 }
 #wb_booknowIconFont3
 {
@@ -4002,13 +4058,13 @@ width: 100%;}
    width: 38px;
    height: 37px;
    text-align: center;
-   z-index: 32;
+   z-index: 34;
 }
 #wb_booknowEditbox2
 {
    display: inline-block;
    width: 100%;
-   z-index: 27;
+   z-index: 29;
 }
 #wb_uid16
 {
@@ -4020,13 +4076,13 @@ width: 100%;}
    width: 38px;
    height: 37px;
    text-align: center;
-   z-index: 35;
+   z-index: 37;
 }
 #wb_booknowEditbox3
 {
    display: inline-block;
    width: 100%;
-   z-index: 30;
+   z-index: 32;
 }
 #indexLayer4-container
 {
@@ -4048,7 +4104,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 39;
+   z-index: 41;
 }
 #wb_booknowIconFont5
 {
@@ -4056,7 +4112,7 @@ width: 100%;}
    width: 38px;
    height: 37px;
    text-align: center;
-   z-index: 38;
+   z-index: 40;
 }
 #wb_CareerIconFont1
 {
@@ -4064,7 +4120,7 @@ width: 100%;}
    width: 38px;
    height: 37px;
    text-align: center;
-   z-index: 23;
+   z-index: 25;
 }
 #wb_uid18
 {
@@ -4075,7 +4131,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 42;
+   z-index: 44;
 }
 #wb_booknowIconFont6
 {
@@ -4083,7 +4139,7 @@ width: 100%;}
    width: 38px;
    height: 37px;
    text-align: center;
-   z-index: 41;
+   z-index: 43;
 }
 #wb_uid0
 {
