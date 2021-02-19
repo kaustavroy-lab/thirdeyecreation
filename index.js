@@ -80,7 +80,7 @@
          wb_indexTimer2 = setTimeout(function()
          {
             var event = null;
-            ShowObject('indexLayer1', 1);
+            $('#indexLayer6').modal('show');
          }, 20000);
       }
       function TimerStopindexTimer2()
