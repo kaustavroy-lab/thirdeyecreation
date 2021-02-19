@@ -36,8 +36,8 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Reggae+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-<link href="third_eye_creation.css?v=84" rel="stylesheet">
-<link href="about.css?v=84" rel="stylesheet">
+<link href="third_eye_creation.css?v=85" rel="stylesheet">
+<link href="about.css?v=85" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="skrollr.min.js"></script>
 <script src="wb.lazyload.min.js"></script>
@@ -63,7 +63,42 @@
       "telephone" : "9933448052 , 7063515775"
    }
 </script>
-<script src="about.js?v=84"></script>
+<script>   
+   $(document).ready(function()
+   {
+      var $countup = $('#count-up h1');
+      
+      $countup.each(function() 
+      {
+        var $obj = $(this);
+        $obj.data('value', parseInt($obj.html()));
+        $obj.data('done', false);
+        $obj.html('0');
+      });
+      $(window).bind('scroll', function() 
+      {
+         $countup.each(function() 
+         {
+            var $obj = $(this);
+            if (!$obj.data('done') && $(window).scrollTop() + $(window).height() >= $obj.offset().top) 
+            {
+               $obj.data('done', true);
+               $obj.animate({scroll: 1}, 
+               { 
+                  duration: 3000, 
+                  step: function(now) 
+                  {
+                     var $obj = $(this);
+                     var val = Math.round($obj.data('value') * now);
+                     $obj.html(val);
+                  }
+               });
+            }
+         });
+      }).triggerHandler('scroll');
+   });
+</script><meta name="theme-color" content="#C40233"/>
+<script src="about.js?v=85"></script>
 </head>
 <body>
    <div id="container">
