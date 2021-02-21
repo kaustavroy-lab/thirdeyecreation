@@ -438,33 +438,33 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
-#wb_shopsLayoutGrid4
+#wb_LayoutGrid5
 {
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: table;
+   display: none;
    text-align: center;
    width: 100%;
-   background-color: rgba(251,251,251,0.59);
+   background-color: transparent;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
-   margin: 0;
+   margin: 7px 0px 0px 0px;
 }
-#shopsLayoutGrid4
+#LayoutGrid5
 {
    box-sizing: border-box;
-   padding: 0px 0px 10px 0px;
+   padding: 0;
    margin-right: auto;
    margin-left: auto;
 }
-#shopsLayoutGrid4 > .row
+#LayoutGrid5 > .row
 {
    margin-right: 0;
    margin-left: 0;
 }
-#shopsLayoutGrid4 > .row > .col-1
+#LayoutGrid5 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -473,11 +473,11 @@ input:focus, textarea:focus, select:focus
    padding-left: 0px;
    position: relative;
 }
-#shopsLayoutGrid4 > .row > .col-1
+#LayoutGrid5 > .row > .col-1
 {
    float: left;
 }
-#shopsLayoutGrid4 > .row > .col-1
+#LayoutGrid5 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -485,28 +485,28 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    text-align: center;
 }
-#shopsLayoutGrid4:before,
-#shopsLayoutGrid4:after,
-#shopsLayoutGrid4 .row:before,
-#shopsLayoutGrid4 .row:after
+#LayoutGrid5:before,
+#LayoutGrid5:after,
+#LayoutGrid5 .row:before,
+#LayoutGrid5 .row:after
 {
    display: table;
    content: " ";
 }
-#shopsLayoutGrid4:after,
-#shopsLayoutGrid4 .row:after
+#LayoutGrid5:after,
+#LayoutGrid5 .row:after
 {
    clear: both;
 }
-@media (max-width: 480px)
+@media (max-width: 0px)
 {
-#shopsLayoutGrid4 > .row > .col-1
+#LayoutGrid5 > .row > .col-1
 {
    float: none;
-   width: 100% !important;
+   width: 100%;
 }
 }
-#wb_shopsLayoutGrid3
+#wb_CareerLayoutGrid1
 {
    clear: both;
    position: relative;
@@ -514,25 +514,25 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   background-color: rgba(251,251,251,0.59);
+   background-color: rgba(251,251,251,0.82);
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
 }
-#shopsLayoutGrid3
+#CareerLayoutGrid1
 {
    box-sizing: border-box;
    padding: 0px 10px 0px 10px;
    margin-right: auto;
    margin-left: auto;
 }
-#shopsLayoutGrid3 > .row
+#CareerLayoutGrid1 > .row
 {
    margin-right: -10px;
    margin-left: -10px;
 }
-#shopsLayoutGrid3 > .row > .col-1, #shopsLayoutGrid3 > .row > .col-2, #shopsLayoutGrid3 > .row > .col-3, #shopsLayoutGrid3 > .row > .col-4
+#CareerLayoutGrid1 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -541,64 +541,40 @@ input:focus, textarea:focus, select:focus
    padding-left: 10px;
    position: relative;
 }
-#shopsLayoutGrid3 > .row > .col-1, #shopsLayoutGrid3 > .row > .col-2, #shopsLayoutGrid3 > .row > .col-3, #shopsLayoutGrid3 > .row > .col-4
+#CareerLayoutGrid1 > .row > .col-1
 {
    float: left;
 }
-#shopsLayoutGrid3 > .row > .col-1
+#CareerLayoutGrid1 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 25%;
+   width: 100%;
    text-align: center;
 }
-#shopsLayoutGrid3 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: left;
-}
-#shopsLayoutGrid3 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: left;
-}
-#shopsLayoutGrid3 > .row > .col-4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: left;
-}
-#shopsLayoutGrid3:before,
-#shopsLayoutGrid3:after,
-#shopsLayoutGrid3 .row:before,
-#shopsLayoutGrid3 .row:after
+#CareerLayoutGrid1:before,
+#CareerLayoutGrid1:after,
+#CareerLayoutGrid1 .row:before,
+#CareerLayoutGrid1 .row:after
 {
    display: table;
    content: " ";
 }
-#shopsLayoutGrid3:after,
-#shopsLayoutGrid3 .row:after
+#CareerLayoutGrid1:after,
+#CareerLayoutGrid1 .row:after
 {
    clear: both;
 }
 @media (max-width: 480px)
 {
-#shopsLayoutGrid3 > .row > .col-1, #shopsLayoutGrid3 > .row > .col-2, #shopsLayoutGrid3 > .row > .col-3, #shopsLayoutGrid3 > .row > .col-4
+#CareerLayoutGrid1 > .row > .col-1
 {
    float: none;
    width: 100% !important;
 }
 }
-#wb_shopsLayoutGrid1
+#wb_registrationLayoutGrid1
 {
    clear: both;
    position: relative;
@@ -606,1434 +582,1334 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   background-color: rgba(251,251,251,0.59);
+   background-clip: padding-box;
+   background-color: rgba(251,251,251,0.82);
    background-image: none;
-   border: 0px solid #CCCCCC;
+   border: 0px solid transparent;
    box-sizing: border-box;
    margin: 0;
 }
-#shopsLayoutGrid1
+#registrationLayoutGrid1
 {
    box-sizing: border-box;
-   padding: 0px 10px 0px 10px;
+   padding: 0;
    margin-right: auto;
    margin-left: auto;
 }
-#shopsLayoutGrid1 > .row
+#registrationLayoutGrid1 > .row
 {
-   margin-right: -10px;
-   margin-left: -10px;
+   margin-right: 0;
+   margin-left: 0;
 }
-#shopsLayoutGrid1 > .row > .col-1, #shopsLayoutGrid1 > .row > .col-2, #shopsLayoutGrid1 > .row > .col-3, #shopsLayoutGrid1 > .row > .col-4
+#registrationLayoutGrid1 > .row > .col-1, #registrationLayoutGrid1 > .row > .col-2
 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 10px;
-   padding-left: 10px;
+   padding-right: 0px;
+   padding-left: 0px;
    position: relative;
 }
-#shopsLayoutGrid1 > .row > .col-1, #shopsLayoutGrid1 > .row > .col-2, #shopsLayoutGrid1 > .row > .col-3, #shopsLayoutGrid1 > .row > .col-4
+#registrationLayoutGrid1 > .row > .col-1, #registrationLayoutGrid1 > .row > .col-2
 {
    float: left;
 }
-#shopsLayoutGrid1 > .row > .col-1
+#registrationLayoutGrid1 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 25%;
+   width: 16.66666667%;
    text-align: center;
 }
-#shopsLayoutGrid1 > .row > .col-2
+#registrationLayoutGrid1 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 25%;
+   width: 83.33333333%;
    text-align: center;
 }
-#shopsLayoutGrid1 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: center;
-}
-#shopsLayoutGrid1 > .row > .col-4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: center;
-}
-#shopsLayoutGrid1:before,
-#shopsLayoutGrid1:after,
-#shopsLayoutGrid1 .row:before,
-#shopsLayoutGrid1 .row:after
+#registrationLayoutGrid1:before,
+#registrationLayoutGrid1:after,
+#registrationLayoutGrid1 .row:before,
+#registrationLayoutGrid1 .row:after
 {
    display: table;
    content: " ";
 }
-#shopsLayoutGrid1:after,
-#shopsLayoutGrid1 .row:after
+#registrationLayoutGrid1:after,
+#registrationLayoutGrid1 .row:after
 {
    clear: both;
 }
-@media (max-width: 480px)
+@media (max-width: 0px)
 {
-#shopsLayoutGrid1 > .row > .col-1, #shopsLayoutGrid1 > .row > .col-2, #shopsLayoutGrid1 > .row > .col-3, #shopsLayoutGrid1 > .row > .col-4
+#registrationLayoutGrid1 > .row > .col-1, #registrationLayoutGrid1 > .row > .col-2
 {
    float: none;
    width: 100% !important;
 }
 }
-#shopsCardContainer1
+#wb_booknowLayoutGrid1
 {
+   clear: both;
    position: relative;
-   padding: 10px 10px 10px 10px;
-   margin: 0;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
    background-color: transparent;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
+   margin: 0;
+}
+#booknowLayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 30px 0px 30px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#booknowLayoutGrid1 > .row
+{
+   margin-right: -30px;
+   margin-left: -30px;
+}
+#booknowLayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
    font-size: 0px;
-}
-#shopsCardContainer1 .owl-dots, #shopsCardContainer1 .owl-nav
-{
-   text-align: center;
-   -webkit-tap-highlight-color: transparent;
-}
-#shopsCardContainer1 .owl-nav
-{
-   margin-top: 10px;
-}
-#shopsCardContainer1 .owl-nav [class*=owl-]
-{
-   color: #869791;
-   font-size: 14px;
-   margin: 5px;
-   padding: 4px 7px;
-   background: #D6D6D6;
-   display: inline-block;
-   cursor: pointer;
-   border-radius: 3px;
-}
-#shopsCardContainer1 .owl-nav [class*=owl-]:hover
-{
-   background: #869791;
-   color: #D6D6D6;
-   text-decoration: none;
-}
-#shopsCardContainer1 .owl-nav .disabled
-{
-   opacity: .5;
-   cursor: default;
-}
-#shopsCardContainer1 .owl-nav.disabled+.owl-dots
-{
-   margin-top: 10px;
-}
-#shopsCardContainer1 .owl-nav
-{
-   position:  relative;
-   top: -106px;
-   display:  none;
-   justify-content: space-between;
-   margin: 0 20px;
-   color: #000;
-}
-#shopsCardContainer1 .owl-nav button.owl-prev, #shopsCardContainer1 .owl-nav button.owl-next
-{
-   height: 30px;
-   width: 30px;
-   border-radius: 50%;
-   background-color: rgba(255,255,255, 0.5);
-}
-#shopsCardContainer1 .owl-dots .owl-dot
-{
-   display: inline-block;
-   zoom: 1;
-}
-#shopsCardContainer1 .owl-dots .owl-dot span
-{
-   width: 12px;
-   height: 12px;
-   margin: 10px 10px;
-   background: #D6D6D6;
-   display: block;
-   -webkit-backface-visibility: visible;
-   transition: opacity 200ms ease;
-   border-radius: 50%;
-}
-#shopsCardContainer1 .owl-dots .owl-dot.active span, #shopsCardContainer1 .owl-dots .owl-dot:hover span
-{
-   background: #869791;
-}
-#wb_shopsCard1
-{
+   min-height: 1px;
+   padding-right: 30px;
+   padding-left: 30px;
    position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-clip: padding-box;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 10px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   box-shadow: 0px 0px 3px #595959;
 }
-#shopsCard1-card-body
+#booknowLayoutGrid1 > .row > .col-1
 {
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
+   float: left;
 }
-#shopsCard1-card-header
+#booknowLayoutGrid1 > .row > .col-1
 {
-   box-sizing: border-box;
-   border-bottom: 1px solid #DEDEDE;
-   border-radius: 10px 10px 0 0;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-clip: padding-box;
-   background-color: #F7F7F9;
-   background-image: none;
-}
-#shopsCard1-card-header h1
-{
-   color: #292B2C;
-   font-family: Courgette;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#shopsCard1-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 1px solid transparent;
-   border-radius: 4px;
-   width: 100%;
-}
-#shopsCard1-card-item2
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 12px 10px 12px 10px;
-   background-clip: padding-box;
    background-color: transparent;
    background-image: none;
-   color: #445AB2;
-   font-family: "Reggae One";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard1-card-item2 i
-{
-   color: #4472C4;
-   margin-right: 0px;
+   border: 0px solid #FFFFFF;
+   width: 100%;
    text-align: center;
+}
+#booknowLayoutGrid1:before,
+#booknowLayoutGrid1:after,
+#booknowLayoutGrid1 .row:before,
+#booknowLayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#booknowLayoutGrid1:after,
+#booknowLayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#booknowLayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#InlineFrame1
+{
+   border: 0px solid #C0C0C0;
+   margin: 0;
+   box-shadow: 0px 0px 5px #000000;
+}
+#InlineFrame1
+{
+   display: none;
+   float: left;
+   width: 100%;
+   height: 668px;
    vertical-align: top;
-   font-size: 13px;
-   width: 13px;
 }
-#shopsCard1-card-item3
+#wb_booknowLayoutGrid2
 {
-   box-sizing: border-box;
-   margin: -5px 0px 0px 0px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
-}
-#shopsCard1-card-item4
-{
-   display: inline-block;
-   height: 35px;
-   box-sizing: border-box;
-   border-radius: 0 0 10px 10px;
-   margin: 25px 20px 20px 20px;
-   padding: 10px 16px 10px 16px;
-   border: 1px solid #0275D8;
-   border-radius: 4px;
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
    background-clip: padding-box;
-   background-color: #445AB2;
+   background-color: rgba(255,255,255,0.82);
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#booknowLayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0px 0px 10px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#booknowLayoutGrid2 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#booknowLayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#booknowLayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#booknowLayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#booknowLayoutGrid2:before,
+#booknowLayoutGrid2:after,
+#booknowLayoutGrid2 .row:before,
+#booknowLayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#booknowLayoutGrid2:after,
+#booknowLayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#booknowLayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_booknowImage1
+{
+   height: 100%;
+   margin: -10px 0px 0px 0px;
+   vertical-align: top;
+}
+#booknowImage1
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
+#booknowEditbox1
+{
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-clip: padding-box;
+   background-color: #8B0000;
    background-image: none;
    color: #FFFFFF;
    font-family: Arial;
+   font-weight: 1;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 32px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
+}
+#booknowEditbox1:focus
+{
+   border-color: #FFC000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,192,0,0.60);
+   outline: 0;
+}
+#booknowEditbox1::placeholder
+{
+   color: #FFFFFF;
+   opacity: 1;
+}
+#booknowEditbox1::-ms-input-placeholder
+{
+   color: #FFFFFF;
+}
+#booknowEditbox1.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowEditbox1.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowEditbox1.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#booknowEditbox1.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_booknowEditbox1 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 10px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#booknowEditbox1.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#booknowEditbox2
+{
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #8B0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: 1;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 31px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
+}
+#booknowEditbox2:focus
+{
+   border-color: #FFC000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,192,0,0.60);
+   outline: 0;
+}
+#booknowEditbox2::placeholder
+{
+   color: #FFFFFF;
+   opacity: 1;
+}
+#booknowEditbox2::-ms-input-placeholder
+{
+   color: #FFFFFF;
+}
+#booknowEditbox2.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowEditbox2.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowEditbox2.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#booknowEditbox2.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_booknowEditbox2 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 10px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#booknowEditbox2.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#booknowEditbox3
+{
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #8B0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: 1;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 31px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
+}
+#booknowEditbox3:focus
+{
+   border-color: #FFC000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,192,0,0.60);
+   outline: 0;
+}
+#booknowEditbox3::placeholder
+{
+   color: #FFFFFF;
+   opacity: 1;
+}
+#booknowEditbox3::-ms-input-placeholder
+{
+   color: #FFFFFF;
+}
+#booknowEditbox3.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowEditbox3.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowEditbox3.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#booknowEditbox3.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_booknowEditbox3 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 10px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#booknowEditbox3.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#booknowCombobox1
+{
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #8B0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   box-shadow: 0px 0px 2px #7F7F7F;
+   box-sizing: border-box;
+   width: 100%;
+}
+#booknowCombobox1:focus
+{
+   border-color: #FFC000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,192,0,0.60);
+   outline: 0;
+}
+#booknowCombobox1.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowCombobox1.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowCombobox1.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#booknowCombobox1.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_booknowCombobox1 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 10px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#booknowCombobox1.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#booknowButton1
+{
+   border: 1px solid #FFFFFF;
+   border-radius: 8px;
+   background-clip: padding-box;
+   background-color: #24C000;
+   background-image: none;
+   color: #FFFFFF;
+   box-shadow: 0px 0px 2px #7F7F7F;
+   font-family: Arial;
    font-weight: bold;
    font-style: normal;
    font-size: 13px;
-}
-#shopsCard1-card-item4:focus
-{
-   -webkit-transform: rotateX(0deg) ;
-   transform: rotateX(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#shopsCard1-card-item4 a
-{
-   color: inherit;
-   text-decoration: none;
-}
-#shopsCard1-card-item4 i
-{
+   padding: 1px 6px 1px 6px;
    text-align: center;
-   vertical-align: top;
+   -webkit-appearance: none;
+   margin: 0px 15px 0px 0px;
+}
+#booknowEditbox6
+{
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #8B0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: 1;
+   font-style: normal;
    font-size: 13px;
-   width: 13px;
-}
-#wb_shopsCard5
-{
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   -webkit-flex-grow: 1;
-   flex-grow: 1;
-   -webkit-flex-shrink: 1;
-   flex-shrink: 1;
-   -webkit-flex-basis: 0%;
-   flex-basis: 0%;
-   -webkit-align-self: auto;
-   align-self: auto;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 3px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#shopsCard5-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#shopsCard5-card-item0
-{
    box-sizing: border-box;
-   border-radius: 3px 3px 0 0;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
+   line-height: 27px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
+}
+#booknowEditbox6:focus
+{
+   border-color: #FFC000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,192,0,0.60);
+   outline: 0;
+}
+#booknowEditbox6::placeholder
+{
+   color: #FFFFFF;
+   opacity: 1;
+}
+#booknowEditbox6::-ms-input-placeholder
+{
+   color: #FFFFFF;
+}
+#booknowEditbox6.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowEditbox6.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#booknowEditbox6.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#booknowEditbox6.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_booknowEditbox6 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 10px;
+   margin-top: 0.25rem;
    width: 100%;
 }
-#wb_shopsCard6
+#booknowEditbox6.is-invalid ~ .invalid-feedback
 {
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   -webkit-flex-grow: 1;
-   flex-grow: 1;
-   -webkit-flex-shrink: 1;
-   flex-shrink: 1;
-   -webkit-flex-basis: 0%;
-   flex-basis: 0%;
-   -webkit-align-self: auto;
-   align-self: auto;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 3px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
+   display: block;
 }
-#shopsCard6-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#shopsCard6-card-item0
-{
-   box-sizing: border-box;
-   border-radius: 3px 3px 0 0;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-}
-#wb_shopsCard7
-{
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   -webkit-flex-grow: 1;
-   flex-grow: 1;
-   -webkit-flex-shrink: 1;
-   flex-shrink: 1;
-   -webkit-flex-basis: 0%;
-   flex-basis: 0%;
-   -webkit-align-self: auto;
-   align-self: auto;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 3px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#shopsCard7-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#shopsCard7-card-item0
-{
-   box-sizing: border-box;
-   border-radius: 3px 3px 0 0;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-}
-#wb_shopsText1 
+#wb_CareerText1 
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
    padding: 0;
-   margin: 0;
+   margin: 10px 0px 10px 0px;
    text-align: center;
 }
-#wb_shopsText1
+#wb_CareerText1
 {
-   color: #CC0000;
-   font-family: "Reggae One";
+   color: #FFFFFF;
+   font-family: Satisfy;
    font-weight: normal;
    font-size: 15px;
-   line-height: 21px;
 }
-#wb_shopsText1 p, #wb_shopsText1 ul
+#wb_CareerText1 div
 {
-   margin: 0;
-   padding: 0;
+   text-align: center;
 }
-#wb_shopsText1
+#wb_CareerText1
 {
    display: block;
-   margin: 0;
+   margin: 10px 0px 10px 0px;
    box-sizing: border-box;
 width: 100%;}
-#wb_shopsText3 
+#CareerButton1
+{
+   border: 1px solid #FFFFFF;
+   border-radius: 6px;
+   background-clip: padding-box;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   box-shadow: 0px 0px 2px #7F7F7F;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#wb_booknowLayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-clip: padding-box;
+   background-color: rgba(251,251,251,0.82);
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#booknowLayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#booknowLayoutGrid3 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#booknowLayoutGrid3 > .row > .col-1, #booknowLayoutGrid3 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#booknowLayoutGrid3 > .row > .col-1, #booknowLayoutGrid3 > .row > .col-2
+{
+   float: left;
+}
+#booknowLayoutGrid3 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#booknowLayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 83.33333333%;
+   text-align: center;
+}
+#booknowLayoutGrid3:before,
+#booknowLayoutGrid3:after,
+#booknowLayoutGrid3 .row:before,
+#booknowLayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#booknowLayoutGrid3:after,
+#booknowLayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#booknowLayoutGrid3 > .row > .col-1, #booknowLayoutGrid3 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_booknowImage2
+{
+   height: 100%;
+   margin: -10px 0px 0px 0px;
+   vertical-align: top;
+}
+#booknowImage2
+{
    border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_shopsText3
-{
-   color: #000000;
-   font-family: Courgette;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 16.5px;
-}
-#wb_shopsText3 p, #wb_shopsText3 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_shopsText3
-{
-   display: block;
-   margin: 0;
    box-sizing: border-box;
-width: 100%;}
-#wb_shopsText4 
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
+#wb_CareerIconFont1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FF0042;
+   border-radius: 10px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   box-shadow: 0px 0px 2px #7F7F7F;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_CareerIconFont1:hover
+{
+   background-color: rgba(255,255,255,0.00);
+   background-image: none;
+   border: 2px solid #FF0042;
+}
+#CareerIconFont1
+{
+   height: 37px;
+   width: 38px;
+}
+#CareerIconFont1 i
+{
+   color: #8B0000;
+   display: inline-block;
+   font-size: 37px;
+   line-height: 37px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_CareerIconFont1:hover i
+{
+   color: #FF0042;
+}
+#wb_booknowLayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-clip: padding-box;
+   background-color: rgba(251,251,251,0.82);
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#booknowLayoutGrid4
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#booknowLayoutGrid4 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#booknowLayoutGrid4 > .row > .col-1, #booknowLayoutGrid4 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#booknowLayoutGrid4 > .row > .col-1, #booknowLayoutGrid4 > .row > .col-2
+{
+   float: left;
+}
+#booknowLayoutGrid4 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#booknowLayoutGrid4 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 83.33333333%;
+   text-align: center;
+}
+#booknowLayoutGrid4:before,
+#booknowLayoutGrid4:after,
+#booknowLayoutGrid4 .row:before,
+#booknowLayoutGrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#booknowLayoutGrid4:after,
+#booknowLayoutGrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#booknowLayoutGrid4 > .row > .col-1, #booknowLayoutGrid4 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_booknowImage3
+{
+   height: 100%;
+   margin: -10px 0px 0px 0px;
+   vertical-align: top;
+}
+#booknowImage3
+{
    border: 0px solid #000000;
+   box-sizing: border-box;
    padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_shopsText4
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 16px;
-}
-#wb_shopsText4 p, #wb_shopsText4 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_shopsText4
-{
    display: block;
-   margin: 0;
-   box-sizing: border-box;
-width: 100%;}
-#wb_shopsCard2
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
+#wb_booknowIconFont1
 {
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-clip: padding-box;
    background-color: #FFFFFF;
    background-image: none;
-   border: 1px solid transparent;
+   border: 2px solid #FF0042;
    border-radius: 10px;
-   box-sizing: border-box;
+   text-align: center;
    margin: 0;
    padding: 0;
-   text-align: center;
-   box-shadow: 0px 0px 3px #595959;
-}
-#shopsCard2-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#shopsCard2-card-header
-{
-   box-sizing: border-box;
-   border-bottom: 1px solid #DEDEDE;
-   border-radius: 10px 10px 0 0;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-clip: padding-box;
-   background-color: #F7F7F9;
-   background-image: none;
-}
-#shopsCard2-card-header h1
-{
-   color: #292B2C;
-   font-family: Courgette;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#shopsCard2-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 1px solid transparent;
-   border-radius: 4px;
-   width: 100%;
-}
-#shopsCard2-card-item2
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 12px 10px 12px 10px;
-   background-clip: padding-box;
-   background-color: transparent;
-   background-image: none;
-   color: #445AB2;
-   font-family: "Reggae One";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard2-card-item2 i
-{
-   color: #4472C4;
-   margin-right: 0px;
-   text-align: center;
+   box-shadow: 0px 0px 2px #7F7F7F;
    vertical-align: top;
-   font-size: 13px;
-   width: 13px;
+   display:inline-block;
+   position:relative;
 }
-#shopsCard2-card-item3
+#wb_booknowIconFont1:hover
 {
-   box-sizing: border-box;
-   margin: -5px 0px 0px 0px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
+   background-color: rgba(255,255,255,0.00);
+   background-image: none;
+   border: 2px solid #FF0042;
 }
-#shopsCard2-card-item4
+#booknowIconFont1
 {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
+   height: 37px;
+   width: 38px;
 }
-#shopsCard2-card-item5
+#booknowIconFont1 i
 {
+   color: #8B0000;
    display: inline-block;
-   height: 35px;
-   box-sizing: border-box;
-   border-radius: 0 0 10px 10px;
-   margin: 25px 20px 20px 20px;
-   padding: 10px 16px 10px 16px;
-   border: 1px solid #0275D8;
-   border-radius: 4px;
-   background-clip: padding-box;
-   background-color: #445AB2;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
+   font-size: 37px;
+   line-height: 37px;
+   vertical-align: middle;
+   width: 30px;
 }
-#shopsCard2-card-item5:focus
+#wb_booknowIconFont1:hover i
 {
-   -webkit-transform: rotateX(0deg) ;
-   transform: rotateX(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
+   color: #FF0042;
 }
-#shopsCard2-card-item5 a
+#wb_booknowLayoutGrid5
 {
-   color: inherit;
-   text-decoration: none;
-}
-#shopsCard2-card-item5 i
-{
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#wb_shopsCard3
-{
+   clear: both;
    position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-clip: padding-box;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 10px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+   table-layout: fixed;
+   display: table;
    text-align: center;
-   box-shadow: 0px 0px 3px #595959;
-}
-#shopsCard3-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#shopsCard3-card-header
-{
-   box-sizing: border-box;
-   border-bottom: 1px solid #DEDEDE;
-   border-radius: 10px 10px 0 0;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-clip: padding-box;
-   background-color: #F7F7F9;
-   background-image: none;
-}
-#shopsCard3-card-header h1
-{
-   color: #292B2C;
-   font-family: Courgette;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#shopsCard3-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 1px solid transparent;
-   border-radius: 4px;
    width: 100%;
-}
-#shopsCard3-card-item2
-{
+   background-clip: padding-box;
+   background-color: rgba(251,251,251,0.82);
+   background-image: none;
+   border: 0px solid transparent;
    box-sizing: border-box;
    margin: 0;
-   padding: 12px 10px 12px 10px;
-   background-clip: padding-box;
-   background-color: transparent;
-   background-image: none;
-   color: #445AB2;
-   font-family: "Reggae One";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
 }
-#shopsCard3-card-item2 a
-{
-   color: inherit;
-   text-decoration: none;
-}
-#shopsCard3-card-item2 i
-{
-   color: #4472C4;
-   margin-right: 0px;
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#shopsCard3-card-item3
+#booknowLayoutGrid5
 {
    box-sizing: border-box;
-   margin: -5px 0px 0px 0px;
    padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
+   margin-right: auto;
+   margin-left: auto;
 }
-#shopsCard3-card-item4
+#booknowLayoutGrid5 > .row
 {
-   display: inline-block;
-   height: 35px;
+   margin-right: 0;
+   margin-left: 0;
+}
+#booknowLayoutGrid5 > .row > .col-1, #booknowLayoutGrid5 > .row > .col-2
+{
    box-sizing: border-box;
-   border-radius: 0 0 10px 10px;
-   margin: 25px 20px 20px 20px;
-   padding: 10px 16px 10px 16px;
-   border: 1px solid #0275D8;
-   border-radius: 4px;
-   background-clip: padding-box;
-   background-color: #445AB2;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard3-card-item4:focus
-{
-   -webkit-transform: rotateX(0deg) ;
-   transform: rotateX(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#shopsCard3-card-item4 a
-{
-   color: inherit;
-   text-decoration: none;
-}
-#shopsCard3-card-item4 i
-{
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#wb_shopsCard4
-{
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
    position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-clip: padding-box;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 10px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   box-shadow: 0px 0px 3px #595959;
 }
-#shopsCard4-card-body
+#booknowLayoutGrid5 > .row > .col-1, #booknowLayoutGrid5 > .row > .col-2
 {
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
+   float: left;
 }
-#shopsCard4-card-header
-{
-   box-sizing: border-box;
-   border-bottom: 1px solid #DEDEDE;
-   border-radius: 10px 10px 0 0;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-clip: padding-box;
-   background-color: #F7F7F9;
-   background-image: none;
-}
-#shopsCard4-card-header h1
-{
-   color: #292B2C;
-   font-family: Courgette;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#shopsCard4-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 1px solid transparent;
-   border-radius: 4px;
-   width: 100%;
-}
-#shopsCard4-card-item2
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 12px 10px 12px 10px;
-   background-clip: padding-box;
-   background-color: transparent;
-   background-image: none;
-   color: #445AB2;
-   font-family: "Reggae One";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard4-card-item2 a
-{
-   color: inherit;
-   text-decoration: none;
-}
-#shopsCard4-card-item2 i
-{
-   color: #4472C4;
-   margin-right: 0px;
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#shopsCard4-card-item3
-{
-   box-sizing: border-box;
-   margin: -5px 0px 0px 0px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
-}
-#shopsCard4-card-item4
-{
-   display: inline-block;
-   height: 35px;
-   box-sizing: border-box;
-   border-radius: 0 0 10px 10px;
-   margin: 25px 20px 20px 20px;
-   padding: 10px 16px 10px 16px;
-   border: 1px solid #0275D8;
-   border-radius: 4px;
-   background-clip: padding-box;
-   background-color: #445AB2;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard4-card-item4:focus
-{
-   -webkit-transform: rotateX(0deg) ;
-   transform: rotateX(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#shopsCard4-card-item4 a
-{
-   color: inherit;
-   text-decoration: none;
-}
-#shopsCard4-card-item4 i
-{
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#wb_shopsCard8
-{
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-clip: padding-box;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 10px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   box-shadow: 0px 0px 3px #595959;
-}
-#shopsCard8-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#shopsCard8-card-header
-{
-   box-sizing: border-box;
-   border-bottom: 1px solid #DEDEDE;
-   border-radius: 10px 10px 0 0;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-clip: padding-box;
-   background-color: #F7F7F9;
-   background-image: none;
-}
-#shopsCard8-card-header h1
-{
-   color: #292B2C;
-   font-family: Courgette;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#shopsCard8-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 1px solid transparent;
-   border-radius: 4px;
-   width: 100%;
-}
-#shopsCard8-card-item2
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 12px 10px 12px 10px;
-   background-clip: padding-box;
-   background-color: transparent;
-   background-image: none;
-   color: #445AB2;
-   font-family: "Reggae One";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard8-card-item2 i
-{
-   color: #4472C4;
-   margin-right: 0px;
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#shopsCard8-card-item3
-{
-   box-sizing: border-box;
-   margin: -5px 0px 0px 0px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
-}
-#shopsCard8-card-item4
-{
-   display: inline-block;
-   height: 35px;
-   box-sizing: border-box;
-   border-radius: 0 0 10px 10px;
-   margin: 25px 20px 20px 20px;
-   padding: 10px 16px 10px 16px;
-   border: 1px solid #0275D8;
-   border-radius: 4px;
-   background-clip: padding-box;
-   background-color: #445AB2;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard8-card-item4:focus
-{
-   -webkit-transform: rotateX(0deg) ;
-   transform: rotateX(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#shopsCard8-card-item4 i
-{
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#wb_shopsCard9
-{
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-clip: padding-box;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 10px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   box-shadow: 0px 0px 3px #595959;
-}
-#shopsCard9-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#shopsCard9-card-header
-{
-   box-sizing: border-box;
-   border-bottom: 1px solid #DEDEDE;
-   border-radius: 10px 10px 0 0;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-clip: padding-box;
-   background-color: #F7F7F9;
-   background-image: none;
-}
-#shopsCard9-card-header h1
-{
-   color: #292B2C;
-   font-family: Courgette;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#shopsCard9-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 1px solid transparent;
-   border-radius: 4px;
-   width: 100%;
-}
-#shopsCard9-card-item2
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 12px 10px 12px 10px;
-   background-clip: padding-box;
-   background-color: transparent;
-   background-image: none;
-   color: #445AB2;
-   font-family: "Reggae One";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard9-card-item2 i
-{
-   color: #4472C4;
-   margin-right: 0px;
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#shopsCard9-card-item3
-{
-   box-sizing: border-box;
-   margin: -5px 0px 0px 0px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
-}
-#shopsCard9-card-item4
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
-}
-#shopsCard9-card-item5
-{
-   display: inline-block;
-   height: 35px;
-   box-sizing: border-box;
-   border-radius: 0 0 10px 10px;
-   margin: 25px 20px 20px 20px;
-   padding: 10px 16px 10px 16px;
-   border: 1px solid #0275D8;
-   border-radius: 4px;
-   background-clip: padding-box;
-   background-color: #445AB2;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard9-card-item5:focus
-{
-   -webkit-transform: rotateX(0deg) ;
-   transform: rotateX(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#shopsCard9-card-item5 a
-{
-   color: inherit;
-   text-decoration: none;
-}
-#shopsCard9-card-item5 i
-{
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#wb_shopsCard10
-{
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-clip: padding-box;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 10px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   box-shadow: 0px 0px 3px #595959;
-}
-#shopsCard10-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#shopsCard10-card-header
-{
-   box-sizing: border-box;
-   border-bottom: 1px solid #DEDEDE;
-   border-radius: 10px 10px 0 0;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-clip: padding-box;
-   background-color: #F7F7F9;
-   background-image: none;
-}
-#shopsCard10-card-header h1
-{
-   color: #292B2C;
-   font-family: Courgette;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#shopsCard10-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 1px solid transparent;
-   border-radius: 4px;
-   width: 100%;
-}
-#shopsCard10-card-item2
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 12px 10px 12px 10px;
-   background-clip: padding-box;
-   background-color: transparent;
-   background-image: none;
-   color: #445AB2;
-   font-family: "Reggae One";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard10-card-item2 a
-{
-   color: inherit;
-   text-decoration: none;
-}
-#shopsCard10-card-item2 i
-{
-   color: #4472C4;
-   margin-right: 0px;
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#shopsCard10-card-item3
-{
-   box-sizing: border-box;
-   margin: -5px 0px 0px 0px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
-}
-#shopsCard10-card-item4
-{
-   display: inline-block;
-   height: 35px;
-   box-sizing: border-box;
-   border-radius: 0 0 10px 10px;
-   margin: 25px 20px 20px 20px;
-   padding: 10px 16px 10px 16px;
-   border: 1px solid #0275D8;
-   border-radius: 4px;
-   background-clip: padding-box;
-   background-color: #445AB2;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard10-card-item4:focus
-{
-   -webkit-transform: rotateX(0deg) ;
-   transform: rotateX(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#shopsCard10-card-item4 i
-{
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#wb_shopsCard12
-{
-   position: relative;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-clip: padding-box;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 1px solid transparent;
-   border-radius: 10px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   box-shadow: 0px 0px 3px #595959;
-}
-#shopsCard12-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#shopsCard12-card-header
-{
-   box-sizing: border-box;
-   border-bottom: 1px solid #DEDEDE;
-   border-radius: 10px 10px 0 0;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-clip: padding-box;
-   background-color: #F7F7F9;
-   background-image: none;
-}
-#shopsCard12-card-header h1
-{
-   color: #292B2C;
-   font-family: Courgette;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-   margin: 0;
-}
-#shopsCard12-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 1px solid transparent;
-   border-radius: 4px;
-   width: 100%;
-}
-#shopsCard12-card-item2
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 12px 10px 12px 10px;
-   background-clip: padding-box;
-   background-color: transparent;
-   background-image: none;
-   color: #445AB2;
-   font-family: "Reggae One";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard12-card-item2 i
-{
-   color: #4472C4;
-   margin-right: 0px;
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#shopsCard12-card-item3
-{
-   box-sizing: border-box;
-   margin: -5px 0px 0px 0px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
-}
-#shopsCard12-card-item4
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 11px;
-}
-#shopsCard12-card-item5
-{
-   display: inline-block;
-   height: 35px;
-   box-sizing: border-box;
-   border-radius: 0 0 10px 10px;
-   margin: 25px 20px 20px 20px;
-   padding: 10px 16px 10px 16px;
-   border: 1px solid #0275D8;
-   border-radius: 4px;
-   background-clip: padding-box;
-   background-color: #445AB2;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 13px;
-}
-#shopsCard12-card-item5:focus
-{
-   -webkit-transform: rotateX(0deg) ;
-   transform: rotateX(0deg) ;
-   -webkit-transition: -webkit-transform 500ms linear 0ms;
-   transition: transform 500ms linear 0ms;
-}
-#shopsCard12-card-item5 i
-{
-   text-align: center;
-   vertical-align: top;
-   font-size: 13px;
-   width: 13px;
-}
-#wb_shopsText2 
+#booknowLayoutGrid5 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#booknowLayoutGrid5 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 83.33333333%;
+   text-align: center;
+}
+#booknowLayoutGrid5:before,
+#booknowLayoutGrid5:after,
+#booknowLayoutGrid5 .row:before,
+#booknowLayoutGrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#booknowLayoutGrid5:after,
+#booknowLayoutGrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#booknowLayoutGrid5 > .row > .col-1, #booknowLayoutGrid5 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_booknowImage4
+{
+   height: 100%;
+   margin: -10px 0px 0px 0px;
+   vertical-align: top;
+}
+#booknowImage4
+{
    border: 0px solid #000000;
+   box-sizing: border-box;
    padding: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
+#wb_booknowIconFont2
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FF0042;
+   border-radius: 10px;
+   text-align: center;
    margin: 0;
+   padding: 0;
+   box-shadow: 0px 0px 2px #7F7F7F;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_booknowIconFont2:hover
+{
+   background-color: rgba(255,255,255,0.00);
+   background-image: none;
+   border: 2px solid #FF0042;
+}
+#booknowIconFont2
+{
+   height: 37px;
+   width: 38px;
+}
+#booknowIconFont2 i
+{
+   color: #8B0000;
+   display: inline-block;
+   font-size: 37px;
+   line-height: 37px;
+   vertical-align: middle;
+   width: 20px;
+}
+#wb_booknowIconFont2:hover i
+{
+   color: #FF0042;
+}
+#wb_booknowLayoutGrid6
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-clip: padding-box;
+   background-color: rgba(251,251,251,0.82);
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#booknowLayoutGrid6
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#booknowLayoutGrid6 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#booknowLayoutGrid6 > .row > .col-1, #booknowLayoutGrid6 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#booknowLayoutGrid6 > .row > .col-1, #booknowLayoutGrid6 > .row > .col-2
+{
+   float: left;
+}
+#booknowLayoutGrid6 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
    text-align: center;
 }
-#wb_shopsText2
+#booknowLayoutGrid6 > .row > .col-2
 {
-   color: #000000;
-   font-family: Courgette;
-   font-weight: normal;
-   font-size: 12px;
-   line-height: 15px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 83.33333333%;
+   text-align: center;
 }
-#wb_shopsText2 p, #wb_shopsText2 ul
+#booknowLayoutGrid6:before,
+#booknowLayoutGrid6:after,
+#booknowLayoutGrid6 .row:before,
+#booknowLayoutGrid6 .row:after
 {
+   display: table;
+   content: " ";
+}
+#booknowLayoutGrid6:after,
+#booknowLayoutGrid6 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#booknowLayoutGrid6 > .row > .col-1, #booknowLayoutGrid6 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_booknowImage5
+{
+   height: 100%;
+   margin: -10px 0px 0px 0px;
+   vertical-align: top;
+}
+#booknowImage5
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
+#wb_booknowIconFont3
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FF0042;
+   border-radius: 10px;
+   text-align: center;
    margin: 0;
    padding: 0;
+   box-shadow: 0px 0px 2px #7F7F7F;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
 }
-#wb_shopsText2
+#wb_booknowIconFont3:hover
 {
-   display: block;
-   margin: 0;
+   background-color: rgba(255,255,255,0.00);
+   background-image: none;
+   border: 2px solid #FF0042;
+}
+#booknowIconFont3
+{
+   height: 37px;
+   width: 38px;
+}
+#booknowIconFont3 i
+{
+   color: #8B0000;
+   display: inline-block;
+   font-size: 37px;
+   line-height: 37px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_booknowIconFont3:hover i
+{
+   color: #FF0042;
+}
+#wb_booknowLayoutGrid7
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-clip: padding-box;
+   background-color: rgba(251,251,251,0.82);
+   background-image: none;
+   border: 0px solid transparent;
    box-sizing: border-box;
-width: 100%;}
+   margin: 0;
+}
+#booknowLayoutGrid7
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#booknowLayoutGrid7 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#booknowLayoutGrid7 > .row > .col-1, #booknowLayoutGrid7 > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#booknowLayoutGrid7 > .row > .col-1, #booknowLayoutGrid7 > .row > .col-2
+{
+   float: left;
+}
+#booknowLayoutGrid7 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#booknowLayoutGrid7 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 83.33333333%;
+   text-align: center;
+}
+#booknowLayoutGrid7:before,
+#booknowLayoutGrid7:after,
+#booknowLayoutGrid7 .row:before,
+#booknowLayoutGrid7 .row:after
+{
+   display: table;
+   content: " ";
+}
+#booknowLayoutGrid7:after,
+#booknowLayoutGrid7 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#booknowLayoutGrid7 > .row > .col-1, #booknowLayoutGrid7 > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_booknowImage6
+{
+   height: 100%;
+   margin: -10px 0px 0px 0px;
+   vertical-align: top;
+}
+#booknowImage6
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
+#wb_booknowIconFont4
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FF0042;
+   border-radius: 10px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   box-shadow: 0px 0px 2px #7F7F7F;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_booknowIconFont4:hover
+{
+   background-color: rgba(255,255,255,0.00);
+   background-image: none;
+   border: 2px solid #FF0042;
+}
+#booknowIconFont4
+{
+   height: 37px;
+   width: 38px;
+}
+#booknowIconFont4 i
+{
+   color: #8B0000;
+   display: inline-block;
+   font-size: 37px;
+   line-height: 37px;
+   vertical-align: middle;
+   width: 30px;
+}
+#wb_booknowIconFont4:hover i
+{
+   color: #FF0042;
+}
 #wb_contactusImage1
 {
    margin: 0;
@@ -2044,9 +1920,144 @@ width: 100%;}
    border: 0px solid #000000;
    padding: 0;
    display: inline-block;
-   width: 191px;
-   height: 191px;
+   width: 150px;
+   height: 38px;
    vertical-align: top;
+}
+#wb_registrationImage1
+{
+   height: 100%;
+   margin: -10px 0px 0px 0px;
+   vertical-align: top;
+}
+#registrationImage1
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   vertical-align: top;
+   object-fit: cover;
+}
+#wb_registrationIconFont1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FF0042;
+   border-radius: 10px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   box-shadow: 0px 0px 2px #7F7F7F;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_registrationIconFont1:hover
+{
+   background-color: rgba(255,255,255,0.00);
+   background-image: none;
+   border: 2px solid #FF0042;
+}
+#registrationIconFont1
+{
+   height: 37px;
+   width: 38px;
+}
+#registrationIconFont1 i
+{
+   color: #8B0000;
+   display: inline-block;
+   font-size: 37px;
+   line-height: 37px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_registrationIconFont1:hover i
+{
+   color: #FF0042;
+}
+#registrationEditbox1
+{
+   border: 2px solid #FFFFFF;
+   border-radius: 10px;
+   background-color: #8B0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: 1;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 29px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   box-sizing: border-box;
+   width: 100%;
+   box-shadow: 0px 0px 2px #7F7F7F;
+}
+#wb_registrationEditbox1
+{
+   margin: 0px 0px 10px 0px;
+}
+#registrationEditbox1:focus
+{
+   border-color: #FFC000;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(255,192,0,0.60);
+   outline: 0;
+}
+#registrationEditbox1::placeholder
+{
+   color: #FFFFFF;
+   opacity: 1;
+}
+#registrationEditbox1::-ms-input-placeholder
+{
+   color: #FFFFFF;
+}
+#registrationEditbox1.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#registrationEditbox1.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#registrationEditbox1.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#registrationEditbox1.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_registrationEditbox1 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 10px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#registrationEditbox1.is-invalid ~ .invalid-feedback
+{
+   display: block;
 }
 #wb_LayoutGrid15
 {
@@ -3202,51 +3213,39 @@ width: 100%;}
    background: #FFFFFF;
    color: #CC0000;
 }
-#wb_uid19
+#wb_booknowEditbox6
 {
-   z-index: 57;
-}
-#wb_shopsCard6
-{
-   display: flex;
-   text-align: center;
-   z-index: 20;
+   display: inline-block;
+   width: 100%;
+   z-index: 41;
 }
 #wb_uid1
 {
    color: #FFFF00;
 }
-#wb_shopsCard7
+#booknowCombobox1
 {
-   display: flex;
-   text-align: center;
-   z-index: 19;
 }
 #wb_uid2
 {
    color: #DC143C;
 }
-#wb_shopsCard8
-{
-   display: flex;
-   width: 100%;
-   text-align: center;
-   z-index: 32;
-}
 #wb_uid3
 {
-   color: #CC0000;
-}
-#wb_shopsCard9
-{
-   display: flex;
-   width: 100%;
-   text-align: center;
-   z-index: 33;
+   background-color: #FF9900;
+   color: #FFFFFF;
 }
 #wb_uid4
 {
-   font-weight: bold;
+   background-color: #FFF5EE;
+   color: #DC143C;
+}
+#booknowButton1
+{
+   display: inline-block;
+   width: 77px;
+   height: 27px;
+   z-index: 46;
 }
 #wb_Image1
 {
@@ -3257,7 +3256,21 @@ width: 100%;}
 }
 #wb_uid5
 {
-   font-weight: bold;
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
+}
+#wb_registrationIconFont1
+{
+   display: inline-block;
+   width: 38px;
+   height: 37px;
+   text-align: center;
+   z-index: 34;
+}
+#booknowEditbox1
+{
 }
 #wb_master_frameworkTabMenu1
 {
@@ -3288,18 +3301,24 @@ width: 100%;}
    top: 532px;
    width: 97px;
    height: 28px;
-   z-index: 72;
-}
-#wb_shopsCard10
-{
-   display: flex;
-   width: 100%;
-   text-align: center;
-   z-index: 34;
+   z-index: 107;
 }
 #wb_uid6
 {
-   font-weight: bold;
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
+}
+#wb_booknowImage1
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 45;
+}
+#booknowEditbox2
+{
 }
 #wb_master_frameworkImage1
 {
@@ -3324,24 +3343,36 @@ width: 100%;}
    top: 723px;
    width: 25px;
    height: 21px;
-   z-index: 71;
+   z-index: 106;
+}
+#wb_uid7
+{
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #wb_indexImage2
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 47;
+   z-index: 82;
 }
 #wb_Card9
 {
    display: flex;
    text-align: center;
-   z-index: 39;
+   z-index: 74;
 }
-#wb_uid7
+#booknowEditbox3
 {
-   color: #000000;
+}
+#wb_booknowImage2
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 27;
 }
 #wb_master_frameworkImage2
 {
@@ -3349,12 +3380,6 @@ width: 100%;}
    width: 100%;
    height: auto;
    z-index: 4;
-}
-#wb_uid20
-{
-   font-size: 12px;
-   line-height: 13.5px;
-   color: #FFFFFF;
 }
 #wb_indexText7
 {
@@ -3364,25 +3389,32 @@ width: 100%;}
    width: 68px;
    height: 13px;
    text-align: center;
-   z-index: 63;
+   z-index: 98;
 }
 #wb_indexImage3
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 54;
-}
-#wb_shopsCard12
-{
-   display: flex;
-   width: 100%;
-   text-align: center;
-   z-index: 35;
+   z-index: 89;
 }
 #wb_uid8
 {
-   color: #000000;
+   z-index: 105;
+}
+#CareerButton1
+{
+   display: inline-block;
+   width: 67px;
+   height: 27px;
+   z-index: 47;
+}
+#wb_booknowImage3
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 30;
 }
 #wb_master_frameworkImage3
 {
@@ -3391,22 +3423,26 @@ width: 100%;}
    height: auto;
    z-index: 11;
 }
-#wb_uid21
-{
-   background-color: #C21010;
-   font-weight: bold;
-}
 #wb_uid10
+{
+   font-family: "Courier New";
+}
+#wb_uid9
 {
    font-family: "Arial";
    font-size: 13px;
    line-height: 16px;
    color: #000000;
 }
-#wb_uid9
+#wb_booknowImage4
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 36;
+}
+#registrationEditbox1
+{
 }
 #indexLayer5-container
 {
@@ -3418,17 +3454,24 @@ width: 100%;}
 }
 #wb_uid11
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   font-family: "Courier New";
 }
 #wb_Image7
 {
    display: none;
    width: 100%;
    height: auto;
-   z-index: 46;
+   z-index: 81;
+}
+#booknowEditbox6
+{
+}
+#wb_booknowImage5
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 39;
 }
 #wb_indexIconFont3
 {
@@ -3438,12 +3481,14 @@ width: 100%;}
    width: 23px;
    height: 20px;
    text-align: center;
-   z-index: 62;
+   z-index: 97;
 }
 #wb_uid12
 {
+   font-family: "Arial";
    font-size: 13px;
    line-height: 16px;
+   font-weight: bold;
    color: #000000;
 }
 #wb_Image8
@@ -3451,7 +3496,21 @@ width: 100%;}
    display: inline-block;
    width: 61px;
    height: 61px;
-   z-index: 45;
+   z-index: 80;
+}
+#wb_booknowImage6
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 42;
+}
+#wb_registrationImage1
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 33;
 }
 #Bookmark2
 {
@@ -3465,66 +3524,108 @@ width: 100%;}
    width: 19px;
    height: 15px;
    text-align: center;
-   z-index: 58;
+   z-index: 93;
 }
 #wb_uid13
 {
-   z-index: 70;
+   font-family: "Courier New";
+   font-weight: normal;
 }
 #wb_Card10
 {
    display: flex;
    text-align: center;
-   z-index: 41;
+   z-index: 76;
+}
+#wb_booknowIconFont1
+{
+   display: inline-block;
+   width: 38px;
+   height: 37px;
+   text-align: center;
+   z-index: 31;
 }
 #wb_uid14
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   z-index: 92;
 }
 #wb_Card11
 {
    display: flex;
    text-align: center;
-   z-index: 40;
+   z-index: 75;
 }
-#wb_shopsCard1
+#wb_booknowIconFont2
 {
-   display: flex;
-   width: 100%;
+   display: inline-block;
+   width: 38px;
+   height: 37px;
    text-align: center;
-   z-index: 28;
+   z-index: 37;
+}
+#wb_registrationEditbox1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 35;
+}
+#wb_booknowEditbox1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 29;
 }
 #wb_contactusImage1
 {
    display: inline-block;
-   width: 191px;
-   height: 191px;
-   z-index: 22;
+   width: 150px;
+   height: 38px;
+   z-index: 25;
 }
 #wb_uid15
 {
-   font-family: "Courier New";
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
 }
-#wb_shopsCard2
+#wb_booknowCombobox1
 {
-   display: flex;
+   display: inline-block;
    width: 100%;
+   z-index: 44;
+}
+#wb_booknowIconFont3
+{
+   display: inline-block;
+   width: 38px;
+   height: 37px;
    text-align: center;
-   z-index: 29;
+   z-index: 40;
+}
+#wb_booknowEditbox2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 32;
 }
 #wb_uid16
 {
-   font-family: "Courier New";
+   background-color: #C21010;
+   font-weight: bold;
 }
-#wb_shopsCard3
+#wb_booknowIconFont4
 {
-   display: flex;
-   width: 100%;
+   display: inline-block;
+   width: 38px;
+   height: 37px;
    text-align: center;
-   z-index: 30;
+   z-index: 43;
+}
+#wb_booknowEditbox3
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 38;
 }
 #indexLayer4-container
 {
@@ -3534,31 +3635,13 @@ width: 100%;}
    margin-right: auto;
    text-align: left;
 }
-#wb_uid17
+#wb_CareerIconFont1
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   font-weight: bold;
-   color: #000000;
-}
-#wb_shopsCard4
-{
-   display: flex;
-   width: 100%;
+   display: inline-block;
+   width: 38px;
+   height: 37px;
    text-align: center;
-   z-index: 31;
-}
-#wb_uid18
-{
-   font-family: "Courier New";
-   font-weight: normal;
-}
-#wb_shopsCard5
-{
-   display: flex;
-   text-align: center;
-   z-index: 21;
+   z-index: 28;
 }
 #wb_uid0
 {
