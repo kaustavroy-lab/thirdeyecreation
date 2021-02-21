@@ -7,12 +7,7 @@ div#container
 }
 body
 {
-   background-color: #FFFFFF;
-   background-image: url(images/registration.png);
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   background-color: transparent;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -52,7 +47,10 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    width: 100%;
    background-color: transparent;
-   background-image: none;
+   background-image: url(images/registration.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
@@ -120,7 +118,7 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    width: 100%;
    background-clip: padding-box;
-   background-color: rgba(251,251,251,0.78);
+   background-color: transparent;
    background-image: none;
    border: 0px solid transparent;
    box-sizing: border-box;
@@ -180,178 +178,6 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
-#wb_feedbackLayoutGrid2
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-clip: padding-box;
-   background-color: rgba(251,251,251,0.78);
-   background-image: none;
-   border: 0px solid transparent;
-   box-sizing: border-box;
-   margin: 0;
-}
-#feedbackLayoutGrid2
-{
-   box-sizing: border-box;
-   padding: 0;
-   margin-right: auto;
-   margin-left: auto;
-}
-#feedbackLayoutGrid2 > .row
-{
-   margin-right: 0;
-   margin-left: 0;
-}
-#feedbackLayoutGrid2 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 0px;
-   padding-left: 0px;
-   position: relative;
-}
-#feedbackLayoutGrid2 > .row > .col-1
-{
-   float: left;
-}
-#feedbackLayoutGrid2 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#feedbackLayoutGrid2:before,
-#feedbackLayoutGrid2:after,
-#feedbackLayoutGrid2 .row:before,
-#feedbackLayoutGrid2 .row:after
-{
-   display: table;
-   content: " ";
-}
-#feedbackLayoutGrid2:after,
-#feedbackLayoutGrid2 .row:after
-{
-   clear: both;
-}
-@media (max-width: 0px)
-{
-#feedbackLayoutGrid2 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_Image4
-{
-   height: 100%;
-   margin: -10px 0px 0px 0px;
-   vertical-align: top;
-}
-#Image4
-{
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: 100%;
-   vertical-align: top;
-   object-fit: cover;
-}
-#wb_registrationon_tecLayoutGrid1
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-clip: padding-box;
-   background-color: rgba(251,251,251,0.78);
-   background-image: none;
-   border: 0px solid transparent;
-   box-sizing: border-box;
-   margin: 0;
-}
-#registrationon_tecLayoutGrid1
-{
-   box-sizing: border-box;
-   padding: 0;
-   margin-right: auto;
-   margin-left: auto;
-}
-#registrationon_tecLayoutGrid1 > .row
-{
-   margin-right: 0;
-   margin-left: 0;
-}
-#registrationon_tecLayoutGrid1 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 0px;
-   padding-left: 0px;
-   position: relative;
-}
-#registrationon_tecLayoutGrid1 > .row > .col-1
-{
-   float: left;
-}
-#registrationon_tecLayoutGrid1 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#registrationon_tecLayoutGrid1:before,
-#registrationon_tecLayoutGrid1:after,
-#registrationon_tecLayoutGrid1 .row:before,
-#registrationon_tecLayoutGrid1 .row:after
-{
-   display: table;
-   content: " ";
-}
-#registrationon_tecLayoutGrid1:after,
-#registrationon_tecLayoutGrid1 .row:after
-{
-   clear: both;
-}
-@media (max-width: 0px)
-{
-#registrationon_tecLayoutGrid1 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_registrationon_tecImage2
-{
-   height: 100%;
-   margin: -10px 0px 0px 0px;
-   vertical-align: top;
-}
-#registrationon_tecImage2
-{
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: 100%;
-   vertical-align: top;
-   object-fit: cover;
-}
 #wb_registrationon_tecCard1
 {
    position: relative;
@@ -383,15 +209,26 @@ input:focus, textarea:focus, select:focus
    padding: 0;
    border: 0px solid #000000;
    border-radius: 0px;
+   max-width: 100px;
    width: 100%;
+   height: 100px;
 }
 #registrationon_tecCard1-card-item1
+{
+   box-sizing: border-box;
+   margin: -10px 0px 0px 0px;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+}
+#registrationon_tecCard1-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 0px 20px;
    padding: 0;
 }
-#registrationon_tecCard1-card-item1 h1
+#registrationon_tecCard1-card-item2 h1
 {
    color: #CC0000;
    font-family: "Reggae One";
@@ -399,18 +236,6 @@ input:focus, textarea:focus, select:focus
    font-style: normal;
    font-size: 19px;
    margin: 0;
-}
-#registrationon_tecCard1-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 0px 20px;
-   padding: 0;
-   color: #292B2C;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   text-align: left;
 }
 #registrationon_tecCard1-card-item3
 {
@@ -428,12 +253,24 @@ input:focus, textarea:focus, select:focus
 {
    box-sizing: border-box;
    margin: 20px 20px 0px 20px;
+   padding: 0;
+   color: #292B2C;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+}
+#registrationon_tecCard1-card-item5
+{
+   box-sizing: border-box;
+   margin: 20px 20px 0px 20px;
    border-top: 1px #FF0080 solid;
    border-width: 1px 0 0 0;
    height: 0;
    line-height: 0;
 }
-#registrationon_tecCard1-card-item5
+#registrationon_tecCard1-card-item6
 {
    box-sizing: border-box;
    margin: 20px 20px 0px 20px;
@@ -480,70 +317,6 @@ input:focus, textarea:focus, select:focus
    height: 100%;
    vertical-align: top;
    object-fit: cover;
-}
-#wb_registrationon_tecCard2
-{
-   position: relative;
-   display: inline-block;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-color: transparent;
-   background-image: none;
-   border: 2px solid transparent;
-   border-radius: 15px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   vertical-align: top;
-}
-#registrationon_tecCard2-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#registrationon_tecCard2-card-item0
-{
-   box-sizing: border-box;
-   border-radius: 15px 15px 0 0;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-}
-#wb_registrationon_tecCard3
-{
-   position: relative;
-   display: inline-block;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-   background-color: transparent;
-   background-image: none;
-   border: 2px solid transparent;
-   border-radius: 15px;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   vertical-align: top;
-}
-#registrationon_tecCard3-card-body
-{
-   -webkit-flex: 1 1 auto;
-   flex: 1 1 auto;
-   font-size: 0px;
-}
-#registrationon_tecCard3-card-item0
-{
-   box-sizing: border-box;
-   border-radius: 15px 15px 0 0;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
 }
 #registrationon_tecThemeableButton1
 {
@@ -768,13 +541,6 @@ width: 100%;}
 {
    font-family: "Courier New";
 }
-#wb_registrationon_tecImage2
-{
-   display: none;
-   width: 100%;
-   height: auto;
-   z-index: 4;
-}
 #wb_uid2
 {
    font-family: "Courier New";
@@ -794,18 +560,11 @@ width: 100%;}
 }
 #wb_uid5
 {
-   z-index: 10;
+   z-index: 6;
 }
 #wb_uid6
 {
-   z-index: 26;
-}
-#wb_Image4
-{
-   display: none;
-   width: 100%;
-   height: auto;
-   z-index: 0;
+   z-index: 16;
 }
 #registrationon_tecThemeableButton1
 {
@@ -817,38 +576,22 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 6;
+   z-index: 2;
 }
 #wb_registrationon_tecCard1
 {
    display: inline-block;
    width: 276px;
-   height: 579px;
+   height: 640px;
    text-align: center;
-   z-index: 3;
+   z-index: 1;
 }
 #wb_registrationon_tecThemeableButton1
 {
    display: inline-block;
    width: 194px;
    height: 43px;
-   z-index: 7;
-}
-#wb_registrationon_tecCard2
-{
-   display: inline-block;
-   width: 146px;
-   height: 143px;
-   text-align: center;
-   z-index: 5;
-}
-#wb_registrationon_tecCard3
-{
-   display: inline-block;
-   width: 124px;
-   height: 121px;
-   text-align: center;
-   z-index: 1;
+   z-index: 3;
 }
 #wb_uid0
 {
@@ -862,5 +605,5 @@ width: 100%;}
    display: none;
    width: 100%;
    height: auto;
-   z-index: 2;
+   z-index: 0;
 }
