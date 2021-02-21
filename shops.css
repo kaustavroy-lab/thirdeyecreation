@@ -3204,7 +3204,8 @@ width: 100%;}
 }
 #wb_uid19
 {
-   z-index: 57;
+   font-family: "Courier New";
+   font-weight: normal;
 }
 #wb_shopsCard6
 {
@@ -3350,12 +3351,6 @@ width: 100%;}
    height: auto;
    z-index: 4;
 }
-#wb_uid20
-{
-   font-size: 12px;
-   line-height: 13.5px;
-   color: #FFFFFF;
-}
 #wb_indexText7
 {
    position: absolute;
@@ -3365,6 +3360,10 @@ width: 100%;}
    height: 13px;
    text-align: center;
    z-index: 63;
+}
+#wb_uid20
+{
+   z-index: 57;
 }
 #wb_indexImage3
 {
@@ -3393,20 +3392,23 @@ width: 100%;}
 }
 #wb_uid21
 {
-   background-color: #C21010;
-   font-weight: bold;
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
 }
 #wb_uid10
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   background-color: #FFF5EE;
+   color: #DC143C;
 }
 #wb_uid9
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
+   color: #000000;
+}
+#wb_uid22
+{
+   background-color: #C21010;
+   font-weight: bold;
 }
 #indexLayer5-container
 {
@@ -3442,6 +3444,7 @@ width: 100%;}
 }
 #wb_uid12
 {
+   font-family: "Arial";
    font-size: 13px;
    line-height: 16px;
    color: #000000;
@@ -3469,7 +3472,9 @@ width: 100%;}
 }
 #wb_uid13
 {
-   z-index: 70;
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #wb_Card10
 {
@@ -3479,10 +3484,7 @@ width: 100%;}
 }
 #wb_uid14
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   color: #000000;
+   z-index: 70;
 }
 #wb_Card11
 {
@@ -3506,7 +3508,10 @@ width: 100%;}
 }
 #wb_uid15
 {
-   font-family: "Courier New";
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
 }
 #wb_shopsCard2
 {
@@ -3536,11 +3541,7 @@ width: 100%;}
 }
 #wb_uid17
 {
-   font-family: "Arial";
-   font-size: 13px;
-   line-height: 16px;
-   font-weight: bold;
-   color: #000000;
+   font-family: "Courier New";
 }
 #wb_shopsCard4
 {
@@ -3551,8 +3552,11 @@ width: 100%;}
 }
 #wb_uid18
 {
-   font-family: "Courier New";
-   font-weight: normal;
+   font-family: "Arial";
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #000000;
 }
 #wb_shopsCard5
 {
