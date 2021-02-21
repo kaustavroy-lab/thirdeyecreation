@@ -141,7 +141,7 @@ input:focus, textarea:focus, select:focus
 }
 #registrationon_tecCard1-card-header h1
 {
-   color: #FFFFFF;
+   color: #CC0000;
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
@@ -243,7 +243,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    color: #FFFFFF;
    font-family: Arial;
-   font-weight: normal;
+   font-weight: bold;
    font-style: normal;
    font-size: 13px;
 }
