@@ -110,8 +110,7 @@ input:focus, textarea:focus, select:focus
 #wb_registrationon_tecCard1
 {
    position: relative;
-   display: -webkit-flex;
-   display: flex;
+   display: inline-block;
    -webkit-flex-direction: column;
    flex-direction: column;
    background-color: #FFFFFF;
@@ -122,6 +121,7 @@ input:focus, textarea:focus, select:focus
    margin: 0px 0px 7px 0px;
    padding: 0;
    text-align: center;
+   vertical-align: top;
 }
 #registrationon_tecCard1-card-body
 {
@@ -136,7 +136,7 @@ input:focus, textarea:focus, select:focus
    border-radius: 15px 15px 0 0;
    margin: 0;
    padding: 12px 20px 12px 20px;
-   background-color: #ED7D31;
+   background-color: #FFC000;
    background-image: none;
 }
 #registrationon_tecCard1-card-header h1
@@ -165,7 +165,7 @@ input:focus, textarea:focus, select:focus
    margin: -10px 0px 0px 0px;
    padding: 0;
    border: 0px solid #000000;
-   border-radius: 0px;
+   border-radius: 6px;
    width: 100%;
 }
 #registrationon_tecCard1-card-item3
@@ -253,6 +253,9 @@ input:focus, textarea:focus, select:focus
 #registrationon_tecCard1-card-footer
 {
    box-sizing: border-box;
+   position: absolute;
+   bottom: 3px;
+   width: 288px;
    border-top: 3px solid #ED7D31;
    border-radius: 0 0 15px 15px;
    margin: 0;
@@ -284,8 +287,9 @@ input:focus, textarea:focus, select:focus
 }
 #wb_registrationon_tecCard1
 {
-   display: flex;
-   width: 100%;
+   display: inline-block;
+   width: 294px;
+   height: 744px;
    text-align: center;
    z-index: 1;
 }
