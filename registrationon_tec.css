@@ -38,77 +38,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#wb_feedbackLayoutGrid1
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: url(images/registration.png);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: cover;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-}
-#feedbackLayoutGrid1
-{
-   box-sizing: border-box;
-   padding: 0px 30px 0px 30px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#feedbackLayoutGrid1 > .row
-{
-   margin-right: -30px;
-   margin-left: -30px;
-}
-#feedbackLayoutGrid1 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 30px;
-   padding-left: 30px;
-   position: relative;
-}
-#feedbackLayoutGrid1 > .row > .col-1
-{
-   float: left;
-}
-#feedbackLayoutGrid1 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#feedbackLayoutGrid1:before,
-#feedbackLayoutGrid1:after,
-#feedbackLayoutGrid1 .row:before,
-#feedbackLayoutGrid1 .row:after
-{
-   display: table;
-   content: " ";
-}
-#feedbackLayoutGrid1:after,
-#feedbackLayoutGrid1 .row:after
-{
-   clear: both;
-}
-@media (max-width: 0px)
-{
-#feedbackLayoutGrid1 > .row > .col-1
-{
-   float: none;
-   width: 100%;
-}
-}
 #wb_registrationon_tecLayoutGrid2
 {
    clear: both;
@@ -127,22 +56,22 @@ input:focus, textarea:focus, select:focus
 #registrationon_tecLayoutGrid2
 {
    box-sizing: border-box;
-   padding: 0px 10px 0px 10px;
+   padding: 0;
    margin-right: auto;
    margin-left: auto;
 }
 #registrationon_tecLayoutGrid2 > .row
 {
-   margin-right: -10px;
-   margin-left: -10px;
+   margin-right: 0;
+   margin-left: 0;
 }
 #registrationon_tecLayoutGrid2 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 10px;
-   padding-left: 10px;
+   padding-right: 0px;
+   padding-left: 0px;
    position: relative;
 }
 #registrationon_tecLayoutGrid2 > .row > .col-1
@@ -185,7 +114,7 @@ input:focus, textarea:focus, select:focus
    -webkit-flex-direction: column;
    flex-direction: column;
    background-clip: padding-box;
-   background-color: rgba(255,255,255,0.60);
+   background-color: #FFFFFF;
    background-image: none;
    border: 2px double #ED7D31;
    border-radius: 15px;
@@ -230,7 +159,7 @@ input:focus, textarea:focus, select:focus
 }
 #registrationon_tecCard1-card-item2 h1
 {
-   color: #CC0000;
+   color: #ED7D31;
    font-family: "Reggae One";
    font-weight: bold;
    font-style: normal;
@@ -242,7 +171,7 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    margin: 20px 20px 0px 20px;
    padding: 0;
-   color: #292B2C;
+   color: #4472C4;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
@@ -252,9 +181,9 @@ input:focus, textarea:focus, select:focus
 #registrationon_tecCard1-card-item4
 {
    box-sizing: border-box;
-   margin: 20px 20px 0px 20px;
+   margin: 0px 20px 0px 20px;
    padding: 0;
-   color: #292B2C;
+   color: #4472C4;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
@@ -273,21 +202,67 @@ input:focus, textarea:focus, select:focus
 #registrationon_tecCard1-card-item6
 {
    box-sizing: border-box;
-   margin: 20px 20px 0px 20px;
+   margin: 0px 20px 20px 20px;
    padding: 0;
-   color: #292B2C;
+   color: #4472C4;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
    text-align: right;
 }
+#registrationon_tecCard1-card-item7
+{
+   display: inline-block;
+   height: 41px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 12px 12px 12px 12px;
+   border: 2px solid transparent;
+   border-radius: 15px;
+   background-clip: padding-box;
+   background-color: #FF0080;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#registrationon_tecCard1-card-item7 i
+{
+   text-align: center;
+   vertical-align: top;
+   font-size: 13px;
+   width: 13px;
+}
+#registrationon_tecCard1-card-item8
+{
+   box-sizing: border-box;
+   margin: 20px 20px 0px 20px;
+   border-top: 1px #CC0000 solid;
+   border-width: 1px 0 0 0;
+   height: 0;
+   line-height: 0;
+}
+#registrationon_tecCard1-card-item9
+{
+   box-sizing: border-box;
+   margin: 20px 20px 10px 20px;
+   padding: 0;
+   color: #CC0000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 9.3px;
+   text-align: center;
+}
 #registrationon_tecCard1-card-footer
 {
    box-sizing: border-box;
    position: absolute;
    bottom: 2px;
-   width: 272px;
+   width: 311px;
    border-top: 2px solid #ED7D31;
    border-radius: 0 0 15px 15px;
    margin: 0;
@@ -318,287 +293,13 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    object-fit: cover;
 }
-#registrationon_tecThemeableButton1
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 11px;
-   font-style: normal;
-   border-style: solid;
-   border-width: 1px;
-}
-#wb_registrationon_tecThemeableButton1
-{
-   border-radius: 4px;
-   margin: 0;
-}
-#registrationon_tecThemeableButton1
-{
-   box-sizing: border-box;
-   padding: 0;
-   text-align: center;
-}
-#wb_registrationon_tecThemeableButton1 .ui-button
-{
-   margin: 0;
-   line-height: 41px;
-}
-#registrationon_tecThemeableButton1
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-#registrationon_tecThemeableButton1 :hover
-{
-   color: #CC0000;
-}
-#registrationon_tecThemeableButton1 :active
-{
-   color: #FFFFFF;
-}
-#wb_registrationon_tecThemeableButton1 .ui-primary
-{
-   background-image: none !important;
-   text-indent: 0;
-   display: inline-block;
-   font-family: FontAwesome;
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-   position: absolute;
-   left: 26px;
-   top: 50%;
-   margin-top: -5.5px;
-   width: 11px;
-   height: 11px;
-   color: #FFFFFF;
-}
-#wb_registrationon_tecThemeableButton1 .ui-primary:before
-{
-   content: "\f015";
-}
-#wb_registrationon_tecThemeableButton1:hover .ui-primary
-{
-   color: #CC0000;
-}
-#wb_registrationon_tecThemeableButton1:active .ui-primary
-{
-   color: #FFFFFF;
-}
-#wb_registrationon_tecThemeableButton1 .ui-corner-all, #wb_registrationon_tecThemeableButton1 .ui-corner-left
-{
-   border-bottom-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#wb_registrationon_tecThemeableButton1 .ui-corner-all, #wb_registrationon_tecThemeableButton1 .ui-corner-right
-{
-   border-bottom-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
-#wb_indexLayoutGrid2
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-clip: padding-box;
-   background-color: rgba(251,251,251,0.78);
-   background-image: none;
-   border: 0px solid transparent;
-   box-sizing: border-box;
-   margin: 0;
-}
-#indexLayoutGrid2
-{
-   box-sizing: border-box;
-   padding: 0;
-   margin-right: auto;
-   margin-left: auto;
-}
-#indexLayoutGrid2 > .row
-{
-   margin-right: 0;
-   margin-left: 0;
-}
-#indexLayoutGrid2 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 0px;
-   padding-left: 0px;
-   position: relative;
-}
-#indexLayoutGrid2 > .row > .col-1
-{
-   float: left;
-}
-#indexLayoutGrid2 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#indexLayoutGrid2:before,
-#indexLayoutGrid2:after,
-#indexLayoutGrid2 .row:before,
-#indexLayoutGrid2 .row:after
-{
-   display: table;
-   content: " ";
-}
-#indexLayoutGrid2:after,
-#indexLayoutGrid2 .row:after
-{
-   clear: both;
-}
-@media (max-width: 0px)
-{
-#indexLayoutGrid2 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_indexImage3
-{
-   height: 100%;
-   margin: -10px 0px 0px 0px;
-   vertical-align: top;
-}
-#indexImage3
-{
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: 100%;
-   vertical-align: top;
-   object-fit: cover;
-}
-#wb_Text8 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 30px 0px 0px 0px;
-   text-align: center;
-}
-#wb_Text8
-{
-   color: #000000;
-   font-family: "Courier New";
-   font-weight: normal;
-   font-size: 11px;
-   line-height: 11.5px;
-}
-#wb_Text8 p, #wb_Text8 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text8
-{
-   display: block;
-   margin: 30px 0px 0px 0px;
-   box-sizing: border-box;
-width: 100%;}
-#wb_Text7 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0px 0px 10px 0px;
-   text-align: center;
-}
-#wb_Text7
-{
-   color: #000000;
-   font-family: "Courier New";
-   font-weight: normal;
-   font-size: 11px;
-   line-height: 11.5px;
-}
-#wb_Text7 p, #wb_Text7 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text7
-{
-   display: block;
-   margin: 0px 0px 10px 0px;
-   box-sizing: border-box;
-width: 100%;}
-#wb_uid1
-{
-   font-family: "Courier New";
-}
-#wb_uid2
-{
-   font-family: "Courier New";
-}
-#wb_uid3
-{
-   font-family: "Arial";
-   font-size: 11px;
-   line-height: 12px;
-   font-weight: bold;
-   color: #000000;
-}
-#wb_uid4
-{
-   font-family: "Courier New";
-   font-weight: normal;
-}
-#wb_uid5
-{
-   z-index: 6;
-}
-#wb_uid6
-{
-   z-index: 16;
-}
-#registrationon_tecThemeableButton1
-{
-   width: 100%;
-   height: 100%;
-}
-#wb_indexImage3
-{
-   display: none;
-   width: 100%;
-   height: auto;
-   z-index: 2;
-}
 #wb_registrationon_tecCard1
 {
    display: inline-block;
-   width: 276px;
-   height: 640px;
+   width: 315px;
+   height: 738px;
    text-align: center;
    z-index: 1;
-}
-#wb_registrationon_tecThemeableButton1
-{
-   display: inline-block;
-   width: 194px;
-   height: 43px;
-   z-index: 3;
-}
-#wb_uid0
-{
-   font-family: "Arial";
-   font-size: 11px;
-   line-height: 12px;
-   color: #000000;
 }
 #wb_registrationon_tecImage1
 {
