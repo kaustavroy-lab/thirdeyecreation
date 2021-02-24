@@ -1,6 +1,7 @@
    
    var playerYouTube1;
    var playerYouTube2;
+   var playervideoYouTube1;
    function onYouTubeIframeAPIReady() {
       playerYouTube1 = new YT.Player('YouTube1', {
          events: {
@@ -10,16 +11,27 @@
          events: {
          }
       });
+      playervideoYouTube1 = new YT.Player('videoYouTube1', {
+         events: {
+         }
+      });
    }
    
    $(document).ready(function()
    {
       const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
       const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
+      const plyrvideoYouTube1 = new Plyr('#wb_videoYouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
       $("#indexLayer5").stickylayer({orientation: 4, position: [0, 0], delay: 500});
       $("#indexLayer4").stickylayer({orientation: 6, position: [0, 0], delay: 500});
       $('img[data-src]').lazyload();
    });
+   
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+   
+     gtag('config', 'G-08TX0J3LS1');
       
       var disabled_message = "";
       document.oncontextmenu = function() 

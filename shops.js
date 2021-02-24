@@ -6,6 +6,12 @@
       $("#indexLayer4").stickylayer({orientation: 6, position: [0, 0], delay: 500});
       $('img[data-src]').lazyload();
    });
+   
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+   
+     gtag('config', 'G-08TX0J3LS1');
       
       var disabled_message = "";
       document.oncontextmenu = function() 
