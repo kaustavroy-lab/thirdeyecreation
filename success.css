@@ -956,75 +956,6 @@ width: 100%;}
    -webkit-transition: -webkit-transform 250ms linear 0ms;
    transition: transform 250ms linear 0ms;
 }
-#wb_indexLayoutGrid2
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-clip: padding-box;
-   background-color: rgba(251,251,251,0.78);
-   background-image: none;
-   border: 0px solid transparent;
-   box-sizing: border-box;
-   margin: 0;
-}
-#indexLayoutGrid2
-{
-   box-sizing: border-box;
-   padding: 0;
-   margin-right: auto;
-   margin-left: auto;
-}
-#indexLayoutGrid2 > .row
-{
-   margin-right: 0;
-   margin-left: 0;
-}
-#indexLayoutGrid2 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 0px;
-   padding-left: 0px;
-   position: relative;
-}
-#indexLayoutGrid2 > .row > .col-1
-{
-   float: left;
-}
-#indexLayoutGrid2 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#indexLayoutGrid2:before,
-#indexLayoutGrid2:after,
-#indexLayoutGrid2 .row:before,
-#indexLayoutGrid2 .row:after
-{
-   display: table;
-   content: " ";
-}
-#indexLayoutGrid2:after,
-#indexLayoutGrid2 .row:after
-{
-   clear: both;
-}
-@media (max-width: 0px)
-{
-#indexLayoutGrid2 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #wb_indexImage3
 {
    height: 100%;
@@ -1523,9 +1454,10 @@ width: 100%;}
    display: table;
    text-align: center;
    width: 100%;
+   background-clip: padding-box;
    background-color: #FF0000;
    background: linear-gradient(to top, rgba(255,0,0,0.94) 0%, #800000 100%);
-   border: 0px solid #CCCCCC;
+   border: 0px solid transparent;
    box-sizing: border-box;
    margin: 0;
 }
@@ -2073,9 +2005,7 @@ width: 100%;}
    bottom: 0;
    left: 0;
    width: 100%;
-   height: 0px;
-   -webkit-transition: height 2000ms ease;
-   transition: height 2000ms ease;
+   height: 50px;
 }
 #footer-divider-bottom svg
 {
@@ -2092,9 +2022,74 @@ width: 100%;}
    transform-origin: center;
    transform: rotateY(0deg);
 }
-#footer-divider-bottom.show
+#wb_indexLayoutGrid2
 {
-   height: 50px;
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#indexLayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#indexLayoutGrid2 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#indexLayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#indexLayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#indexLayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#indexLayoutGrid2:before,
+#indexLayoutGrid2:after,
+#indexLayoutGrid2 .row:before,
+#indexLayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#indexLayoutGrid2:after,
+#indexLayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#indexLayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
 }
 #wb_master_frameworkCssMenu1
 {
@@ -2432,21 +2427,21 @@ width: 100%;}
    margin-right: 3px;
    width: 15px;
 }
+#wb_uid19
+{
+   opacity: 0.25;
+}
 #wb_master_frameworkCssMenu3
 {
    display: inline-block;
    width: 100%;
-   z-index: 67;
-}
-#wb_uid19
-{
-   color: #FFFFFF;
+   z-index: 65;
 }
 #wb_linksMenu1
 {
    display: inline-block;
    width: 100%;
-   z-index: 53;
+   z-index: 51;
 }
 #wb_uid1
 {
@@ -2456,13 +2451,13 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 65;
+   z-index: 63;
 }
 #wb_linksMenu2
 {
    display: inline-block;
    width: 100%;
-   z-index: 56;
+   z-index: 54;
 }
 #wb_uid2
 {
@@ -2472,7 +2467,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 63;
+   z-index: 61;
 }
 #wb_uid3
 {
@@ -2553,7 +2548,7 @@ width: 100%;}
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 57;
+   z-index: 55;
 }
 #indexLayer5
 {
@@ -2589,9 +2584,18 @@ width: 100%;}
    height: auto;
    z-index: 4;
 }
+#wb_indexImage3
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 67;
+}
 #wb_uid20
 {
-   opacity: 0.25;
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
 }
 #wb_linksIcon2
 {
@@ -2599,7 +2603,7 @@ width: 100%;}
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 58;
+   z-index: 56;
 }
 #wb_indexText7
 {
@@ -2609,14 +2613,7 @@ width: 100%;}
    width: 68px;
    height: 13px;
    text-align: center;
-   z-index: 46;
-}
-#wb_indexImage3
-{
-   display: none;
-   width: 100%;
-   height: auto;
-   z-index: 39;
+   z-index: 44;
 }
 #wb_uid8
 {
@@ -2634,11 +2631,14 @@ width: 100%;}
 {
    font-size: 13px;
    line-height: 16px;
+   font-weight: bold;
    color: #FFFFFF;
 }
 #wb_uid10
 {
-   z-index: 40;
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
 }
 #wb_uid9
 {
@@ -2646,10 +2646,7 @@ width: 100%;}
 }
 #wb_uid22
 {
-   font-size: 13px;
-   line-height: 16px;
-   font-weight: bold;
-   color: #FFFFFF;
+   font-weight: normal;
 }
 #wb_linksIcon4
 {
@@ -2657,13 +2654,12 @@ width: 100%;}
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 59;
+   z-index: 57;
 }
 #wb_uid11
 {
-   font-size: 12px;
-   line-height: 13.5px;
-   color: #FFFFFF;
+   background-color: #C21010;
+   font-weight: bold;
 }
 #indexLayer5-container
 {
@@ -2675,12 +2671,11 @@ width: 100%;}
 }
 #wb_uid23
 {
-   font-weight: normal;
+   z-index: 68;
 }
 #wb_uid12
 {
-   background-color: #C21010;
-   font-weight: bold;
+   opacity: 0.25;
 }
 #wb_indexIconFont3
 {
@@ -2690,7 +2685,7 @@ width: 100%;}
    width: 23px;
    height: 20px;
    text-align: center;
-   z-index: 45;
+   z-index: 43;
 }
 #Bookmark2
 {
@@ -2698,7 +2693,7 @@ width: 100%;}
 }
 #wb_uid13
 {
-   opacity: 0.25;
+   color: #FFFFFF;
 }
 #wb_indexIconFont4
 {
@@ -2708,7 +2703,7 @@ width: 100%;}
    width: 19px;
    height: 21px;
    text-align: center;
-   z-index: 41;
+   z-index: 39;
 }
 #wb_Card10
 {
@@ -2756,7 +2751,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 54;
+   z-index: 52;
 }
 #indexLayer4-container
 {
@@ -2774,7 +2769,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 61;
+   z-index: 59;
 }
 #wb_uid0
 {

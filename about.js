@@ -13,19 +13,6 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_links').offset().top }, 600, 'easeOutSine');
       });
-      function onScrollfooterDividerBottom()
-      {
-         var $obj = $('#footer-divider-bottom');
-         if (!$obj.hasClass('show') && $obj.inViewPort(false))
-         {
-            $obj.addClass('show');
-         }
-      }
-      onScrollfooterDividerBottom();
-      $(window).scroll(function(event)
-      {
-         onScrollfooterDividerBottom();
-      });
       $('img[data-src]').lazyload();
    });
    

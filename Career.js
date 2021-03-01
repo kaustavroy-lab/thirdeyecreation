@@ -273,32 +273,41 @@
          if ($('#CareerCheckbox1').is(':checked'))
          {
             ShowObjectWithEffect('booknowButton1', 1, '', 0);
+            ShowObjectWithEffect('wb_CareerLayoutGrid16', 1, '', 0);
          }
          if (!$('#CareerCheckbox1').is(':checked'))
          {
             ShowObjectWithEffect('booknowButton1', 0, '', 0);
+            ShowObjectWithEffect('wb_CareerLayoutGrid16', 0, '', 0);
          }
       });
       $("#CareerCheckbox1").trigger('change');
+      $("#CareerEditbox8").validate(
+      {
+         required: true,
+         bootstrap: true,
+         type: 'custom',
+         param: /(http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/,
+         length_min: '4',
+         color_text: '#000000',
+         color_hint: '#00FF00',
+         color_error: '#FF0000',
+         color_border: '#808080',
+         nohint: false,
+         font_family: 'Arial',
+         font_size: '13px',
+         position: 'topleft',
+         offsetx: 0,
+         offsety: 0,
+         effect: 'none',
+         error_text: '*Required'
+      });
       $("#indexLayer5").stickylayer({orientation: 4, position: [0, 0], delay: 500});
       $("#indexLayer4").stickylayer({orientation: 6, position: [0, 0], delay: 500});
       $("a[href*='#links']").click(function(event)
       {
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_links').offset().top }, 600, 'easeOutSine');
-      });
-      function onScrollfooterDividerBottom()
-      {
-         var $obj = $('#footer-divider-bottom');
-         if (!$obj.hasClass('show') && $obj.inViewPort(false))
-         {
-            $obj.addClass('show');
-         }
-      }
-      onScrollfooterDividerBottom();
-      $(window).scroll(function(event)
-      {
-         onScrollfooterDividerBottom();
       });
       $('img[data-src]').lazyload();
    });

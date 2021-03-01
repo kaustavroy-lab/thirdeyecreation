@@ -1983,75 +1983,6 @@ width: 100%;}
    -webkit-transition: -webkit-transform 250ms linear 0ms;
    transition: transform 250ms linear 0ms;
 }
-#wb_indexLayoutGrid2
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-clip: padding-box;
-   background-color: rgba(251,251,251,0.78);
-   background-image: none;
-   border: 0px solid transparent;
-   box-sizing: border-box;
-   margin: 0;
-}
-#indexLayoutGrid2
-{
-   box-sizing: border-box;
-   padding: 0;
-   margin-right: auto;
-   margin-left: auto;
-}
-#indexLayoutGrid2 > .row
-{
-   margin-right: 0;
-   margin-left: 0;
-}
-#indexLayoutGrid2 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 0px;
-   padding-left: 0px;
-   position: relative;
-}
-#indexLayoutGrid2 > .row > .col-1
-{
-   float: left;
-}
-#indexLayoutGrid2 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: center;
-}
-#indexLayoutGrid2:before,
-#indexLayoutGrid2:after,
-#indexLayoutGrid2 .row:before,
-#indexLayoutGrid2 .row:after
-{
-   display: table;
-   content: " ";
-}
-#indexLayoutGrid2:after,
-#indexLayoutGrid2 .row:after
-{
-   clear: both;
-}
-@media (max-width: 0px)
-{
-#indexLayoutGrid2 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #wb_indexImage3
 {
    height: 100%;
@@ -2550,9 +2481,10 @@ width: 100%;}
    display: table;
    text-align: center;
    width: 100%;
+   background-clip: padding-box;
    background-color: #FF0000;
    background: linear-gradient(to top, rgba(255,0,0,0.94) 0%, #800000 100%);
-   border: 0px solid #CCCCCC;
+   border: 0px solid transparent;
    box-sizing: border-box;
    margin: 0;
 }
@@ -3100,9 +3032,7 @@ width: 100%;}
    bottom: 0;
    left: 0;
    width: 100%;
-   height: 0px;
-   -webkit-transition: height 2000ms ease;
-   transition: height 2000ms ease;
+   height: 50px;
 }
 #footer-divider-bottom svg
 {
@@ -3119,9 +3049,74 @@ width: 100%;}
    transform-origin: center;
    transform: rotateY(0deg);
 }
-#footer-divider-bottom.show
+#wb_indexLayoutGrid2
 {
-   height: 50px;
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+}
+#indexLayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#indexLayoutGrid2 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#indexLayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#indexLayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#indexLayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#indexLayoutGrid2:before,
+#indexLayoutGrid2:after,
+#indexLayoutGrid2 .row:before,
+#indexLayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#indexLayoutGrid2:after,
+#indexLayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#indexLayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
 }
 #wb_master_frameworkCssMenu1
 {
@@ -3463,13 +3458,13 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 105;
+   z-index: 103;
 }
 #wb_linksMenu1
 {
    display: inline-block;
    width: 100%;
-   z-index: 91;
+   z-index: 89;
 }
 #Label2
 {
@@ -3494,13 +3489,13 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 103;
+   z-index: 101;
 }
 #wb_linksMenu2
 {
    display: inline-block;
    width: 100%;
-   z-index: 94;
+   z-index: 92;
 }
 #Label3
 {
@@ -3517,7 +3512,7 @@ width: 100%;}
 {
    display: inline-block;
    width: 100%;
-   z-index: 101;
+   z-index: 99;
 }
 #wb_uid3
 {
@@ -3551,7 +3546,9 @@ width: 100%;}
 }
 #wb_uid5
 {
-   z-index: 78;
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
 }
 #Label6
 {
@@ -3590,9 +3587,8 @@ width: 100%;}
 }
 #wb_uid6
 {
-   font-size: 12px;
-   line-height: 13.5px;
-   color: #FFFFFF;
+   background-color: #C21010;
+   font-weight: bold;
 }
 #indexLayer4
 {
@@ -3647,12 +3643,11 @@ width: 100%;}
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 95;
+   z-index: 93;
 }
 #wb_uid7
 {
-   background-color: #C21010;
-   font-weight: bold;
+   opacity: 0.25;
 }
 #indexLayer5
 {
@@ -3706,17 +3701,24 @@ width: 100%;}
    height: auto;
    z-index: 4;
 }
+#wb_indexImage3
+{
+   display: none;
+   width: 100%;
+   height: auto;
+   z-index: 105;
+}
 #wb_linksIcon2
 {
    display: none;
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 96;
+   z-index: 94;
 }
 #wb_uid8
 {
-   opacity: 0.25;
+   color: #FFFFFF;
 }
 #wb_indexText7
 {
@@ -3726,14 +3728,7 @@ width: 100%;}
    width: 68px;
    height: 13px;
    text-align: center;
-   z-index: 84;
-}
-#wb_indexImage3
-{
-   display: none;
-   width: 100%;
-   height: auto;
-   z-index: 77;
+   z-index: 82;
 }
 #Progressbar4
 {
@@ -3797,7 +3792,7 @@ width: 100%;}
    width: 28px;
    height: 28px;
    text-align: center;
-   z-index: 97;
+   z-index: 95;
 }
 #indexLayer5-container
 {
@@ -3826,7 +3821,7 @@ width: 100%;}
    width: 23px;
    height: 20px;
    text-align: center;
-   z-index: 83;
+   z-index: 81;
 }
 #Label11
 {
@@ -3851,7 +3846,7 @@ width: 100%;}
    width: 19px;
    height: 21px;
    text-align: center;
-   z-index: 79;
+   z-index: 77;
 }
 #wb_Card10
 {
@@ -3868,7 +3863,7 @@ width: 100%;}
 }
 #wb_uid14
 {
-   color: #FFFFFF;
+   opacity: 0.25;
 }
 #wb_Card11
 {
@@ -3891,26 +3886,26 @@ width: 100%;}
 }
 #wb_uid15
 {
-   opacity: 0.25;
-}
-#wb_uid16
-{
    font-size: 13px;
    line-height: 16px;
    color: #FFFFFF;
 }
-#wb_uid17
+#wb_uid16
 {
    font-size: 13px;
    line-height: 16px;
    font-weight: bold;
    color: #FFFFFF;
 }
+#wb_uid17
+{
+   font-weight: normal;
+}
 #wb_master_frameworkCssMenu1
 {
    display: inline-block;
    width: 100%;
-   z-index: 92;
+   z-index: 90;
 }
 #indexLayer4-container
 {
@@ -3922,13 +3917,13 @@ width: 100%;}
 }
 #wb_uid18
 {
-   font-weight: normal;
+   z-index: 106;
 }
 #wb_master_frameworkCssMenu2
 {
    display: inline-block;
    width: 100%;
-   z-index: 99;
+   z-index: 97;
 }
 #Label1
 {
