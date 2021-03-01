@@ -4,6 +4,24 @@
       $("#shopsCardContainer1").owlCarousel({autoplayTimeout:5000, margin: 16, autoplay: true, nav: false, loop: true, dots: false, items: 1, slideBy: 1});
       $("#indexLayer5").stickylayer({orientation: 4, position: [0, 0], delay: 500});
       $("#indexLayer4").stickylayer({orientation: 6, position: [0, 0], delay: 500});
+      $("a[href*='#links']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_links').offset().top }, 600, 'easeOutSine');
+      });
+      function onScrollfooterDividerBottom()
+      {
+         var $obj = $('#footer-divider-bottom');
+         if (!$obj.hasClass('show') && $obj.inViewPort(false))
+         {
+            $obj.addClass('show');
+         }
+      }
+      onScrollfooterDividerBottom();
+      $(window).scroll(function(event)
+      {
+         onScrollfooterDividerBottom();
+      });
       $('img[data-src]').lazyload();
    });
    
