@@ -36,6 +36,13 @@
      gtag('js', new Date());
    
      gtag('config', 'G-08TX0J3LS1');
+   
+     window.OneSignal = window.OneSignal || [];
+     OneSignal.push(function() {
+       OneSignal.init({
+         appId: "f3ff023e-7e2c-4ed3-bd00-8753f090ffc4",
+       });
+     });
       
       var disabled_message = "";
       document.oncontextmenu = function() 
