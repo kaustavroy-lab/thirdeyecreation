@@ -22,8 +22,6 @@
       const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
       const plyrYouTube2 = new Plyr('#wb_YouTube2', {loadSprite: false, iconUrl: 'plyr.svg'});
       const plyrvideoYouTube1 = new Plyr('#wb_videoYouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
-      $("#indexLayer5").stickylayer({orientation: 4, position: [0, 0], delay: 500});
-      $("#indexLayer4").stickylayer({orientation: 6, position: [0, 0], delay: 500});
       $("a[href*='#links']").click(function(event)
       {
          event.preventDefault();

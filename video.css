@@ -2505,10 +2505,12 @@ width: 100%;}
 }
 #indexLayer4
 {
-   position: absolute;
+   position: fixed;
    text-align: center;
-   left: 1062px;
-   top: 532px;
+   left: auto;
+   right: 0px;
+   top: 50%;
+   margin-top: -14px;
    width: 97px;
    height: 28px;
    z-index: 70;
@@ -2542,10 +2544,11 @@ width: 100%;}
 }
 #indexLayer5
 {
-   position: absolute;
+   position: fixed;
    text-align: center;
-   left: 156px;
-   top: 947px;
+   left: 0px;
+   top: auto;
+   bottom: 0px;
    width: 19px;
    height: 24px;
    z-index: 69;
@@ -2588,7 +2591,7 @@ width: 100%;}
    left: 0px;
    top: 8px;
    width: 68px;
-   height: 13px;
+   height: 14px;
    text-align: center;
    z-index: 42;
 }

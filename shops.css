@@ -3903,10 +3903,12 @@ width: 100%;}
 }
 #indexLayer4
 {
-   position: absolute;
+   position: fixed;
    text-align: center;
-   left: 1062px;
-   top: 532px;
+   left: auto;
+   right: 0px;
+   top: 50%;
+   margin-top: -14px;
    width: 97px;
    height: 28px;
    z-index: 81;
@@ -3947,10 +3949,11 @@ width: 100%;}
 }
 #indexLayer5
 {
-   position: absolute;
+   position: fixed;
    text-align: center;
-   left: 156px;
-   top: 947px;
+   left: 0px;
+   top: auto;
+   bottom: 0px;
    width: 19px;
    height: 24px;
    z-index: 80;
@@ -3981,7 +3984,7 @@ width: 100%;}
 }
 #wb_uid20
 {
-   color: #FFFFFF;
+   opacity: 0.25;
 }
 #wb_linksIcon2
 {
@@ -3997,7 +4000,7 @@ width: 100%;}
    left: 0px;
    top: 8px;
    width: 68px;
-   height: 13px;
+   height: 14px;
    text-align: center;
    z-index: 53;
 }
@@ -4021,21 +4024,24 @@ width: 100%;}
 }
 #wb_uid21
 {
-   opacity: 0.25;
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
 }
 #wb_uid10
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
+   z-index: 79;
 }
 #wb_uid9
 {
-   color: #000000;
+   background-color: #FFF5EE;
+   color: #DC143C;
 }
 #wb_uid22
 {
    font-size: 13px;
    line-height: 16px;
+   font-weight: bold;
    color: #FFFFFF;
 }
 #wb_linksIcon4
@@ -4046,6 +4052,12 @@ width: 100%;}
    text-align: center;
    z-index: 66;
 }
+#wb_uid11
+{
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
+}
 #indexLayer5-container
 {
    width: 19px;
@@ -4054,22 +4066,14 @@ width: 100%;}
    margin-right: auto;
    text-align: left;
 }
-#wb_uid11
-{
-   z-index: 79;
-}
 #wb_uid23
 {
-   font-size: 13px;
-   line-height: 16px;
-   font-weight: bold;
-   color: #FFFFFF;
+   font-weight: normal;
 }
 #wb_uid12
 {
-   font-size: 12px;
-   line-height: 13.5px;
-   color: #FFFFFF;
+   background-color: #C21010;
+   font-weight: bold;
 }
 #wb_indexIconFont3
 {
@@ -4087,12 +4091,11 @@ width: 100%;}
 }
 #wb_uid24
 {
-   font-weight: normal;
+   z-index: 77;
 }
 #wb_uid13
 {
-   background-color: #C21010;
-   font-weight: bold;
+   opacity: 0.25;
 }
 #wb_indexIconFont4
 {
@@ -4110,13 +4113,9 @@ width: 100%;}
    text-align: center;
    z-index: 41;
 }
-#wb_uid25
-{
-   z-index: 77;
-}
 #wb_uid14
 {
-   opacity: 0.25;
+   color: #FFFFFF;
 }
 #wb_Card11
 {
