@@ -1,6 +1,13 @@
    
    $(document).ready(function()
    {
+      function skrollrInit()
+      {
+         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+      }
+      skrollrInit();
+      $("a[data-rel='aboutteamPhotoGallery1']").attr('rel', 'aboutteamPhotoGallery1');
+      $("#aboutteamPhotoGallery1").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
       $("a[href*='#links']").click(function(event)
       {
          event.preventDefault();
