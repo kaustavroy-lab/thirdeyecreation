@@ -3702,8 +3702,8 @@ width: 100%;}
 #wb_master_frameworkTabMenu1
 {
    display: inline-block;
-   width: 280px;
-   height: 29px;
+   width: 282px;
+   height: 31px;
    z-index: 5;
    overflow: hidden;
 }
@@ -3769,8 +3769,8 @@ width: 100%;}
 #wb_master_frameworkTabMenu2
 {
    display: inline-block;
-   width: 294px;
-   height: 29px;
+   width: 296px;
+   height: 31px;
    z-index: 6;
    overflow: hidden;
 }
@@ -3835,8 +3835,8 @@ width: 100%;}
 #wb_master_frameworkTabMenu3
 {
    display: inline-block;
-   width: 123px;
-   height: 29px;
+   width: 125px;
+   height: 31px;
    z-index: 7;
    overflow: hidden;
 }
