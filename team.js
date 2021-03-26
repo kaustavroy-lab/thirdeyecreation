@@ -6,6 +6,11 @@
          skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
       }
       skrollrInit();
+      $("#teamTabs1 a").click(function(e)
+      {
+         e.preventDefault();
+         $(this).tab('show');
+      });
       $("a[href*='#links']").click(function(event)
       {
          event.preventDefault();
