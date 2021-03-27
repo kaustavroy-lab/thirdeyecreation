@@ -6,11 +6,13 @@
          skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
       }
       skrollrInit();
-      $("#teamTabs1 a").click(function(e)
+      $("#teamTabs1").tabs(
       {
-         e.preventDefault();
-         $(this).tab('show');
-      });
+         show: { effect: 'slide', direction: 'up', duration: 350, easing: 'swing' },
+         hide: { effect: 'slide', direction: 'down', duration: 350, easing: 'swing' },
+         event: 'click',
+         collapsible: false
+      }).find(".ui-tabs-nav").sortable();
       $("a[href*='#links']").click(function(event)
       {
          event.preventDefault();

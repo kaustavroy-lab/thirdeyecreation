@@ -7,7 +7,7 @@ div#container
 }
 body
 {
-   background-color: #FFFFFF;
+   background-color: #D80606;
    background-image: url(bg~1.webp);
    background-attachment: fixed;
    background-position: center center;
@@ -4602,7 +4602,7 @@ width: 100%;}
    position: absolute;
    top: 0;
    width: 100%;
-   height: 60px;
+   height: 75px;
    line-height: 0;
    left: 0;
    transform: scaleY(-1.0);
@@ -5046,7 +5046,7 @@ width: 100%;}
    bottom: 0;
    left: 0;
    width: 100%;
-   height: 50px;
+   height: 70px;
 }
 #footer-divider-bottom svg
 {
@@ -5059,7 +5059,7 @@ width: 100%;}
 }
 #footer-divider-bottom .divider-fill
 {
-   fill: #FF8000;
+   fill: #FFC000;
    transform-origin: center;
    transform: rotateY(0deg);
 }
@@ -5603,15 +5603,15 @@ width: 100%;}
    width: 100%;
    z-index: 96;
 }
-#wb_uid19
-{
-   color: #FFFFFF;
-}
 #wb_linksMenu1
 {
    display: inline-block;
    width: 100%;
    z-index: 81;
+}
+#wb_uid19
+{
+   color: #FFFFFF;
 }
 #wb_uid1
 {
@@ -5753,7 +5753,7 @@ width: 100%;}
    top: auto;
    bottom: 0px;
    width: 19px;
-   height: 24px;
+   height: 22px;
    z-index: 102;
 }
 #wb_Card9
@@ -5802,10 +5802,6 @@ width: 100%;}
    height: auto;
    z-index: 98;
 }
-#wb_uid20
-{
-   color: #FFFFFF;
-}
 #wb_linksIcon2
 {
    display: none;
@@ -5813,6 +5809,10 @@ width: 100%;}
    height: 28px;
    text-align: center;
    z-index: 87;
+}
+#wb_uid20
+{
+   color: #FFFFFF;
 }
 #wb_indexText7
 {
@@ -5862,10 +5862,6 @@ width: 100%;}
 }
 #wb_uid10
 {
-   text-decoration: underline;
-}
-#wb_uid9
-{
    font-weight: bold;
    color: #CC0000;
 }
@@ -5882,6 +5878,10 @@ width: 100%;}
    width: 100%;
    text-align: center;
    z-index: 25;
+}
+#wb_uid9
+{
+   color: #000000;
 }
 #wb_uid22
 {
@@ -5905,8 +5905,7 @@ width: 100%;}
 }
 #wb_uid11
 {
-   font-weight: bold;
-   color: #CC0000;
+   text-decoration: underline;
 }
 #wb_shopCard12
 {
@@ -5938,7 +5937,8 @@ width: 100%;}
 }
 #wb_uid12
 {
-   text-decoration: underline;
+   font-weight: bold;
+   color: #CC0000;
 }
 #wb_shopCard13
 {
@@ -5960,13 +5960,13 @@ width: 100%;}
 }
 #wb_uid24
 {
-   opacity: 0.25;
+   color: #FFFFFF;
 }
 #wb_indexIconFont4
 {
    position: absolute;
    left: 0px;
-   top: 3px;
+   top: 1px;
    width: 19px;
    height: 21px;
    text-align: center;
@@ -5980,8 +5980,7 @@ width: 100%;}
 }
 #wb_uid13
 {
-   background-color: #FFF5EE;
-   color: #DC143C;
+   text-decoration: underline;
 }
 #wb_shopCard6
 {
@@ -5992,19 +5991,18 @@ width: 100%;}
 }
 #wb_uid25
 {
-   font-size: 13px;
-   line-height: 16px;
-   color: #FFFFFF;
-}
-#wb_uid14
-{
-   z-index: 101;
+   opacity: 0.25;
 }
 #wb_Card11
 {
    display: flex;
    text-align: center;
    z-index: 61;
+}
+#wb_uid14
+{
+   background-color: #FFF5EE;
+   color: #DC143C;
 }
 #wb_shopsCard1
 {
@@ -6031,14 +6029,11 @@ width: 100%;}
 {
    font-size: 13px;
    line-height: 16px;
-   font-weight: bold;
    color: #FFFFFF;
 }
 #wb_uid15
 {
-   font-size: 12px;
-   line-height: 13.5px;
-   color: #FFFFFF;
+   z-index: 101;
 }
 #wb_shopsCard2
 {
@@ -6056,12 +6051,16 @@ width: 100%;}
 }
 #wb_uid27
 {
-   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+   font-weight: bold;
+   color: #FFFFFF;
 }
 #wb_uid16
 {
-   background-color: #C21010;
-   font-weight: bold;
+   font-size: 12px;
+   line-height: 13.5px;
+   color: #FFFFFF;
 }
 #wb_shopsCard3
 {
@@ -6086,7 +6085,7 @@ width: 100%;}
 }
 #wb_uid28
 {
-   z-index: 99;
+   font-weight: normal;
 }
 #wb_master_frameworkCssMenu1
 {
@@ -6096,7 +6095,8 @@ width: 100%;}
 }
 #wb_uid17
 {
-   opacity: 0.25;
+   background-color: #C21010;
+   font-weight: bold;
 }
 #indexLayer4-container
 {
@@ -6113,6 +6113,10 @@ width: 100%;}
    text-align: center;
    z-index: 46;
 }
+#wb_uid29
+{
+   z-index: 99;
+}
 #wb_master_frameworkCssMenu2
 {
    display: inline-block;
@@ -6121,7 +6125,7 @@ width: 100%;}
 }
 #wb_uid18
 {
-   color: #FFFFFF;
+   opacity: 0.25;
 }
 #wb_uid0
 {

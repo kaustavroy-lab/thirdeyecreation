@@ -7,7 +7,7 @@ div#container
 }
 body
 {
-   background-color: #FFFFFF;
+   background-color: #D80606;
    background-image: url(bg~1.webp);
    background-attachment: fixed;
    background-position: center center;
@@ -2924,7 +2924,7 @@ width: 100%;}
    position: absolute;
    top: 0;
    width: 100%;
-   height: 60px;
+   height: 75px;
    line-height: 0;
    left: 0;
    transform: scaleY(-1.0);
@@ -3368,7 +3368,7 @@ width: 100%;}
    bottom: 0;
    left: 0;
    width: 100%;
-   height: 50px;
+   height: 70px;
 }
 #footer-divider-bottom svg
 {
@@ -3381,7 +3381,7 @@ width: 100%;}
 }
 #footer-divider-bottom .divider-fill
 {
-   fill: #FF8000;
+   fill: #FFC000;
    transform-origin: center;
    transform: rotateY(0deg);
 }
@@ -4100,7 +4100,7 @@ width: 100%;}
    top: auto;
    bottom: 0px;
    width: 19px;
-   height: 24px;
+   height: 22px;
    z-index: 116;
 }
 #wb_Card9
@@ -4272,7 +4272,7 @@ width: 100%;}
 {
    position: absolute;
    left: 0px;
-   top: 3px;
+   top: 1px;
    width: 19px;
    height: 21px;
    text-align: center;
